@@ -1,0 +1,26 @@
+# scenario.evt excerpt - first 8 lines (t=0 records)
+0.00000 PLATFORM_ADDED blue_1 Type: FIGHTER Side: blue \
+
+0.00000 PLATFORM_ADDED blue_2 Type: FIGHTER Side: blue \
+
+0.00000 PLATFORM_ADDED red_1 Type: FIGHTER Side: red \
+
+0.00000 PLATFORM_ADDED red_2 Type: FIGHTER Side: red \
+
+
+# first WEAPON_FIRED record (lines 83-88)
+153.00000 WEAPON_FIRED blue_2 red_2 blue_2_aam_1 Engagement: 1 Start_Time: 153.00000 \
+ Launch: LLA: 30:15:03.27n 122:23:50.31e 8000 m Heading: 89.949 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.001 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:15:03.27n 122:36:14.36e 8000 m Heading: 270.052 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.001 -1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Truth: Slant_Range: 19916.5 m Ground_Range: 19916.5 m Down_Range: 19916.5 m Cross_Range: -0.0905943 m Relative_Alt: -31.0305 m \
+
+# first WEAPON_HIT record (lines 361-367)
+185.80000 WEAPON_HIT blue_2 red_2 blue_2_aam_2 Engagement: 4 Start_Time: 154.00000 \
+ Intercept_Pk: 0.85 Pk_Degrade: 1 Pk: 0.85 Pk_Drawn: 0.358152 INTENDED_TARGET Damage_Factor: 1 Result: KILLED \
+ Extended_Result: Target_proximity \
+ Weapon: LLA: 30:15:03.41n 122:31:03.45e 7999.9654 m Heading: 90.179 deg Pitch: -0.189 deg Roll: 0.000 deg \
+  Speed: 230.700 m/s * [ -0.003 1.000 0.003 ] Acceleration: 21.720 m/s2 * [ -0.719 -0.447 -0.532 ] \
+ Target: LLA: 30:15:03.41n 122:31:03.45e 8000 m Heading: 270.009 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.000 -1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \

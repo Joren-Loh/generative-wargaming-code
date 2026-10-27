@@ -1,0 +1,28 @@
+script_interface
+end_script_interface
+
+script_variables
+   double SCAN_RANGE = 50.0e3;
+   bool   DEBUG = true;
+end_script_variables
+
+event_output
+   file output/scenario.evt
+   enable PLATFORM_ADDED
+end_event_output
+
+end_time 5 s
+
+platform_type FIGHTER WSF_PLATFORM
+   mover WSF_AIR_MOVER
+   end_mover
+   processor brain WSF_SCRIPT_PROCESSOR
+      on_initialize
+         writeln("scan range = ", SCAN_RANGE, " debug = ", DEBUG);
+      end_on_initialize
+   end_processor
+end_platform_type
+
+platform plane FIGHTER
+   side blue
+end_platform

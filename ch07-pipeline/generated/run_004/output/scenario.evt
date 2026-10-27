@@ -1,0 +1,92 @@
+0.00000 PLATFORM_ADDED blue_01 Type: BLUE_FIGHTER Side: blue \
+
+0.00000 PLATFORM_ADDED red_01 Type: RED_TARGET Side: red \
+
+16.00000 SENSOR_TRACK_INITIATED blue_01 red_01 Sensor: rdr1 TrackId: blue_01.1 \
+  Start_Time: 16.00000 Update_Time: 16.00000 Update_Count: 0 Quality: 0.9 Domain: air Type: M \
+  Target_Truth: Name: red_01 Type: RED_TARGET Side: red \
+  Originator: LLA: 30:00:00.21n 122:02:29.21e 7620 m \
+  Track: LLA: 30:23:41.29n 122:27:20.78e 7620 m Flags: 3RBE \
+  Truth: LLA: 30:23:41.29n 122:27:20.78e 7620 m  Difference: 7.27596e-12 m  \
+  Track: Range: 59288.1 m Bearing: 42.2524 deg Elevation: -0.266488 deg \
+  Truth: Range: 59288.1 m Bearing: 42.2524 deg Elevation: -0.266488 deg \
+  Side_ID: red
+81.50000 WEAPON_FIRED blue_01 red_01 IMPLICIT ( aam_med ) Engagement: 1 Start_Time: 81.50000 \
+ Launch: LLA: 30:00:00.59n 122:12:40.03e 7620 m Heading: 90.002 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ -0.000 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:17:41.03n 122:20:24.00e 7620 m Heading: 225.068 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 240.000 m/s * [ -0.706 -0.708 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Truth: Slant_Range: 34977.1 m Ground_Range: 34977 m Down_Range: 12411.9 m Cross_Range: -32700.7 m Relative_Alt: -96.1319 m \
+ Target_Track: blue_01.2 \
+  Start_Time: 81.50000 Update_Time: 81.50000 Update_Count: 0 Quality: 0.5 Domain: air Type: P \
+  Target_Truth: Name: red_01 Type: RED_TARGET Side: red \
+  Originator: LLA: 30:00:00.59n 122:12:40.03e 7620 m \
+  Track: LLA: 30:17:41.03n 122:20:24.00e 7620 m Flags: L3 \
+  Truth: LLA: 30:17:41.03n 122:20:24.00e 7620 m  Difference: 0 m  \
+  Track: Vel: 240 m/s Hdg: 225.068 deg  Truth: Vel: 240 m/s Hdg: 225.068 deg \
+  Track: Range: 34977.1 m Bearing: 20.7866 deg Elevation: -0.157473 deg \
+  Truth: Range: 34977.1 m Bearing: 20.7866 deg Elevation: -0.157473 deg \
+  Type_ID: RED_TARGET Side_ID: red
+82.00000 WEAPON_MISSED blue_01 red_01 IMPLICIT ( aam_med ) Engagement: 1 Start_Time: 81.50000 \
+ Intercept_Pk: 0.5 Pk_Degrade: 1 Pk: 0.5 Pk_Drawn: 0.559984 INTENDED_TARGET Damage_Factor: 0 Result: MISSED \
+ Launch: LLA: 30:00:00.59n 122:12:44.70e 7620 m Heading: 90.002 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ -0.000 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:17:38.28n 122:20:20.82e 7620 m Heading: 225.068 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 240.000 m/s * [ -0.706 -0.708 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Truth: Slant_Range: 34823.6 m Ground_Range: 34823.4 m Down_Range: 12201.8 m Cross_Range: -32615.7 m Relative_Alt: -95.2913 m
+83.00000 WEAPON_MISSED blue_01 red_01 IMPLICIT ( aam_med ) Engagement: 1 Start_Time: 81.50000 \
+ Intercept_Pk: 0.05 Pk_Degrade: 1 Pk: 0.05 Pk_Drawn: 0.0804831 INTENDED_TARGET Damage_Factor: 0 Result: MISSED \
+ Launch: LLA: 30:00:00.58n 122:12:54.02e 7620 m Heading: 90.004 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ -0.000 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:17:32.77n 122:20:14.46e 7620 m Heading: 225.067 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 240.000 m/s * [ -0.706 -0.708 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Truth: Slant_Range: 34518.9 m Ground_Range: 34518.7 m Down_Range: 11781.7 m Cross_Range: -32445.9 m Relative_Alt: -93.6341 m
+84.00000 WEAPON_MISSED blue_01 red_01 IMPLICIT ( aam_med ) Engagement: 1 Start_Time: 81.50000 \
+ Intercept_Pk: 0.05 Pk_Degrade: 1 Pk: 0.05 Pk_Drawn: 0.231636 INTENDED_TARGET Damage_Factor: 0 Result: MISSED \
+ Launch: LLA: 30:00:00.58n 122:13:03.35e 7620 m Heading: 90.005 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ -0.000 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:17:27.27n 122:20:08.11e 7620 m Heading: 225.066 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 240.000 m/s * [ -0.706 -0.708 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Truth: Slant_Range: 34217.5 m Ground_Range: 34217.4 m Down_Range: 11361.6 m Cross_Range: -32276 m Relative_Alt: -92.009 m
+85.00000 WEAPON_MISSED blue_01 red_01 IMPLICIT ( aam_med ) Engagement: 1 Start_Time: 81.50000 \
+ Intercept_Pk: 0.05 Pk_Degrade: 1 Pk: 0.05 Pk_Drawn: 0.242264 INTENDED_TARGET Damage_Factor: 0 Result: MISSED \
+ Launch: LLA: 30:00:00.58n 122:13:12.67e 7620 m Heading: 90.006 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ -0.000 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:17:21.77n 122:20:01.75e 7620 m Heading: 225.065 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 240.000 m/s * [ -0.706 -0.708 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Truth: Slant_Range: 33919.5 m Ground_Range: 33919.4 m Down_Range: 10941.5 m Cross_Range: -32106.2 m Relative_Alt: -90.4161 m
+86.00000 WEAPON_MISSED blue_01 red_01 IMPLICIT ( aam_med ) Engagement: 1 Start_Time: 81.50000 \
+ Intercept_Pk: 0 Pk_Degrade: 1 Pk: 0 INTENDED_TARGET Damage_Factor: 0 Result: MISSED \
+ Launch: LLA: 30:00:00.58n 122:13:22.00e 7620 m Heading: 90.008 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ -0.000 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:17:16.26n 122:19:55.39e 7620 m Heading: 225.064 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 240.000 m/s * [ -0.706 -0.708 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Truth: Slant_Range: 33624.9 m Ground_Range: 33624.8 m Down_Range: 10521.4 m Cross_Range: -31936.3 m Relative_Alt: -88.8554 m
+87.00000 WEAPON_MISSED blue_01 red_01 IMPLICIT ( aam_med ) Engagement: 1 Start_Time: 81.50000 \
+ Intercept_Pk: 0 Pk_Degrade: 1 Pk: 0 INTENDED_TARGET Damage_Factor: 0 Result: MISSED \
+ Launch: LLA: 30:00:00.58n 122:13:31.33e 7620 m Heading: 90.009 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ -0.000 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:17:10.76n 122:19:49.04e 7620 m Heading: 225.063 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 240.000 m/s * [ -0.706 -0.708 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Truth: Slant_Range: 33333.9 m Ground_Range: 33333.8 m Down_Range: 10101.3 m Cross_Range: -31766.4 m Relative_Alt: -87.3268 m
+88.00000 WEAPON_MISSED blue_01 red_01 IMPLICIT ( aam_med ) Engagement: 1 Start_Time: 81.50000 \
+ Intercept_Pk: 0 Pk_Degrade: 1 Pk: 0 INTENDED_TARGET Damage_Factor: 0 Result: MISSED \
+ Launch: LLA: 30:00:00.58n 122:13:40.65e 7620 m Heading: 90.010 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ -0.000 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:17:05.26n 122:19:42.68e 7620 m Heading: 225.062 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 240.000 m/s * [ -0.706 -0.708 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Truth: Slant_Range: 33046.6 m Ground_Range: 33046.5 m Down_Range: 9681.2 m Cross_Range: -31596.6 m Relative_Alt: -85.8304 m
+89.00000 WEAPON_MISSED blue_01 red_01 IMPLICIT ( aam_med ) Engagement: 1 Start_Time: 81.50000 \
+ Intercept_Pk: 0 Pk_Degrade: 1 Pk: 0 INTENDED_TARGET Damage_Factor: 0 Result: MISSED \
+ Launch: LLA: 30:00:00.58n 122:13:49.98e 7620 m Heading: 90.011 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ -0.000 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:16:59.75n 122:19:36.33e 7620 m Heading: 225.061 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 240.000 m/s * [ -0.706 -0.708 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Truth: Slant_Range: 32763 m Ground_Range: 32762.9 m Down_Range: 9261.1 m Cross_Range: -31426.7 m Relative_Alt: -84.3661 m
+90.00000 WEAPON_MISSED blue_01 red_01 IMPLICIT ( aam_med ) Engagement: 1 Start_Time: 81.50000 \
+ Intercept_Pk: 0 Pk_Degrade: 1 Pk: 0 INTENDED_TARGET Damage_Factor: 0 Result: MISSED \
+ Launch: LLA: 30:00:00.58n 122:13:59.30e 7620 m Heading: 90.013 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ -0.000 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:16:54.25n 122:19:29.97e 7620 m Heading: 225.061 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 240.000 m/s * [ -0.706 -0.708 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Truth: Slant_Range: 32483.3 m Ground_Range: 32483.1 m Down_Range: 8840.99 m Cross_Range: -31256.9 m Relative_Alt: -82.934 m

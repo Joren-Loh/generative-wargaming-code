@@ -1,0 +1,54 @@
+# =====================================================================
+# templates/scenario.tmpl -- the parameterised scenario template
+# Rendered by generate.py into generated/run_<id>/scenario.txt. Never edit the artefact by hand.
+#
+# Placeholders use double braces, not dollar braces:
+#   AFSIM's own preprocessor substitutes text with $define / $<X>$,
+#   and would read a dollar brace as a preprocessor variable with a default. The two collide.
+# =====================================================================
+# run_id=005  seed=1005  red_speed=270  r0=72
+
+log_file output/scenario.log
+
+# ---- global parameters: must precede every include_once ----
+script_variables
+   double FIRE_RANGE_M = 35000;
+   string TARGET_NAME  = "red_01";
+end_script_variables
+
+# ---- event output: no enable list means zero bytes ----
+event_output
+   file output/scenario.evt
+   enable PLATFORM_ADDED
+   enable SENSOR_TRACK_INITIATED
+   enable WEAPON_FIRED
+   enable WEAPON_HIT
+   enable WEAPON_MISSED
+   enable PLATFORM_BROKEN
+end_event_output
+
+# ---- component library: reference the third layer only; it pulls the first two in ----
+include_once ../../library/theater/blue_fighter.txt
+
+# ---- the instance: the only place concrete numbers are allowed ----
+platform blue_01 BLUE_FIGHTER
+   side blue
+   route
+      position 30:00:00.00n 122:00:00.00e altitude 25000 ft msl
+         speed 250 m/sec
+      position 30:00:00.00n 122:24:53.68e altitude 25000 ft msl
+         speed 250 m/sec
+   end_route
+end_platform
+
+platform red_01 RED_TARGET
+   route
+      position 30:24:56.68n 122:34:19.61e altitude 25000 ft msl
+         speed 270 m/sec
+      position 30:08:43.84n 122:12:00.86e altitude 25000 ft msl
+         speed 270 m/sec
+   end_route
+end_platform
+
+random_seed 1005
+end_time 95 s

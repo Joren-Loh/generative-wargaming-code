@@ -1,0 +1,5 @@
+# the GIS habit: longitude before latitude
+platform plane WSF_PLATFORM
+   side blue
+   position 118.0e 30.0n altitude 30000 ft
+end_platform

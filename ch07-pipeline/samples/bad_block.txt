@@ -1,0 +1,30 @@
+# =====================================================================
+# samples/bad_block.txt -- a sample missing one end_platform_type.
+#
+# The engine's report is misleading: it does not point at the missing block, it says the data ended early.
+# That is the argument for gate 1: a pairing error the eye slides over
+# is located on line 12 by a stack-based check.
+#
+# Run: python gates.py --extra "samples/*.txt"
+# =====================================================================
+
+event_output
+   file output/sample.evt
+   enable PLATFORM_ADDED
+end_event_output
+
+platform_type SAMPLE_AIRCRAFT WSF_PLATFORM
+   mover WSF_AIR_MOVER
+   end_mover
+# end_platform_type is missing here
+
+platform sample_01 SAMPLE_AIRCRAFT
+   route
+      position 30:00:00.00n 122:00:00.00e altitude 25000 ft msl
+         speed 200 m/sec
+      position 30:30:00.00n 122:00:00.00e altitude 25000 ft msl
+         speed 200 m/sec
+   end_route
+end_platform
+
+end_time 30 s

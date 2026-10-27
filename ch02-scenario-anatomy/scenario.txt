@@ -1,0 +1,172 @@
+# =====================================================================
+# ch02-scenario-anatomy / scenario.txt
+# 2v2 engagement: two Blue eastbound, two Red westbound, geometric detection plus explicit launch
+# Run: mission.exe scenario.txt
+# =====================================================================
+
+log_file output/scenario.log
+
+event_output
+   file output/scenario.evt
+   enable PLATFORM_ADDED
+   enable PLATFORM_DELETED
+   enable SENSOR_TRACK_INITIATED
+   enable WEAPON_FIRED
+   enable WEAPON_HIT
+   enable WEAPON_MISSED
+   enable PLATFORM_BROKEN
+end_event_output
+
+event_pipe
+   file output/scenario.aer
+end_event_pipe
+
+# ---------------- signature ----------------
+radar_signature FIGHTER_RCS
+   constant 5 m^2
+end_radar_signature
+
+# ---------------- missile platform type ----------------
+aero AAM_AERO WSF_AERO
+   mach_and_cd 0.0 1.35
+   mach_and_cd 1.0 1.85
+   mach_and_cd 2.0 1.65
+   mach_and_cd 3.0 1.20
+   reference_area 0.0136 m^2
+   cl_max 10.0
+   aspect_ratio 17.7
+   oswalds_factor 0.9
+end_aero
+
+platform_type AAM WSF_PLATFORM
+   icon AIM-9X
+
+   mover WSF_GUIDED_MOVER
+      total_mass        85.0 kg
+      fuel_mass         27.5 kg
+      specific_impulse  222.0 sec
+      thrust            1200.0 lbf
+      thrust_duration   5.1 sec
+      update_interval   0.1 sec
+      compute_all_forces_each_substep true
+      aero AAM_AERO
+   end_mover
+
+   processor autopilot WSF_GUIDANCE_COMPUTER
+      proportional_navigation_gain 30.0
+      velocity_pursuit_gain        30.0
+      g_bias                       1.0
+      maximum_commanded_g          40.0 g
+      update_interval              0.1 sec
+   end_processor
+
+   processor seeker WSF_PERFECT_TRACKER
+      update_interval 0.1 sec
+   end_processor
+
+   processor fuse WSF_AIR_TARGET_FUSE
+      max_time_of_flight_to_detonate 60.0 sec
+   end_processor
+end_platform_type
+
+weapon_effects AAM_EFFECT WSF_GRADUATED_LETHALITY
+   radius_and_pk 100.0 m 0.85
+end_weapon_effects
+
+weapon AAM_LAUNCHER WSF_EXPLICIT_WEAPON
+   launched_platform_type AAM
+   weapon_effects        AAM_EFFECT
+   quantity              2
+   launch_delta_v        10.0 0.0 0.0 m/s
+end_weapon
+
+# ---------------- fighter platform type ----------------
+platform_type FIGHTER WSF_PLATFORM
+   icon F-16
+   radar_signature FIGHTER_RCS
+
+   mover WSF_AIR_MOVER
+      maximum_speed                600 m/sec
+      minimum_speed                120 m/sec
+      default_radial_acceleration  6.0 g
+      default_linear_acceleration  2.0 g
+      at_end_of_path               extrapolate
+   end_mover
+
+   sensor radar WSF_GEOMETRIC_SENSOR
+      on
+      frame_time                   1 sec
+      maximum_range                80 km
+      azimuth_field_of_view        -60 deg 60 deg
+      elevation_field_of_view      -30 deg 30 deg
+      reports_location
+      reports_velocity
+      reports_range
+      reports_bearing
+      reports_iff
+      ignore_same_side
+      processor track_manager
+   end_sensor
+
+   processor track_manager WSF_TRACK_PROCESSOR
+      on
+      update_interval 1 sec
+      raw_track_reporting on
+   end_processor
+
+   weapon aam AAM_LAUNCHER
+      on
+   end_weapon
+
+   processor shooter WSF_SCRIPT_PROCESSOR
+      on
+      update_interval 1 sec
+      on_update
+         if (PLATFORM.Weapon("aam").QuantityRemaining() <= 0) { return; }
+         foreach (WsfTrack track in PLATFORM.MasterTrackList())
+         {
+            double range = PLATFORM.SlantRangeTo(track);
+            if (range < 20000.0 && PLATFORM.Weapon("aam").Fire(track))
+            {
+               writeln(TIME_NOW, " FIRE ", PLATFORM.Name(), " -> ", track.TargetName(), " R=", range);
+               return;
+            }
+         }
+      end_on_update
+   end_processor
+end_platform_type
+
+# ---------------- layout ----------------
+platform blue_1 FIGHTER
+   side blue
+   route
+      position 30:00:00n 122:00:00e altitude 8000 m msl speed 250 m/sec
+      position 30:00:00n 123:00:00e altitude 8000 m msl speed 250 m/sec
+   end_route
+end_platform
+
+platform blue_2 FIGHTER
+   side blue
+   route
+      position 30:15:00n 122:00:00e altitude 8000 m msl speed 250 m/sec
+      position 30:15:00n 123:00:00e altitude 8000 m msl speed 250 m/sec
+   end_route
+end_platform
+
+platform red_1 FIGHTER
+   side red
+   route
+      position 30:00:00n 123:00:00e altitude 8000 m msl speed 250 m/sec
+      position 30:00:00n 122:00:00e altitude 8000 m msl speed 250 m/sec
+   end_route
+end_platform
+
+platform red_2 FIGHTER
+   side red
+   route
+      position 30:15:00n 123:00:00e altitude 8000 m msl speed 250 m/sec
+      position 30:15:00n 122:00:00e altitude 8000 m msl speed 250 m/sec
+   end_route
+end_platform
+
+end_time 5 min

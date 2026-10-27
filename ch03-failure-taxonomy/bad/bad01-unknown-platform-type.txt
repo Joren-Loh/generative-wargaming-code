@@ -1,0 +1,4 @@
+# references a platform_type that was never defined
+platform plane NO_SUCH_FIGHTER_TYPE
+   side blue
+end_platform

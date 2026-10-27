@@ -1,0 +1,19 @@
+# =====================================================================
+# library/base/fighter_base.txt -- layer two: the tactical baseline
+#
+# On top of AIRCRAFT_BASE, add what makes it a fighter: one radar, one missile, one shooter.
+# Still no theatre information (counts, formations, initial values); that is the theater/ layer.
+#
+# include_once rather than include, so a library file shared by several derivatives is defined once.
+# =====================================================================
+
+include_once ./aircraft_base.txt
+include_once ../sensors/geo_radar.txt
+include_once ../weapons/aam_implicit.txt
+include_once ../processors/shooter.txt
+
+platform_type FIGHTER_BASE AIRCRAFT_BASE
+   sensor rdr1 GEO_RADAR end_sensor
+   weapon aam_med AAM_MED end_weapon
+   processor shooter SHOOTER end_processor
+end_platform_type

@@ -1,0 +1,472 @@
+0.00000 PLATFORM_ADDED blue_1 Type: FIGHTER Side: blue \
+
+0.00000 PLATFORM_ADDED blue_2 Type: FIGHTER Side: blue \
+
+0.00000 PLATFORM_ADDED red_1 Type: FIGHTER Side: red \
+
+0.00000 PLATFORM_ADDED red_2 Type: FIGHTER Side: red \
+
+33.00000 SENSOR_TRACK_INITIATED red_2 blue_2 Sensor: radar TrackId: red_2.1 \
+  Start_Time: 33.00000 Update_Time: 33.00000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: blue_2 Type: FIGHTER Side: blue \
+  Originator: LLA: 30:15:01.07n 122:54:51.50e 8000 m \
+  Track: LLA: 30:15:01.07n 122:05:08.50e 8000 m Flags: L3RB \
+  Truth: LLA: 30:15:01.07n 122:05:08.50e 8000 m  Difference: 0 m  \
+  Track: Vel: 250 m/s Hdg: 89.7923 deg  Truth: Vel: 250 m/s Hdg: 89.7923 deg \
+  Track: Range: 79847.7 m Bearing: 270.209 deg Elevation: -0.357891 deg \
+  Truth: Range: 79847.7 m Bearing: 270.209 deg Elevation: -0.357891 deg
+33.50000 SENSOR_TRACK_INITIATED blue_2 red_2 Sensor: radar TrackId: blue_2.1 \
+  Start_Time: 33.50000 Update_Time: 33.50000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: red_2 Type: FIGHTER Side: red \
+  Originator: LLA: 30:15:01.09n 122:05:13.17e 8000 m \
+  Track: LLA: 30:15:01.09n 122:54:46.83e 8000 m Flags: L3RB \
+  Truth: LLA: 30:15:01.09n 122:54:46.83e 8000 m  Difference: 0 m  \
+  Track: Vel: 250 m/s Hdg: 270.207 deg  Truth: Vel: 250 m/s Hdg: 270.207 deg \
+  Track: Range: 79597.4 m Bearing: 89.7919 deg Elevation: -0.356769 deg \
+  Truth: Range: 79597.4 m Bearing: 89.7919 deg Elevation: -0.356769 deg
+34.00000 SENSOR_TRACK_INITIATED blue_1 red_1 Sensor: radar TrackId: blue_1.1 \
+  Start_Time: 34.00000 Update_Time: 34.00000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: red_1 Type: FIGHTER Side: red \
+  Originator: LLA: 30:00:01.09n 122:05:17.05e 8000 m \
+  Track: LLA: 30:00:01.09n 122:54:42.95e 8000 m Flags: L3RB \
+  Truth: LLA: 30:00:01.09n 122:54:42.95e 8000 m  Difference: 0 m  \
+  Track: Vel: 250 m/s Hdg: 270.205 deg  Truth: Vel: 250 m/s Hdg: 270.205 deg \
+  Track: Range: 79590.1 m Bearing: 89.794 deg Elevation: -0.356741 deg \
+  Truth: Range: 79590.1 m Bearing: 89.794 deg Elevation: -0.356741 deg
+34.00000 SENSOR_TRACK_INITIATED red_1 blue_1 Sensor: radar TrackId: red_1.1 \
+  Start_Time: 34.00000 Update_Time: 34.00000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: blue_1 Type: FIGHTER Side: blue \
+  Originator: LLA: 30:00:01.09n 122:54:42.95e 8000 m \
+  Track: LLA: 30:00:01.09n 122:05:17.05e 8000 m Flags: L3RB \
+  Truth: LLA: 30:00:01.09n 122:05:17.05e 8000 m  Difference: 0 m  \
+  Track: Vel: 250 m/s Hdg: 89.7951 deg  Truth: Vel: 250 m/s Hdg: 89.7951 deg \
+  Track: Range: 79590.1 m Bearing: 270.206 deg Elevation: -0.356741 deg \
+  Truth: Range: 79590.1 m Bearing: 270.206 deg Elevation: -0.356741 deg
+43.00000 SENSOR_TRACK_INITIATED blue_2 red_1 Sensor: radar TrackId: blue_2.3 \
+  Start_Time: 43.00000 Update_Time: 43.00000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: red_1 Type: FIGHTER Side: red \
+  Originator: LLA: 30:15:01.36n 122:06:41.98e 8000 m \
+  Track: LLA: 30:00:01.35n 122:53:19.03e 8000 m Flags: L3RB \
+  Truth: LLA: 30:00:01.35n 122:53:19.03e 8000 m  Difference: 0 m  \
+  Track: Vel: 250 m/s Hdg: 270.193 deg  Truth: Vel: 250 m/s Hdg: 270.193 deg \
+  Track: Range: 79935.3 m Bearing: 110.117 deg Elevation: -0.358501 deg \
+  Truth: Range: 79935.3 m Bearing: 110.117 deg Elevation: -0.358501 deg
+43.50000 SENSOR_TRACK_INITIATED blue_1 red_2 Sensor: radar TrackId: blue_1.3 \
+  Start_Time: 43.50000 Update_Time: 43.50000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: red_2 Type: FIGHTER Side: red \
+  Originator: LLA: 30:00:01.36n 122:06:45.64e 8000 m \
+  Track: LLA: 30:15:01.37n 122:53:13.35e 8000 m Flags: L3RB \
+  Truth: LLA: 30:15:01.37n 122:53:13.35e 8000 m  Difference: 0 m  \
+  Track: Vel: 250 m/s Hdg: 270.194 deg  Truth: Vel: 250 m/s Hdg: 270.194 deg \
+  Track: Range: 79700.7 m Bearing: 69.4312 deg Elevation: -0.357455 deg \
+  Truth: Range: 79700.7 m Bearing: 69.4312 deg Elevation: -0.357455 deg
+43.50000 SENSOR_TRACK_INITIATED red_1 blue_2 Sensor: radar TrackId: red_1.3 \
+  Start_Time: 43.50000 Update_Time: 43.50000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: blue_2 Type: FIGHTER Side: blue \
+  Originator: LLA: 30:00:01.36n 122:53:14.36e 8000 m \
+  Track: LLA: 30:15:01.37n 122:06:46.65e 8000 m Flags: L3RB \
+  Truth: LLA: 30:15:01.37n 122:06:46.65e 8000 m  Difference: 0 m  \
+  Track: Vel: 250 m/s Hdg: 89.806 deg  Truth: Vel: 250 m/s Hdg: 89.806 deg \
+  Track: Range: 79700.7 m Bearing: 290.569 deg Elevation: -0.357455 deg \
+  Truth: Range: 79700.7 m Bearing: 290.569 deg Elevation: -0.357455 deg
+43.50000 SENSOR_TRACK_INITIATED red_2 blue_1 Sensor: radar TrackId: red_2.3 \
+  Start_Time: 43.50000 Update_Time: 43.50000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: blue_1 Type: FIGHTER Side: blue \
+  Originator: LLA: 30:15:01.37n 122:53:13.35e 8000 m \
+  Track: LLA: 30:00:01.36n 122:06:45.64e 8000 m Flags: L3RB \
+  Truth: LLA: 30:00:01.36n 122:06:45.64e 8000 m  Difference: 0 m  \
+  Track: Vel: 250 m/s Hdg: 89.8073 deg  Truth: Vel: 250 m/s Hdg: 89.8073 deg \
+  Track: Range: 79700.7 m Bearing: 249.82 deg Elevation: -0.35745 deg \
+  Truth: Range: 79700.7 m Bearing: 249.82 deg Elevation: -0.35745 deg
+153.00000 PLATFORM_ADDED blue_2_aam_1 Type: AAM Side: blue \
+
+153.00000 WEAPON_FIRED blue_2 red_2 blue_2_aam_1 Engagement: 1 Start_Time: 153.00000 \
+ Launch: LLA: 30:15:03.27n 122:23:50.31e 8000 m Heading: 89.949 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.001 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:15:03.27n 122:36:14.36e 8000 m Heading: 270.052 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.001 -1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Truth: Slant_Range: 19916.5 m Ground_Range: 19916.5 m Down_Range: 19916.5 m Cross_Range: -0.0905943 m Relative_Alt: -31.0305 m \
+ Target_Track: blue_2.2 \
+  Start_Time: 33.50000 Update_Time: 153.00000 Update_Count: 119 Quality: 0.5 Domain: air Type: P \
+  Target_Truth: Name: red_2 Type: FIGHTER Side: red \
+  Originator: LLA: 30:15:03.27n 122:23:45.64e 8000 m \
+  Track: LLA: 30:15:03.27n 122:36:09.69e 8000 m Flags: L3RB \
+  Truth: LLA: 30:15:03.27n 122:36:09.69e 8000 m  Difference: 0.118366 m  \
+  Track: Vel: 250 m/s Hdg: 270.051 deg  Truth: Vel: 250 m/s Hdg: 270.051 deg \
+  Track: Range: 20041.6 m Bearing: 89.9476 deg Elevation: -0.0892691 deg \
+  Truth: Range: 19916.5 m Bearing: 89.9476 deg Elevation: -0.0892686 deg
+153.00000 PLATFORM_ADDED red_2_aam_1 Type: AAM Side: red \
+
+153.00000 WEAPON_FIRED red_2 blue_2 red_2_aam_1 Engagement: 2 Start_Time: 153.00000 \
+ Launch: LLA: 30:15:03.27n 122:36:09.69e 8000 m Heading: 270.051 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.001 -1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:15:03.27n 122:23:50.31e 8000 m Heading: 89.949 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.001 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Truth: Slant_Range: 19791.4 m Ground_Range: 19791.4 m Down_Range: 19791.4 m Cross_Range: 0.0894596 m Relative_Alt: -30.6418 m \
+ Target_Track: red_2.2 \
+  Start_Time: 33.00000 Update_Time: 153.00000 Update_Count: 119 Quality: 0.5 Domain: air Type: P \
+  Target_Truth: Name: blue_2 Type: FIGHTER Side: blue \
+  Originator: LLA: 30:15:03.27n 122:36:19.04e 8000 m \
+  Track: LLA: 30:15:03.27n 122:23:50.30e 8000 m Flags: L3RB \
+  Truth: LLA: 30:15:03.27n 122:23:50.31e 8000 m  Difference: 0.236733 m  \
+  Track: Vel: 250 m/s Hdg: 89.9485 deg  Truth: Vel: 250 m/s Hdg: 89.9485 deg \
+  Track: Range: 20291.8 m Bearing: 270.053 deg Elevation: -0.0898305 deg \
+  Truth: Range: 20041.6 m Bearing: 270.053 deg Elevation: -0.0898294 deg
+153.00000 SENSOR_TRACK_INITIATED blue_1 red_2_aam_1 Sensor: radar TrackId: blue_1.5 \
+  Start_Time: 153.00000 Update_Time: 153.00000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: red_2_aam_1 Type: AAM Side: red \
+  Originator: LLA: 30:00:03.25n 122:23:46.73e 8000 m \
+  Track: LLA: 30:15:03.27n 122:36:09.69e 8000 m Flags: L3RB \
+  Truth: LLA: 30:15:03.27n 122:36:09.69e 8000 m  Difference: 0 m  \
+  Track: Vel: 260 m/s Hdg: 270.051 deg  Truth: Vel: 260 m/s Hdg: 270.051 deg \
+  Track: Range: 34154.2 m Bearing: 35.6109 deg Elevation: -0.153595 deg \
+  Truth: Range: 34154.2 m Bearing: 35.6109 deg Elevation: -0.153595 deg
+153.00000 SENSOR_TRACK_INITIATED blue_2 red_2_aam_1 Sensor: radar TrackId: blue_2.5 \
+  Start_Time: 153.00000 Update_Time: 153.00000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: red_2_aam_1 Type: AAM Side: red \
+  Originator: LLA: 30:15:03.27n 122:23:50.31e 8000 m \
+  Track: LLA: 30:15:03.27n 122:36:09.69e 8000 m Flags: L3RB \
+  Truth: LLA: 30:15:03.27n 122:36:09.69e 8000 m  Difference: 0 m  \
+  Track: Vel: 260 m/s Hdg: 270.051 deg  Truth: Vel: 260 m/s Hdg: 270.051 deg \
+  Track: Range: 19791.4 m Bearing: 89.9483 deg Elevation: -0.0887078 deg \
+  Truth: Range: 19791.4 m Bearing: 89.9483 deg Elevation: -0.0887078 deg
+153.00000 SENSOR_TRACK_INITIATED red_1 blue_2_aam_1 Sensor: radar TrackId: red_1.5 \
+  Start_Time: 153.00000 Update_Time: 153.00000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: blue_2_aam_1 Type: AAM Side: blue \
+  Originator: LLA: 30:00:03.25n 122:36:13.27e 8000 m \
+  Track: LLA: 30:15:03.27n 122:23:50.31e 8000 m Flags: L3RB \
+  Truth: LLA: 30:15:03.27n 122:23:50.31e 8000 m  Difference: 0 m  \
+  Track: Vel: 260 m/s Hdg: 89.9485 deg  Truth: Vel: 260 m/s Hdg: 89.9485 deg \
+  Track: Range: 34154.2 m Bearing: 324.389 deg Elevation: -0.153595 deg \
+  Truth: Range: 34154.2 m Bearing: 324.389 deg Elevation: -0.153595 deg
+153.00000 SENSOR_TRACK_INITIATED red_2 blue_2_aam_1 Sensor: radar TrackId: red_2.5 \
+  Start_Time: 153.00000 Update_Time: 153.00000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: blue_2_aam_1 Type: AAM Side: blue \
+  Originator: LLA: 30:15:03.27n 122:36:09.69e 8000 m \
+  Track: LLA: 30:15:03.27n 122:23:50.31e 8000 m Flags: L3RB \
+  Truth: LLA: 30:15:03.27n 122:23:50.31e 8000 m  Difference: 0 m  \
+  Track: Vel: 260 m/s Hdg: 89.9485 deg  Truth: Vel: 260 m/s Hdg: 89.9485 deg \
+  Track: Range: 19791.4 m Bearing: 270.052 deg Elevation: -0.0887078 deg \
+  Truth: Range: 19791.4 m Bearing: 270.052 deg Elevation: -0.0887078 deg
+154.00000 PLATFORM_ADDED blue_1_aam_1 Type: AAM Side: blue \
+
+154.00000 WEAPON_FIRED blue_1 red_1 blue_1_aam_1 Engagement: 3 Start_Time: 154.00000 \
+ Launch: LLA: 30:00:03.26n 122:23:56.05e 8000 m Heading: 89.950 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.001 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:00:03.26n 122:36:07.05e 8000 m Heading: 270.051 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.001 -1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Truth: Slant_Range: 19616.4 m Ground_Range: 19616.4 m Down_Range: 19616.4 m Cross_Range: -0.0874444 m Relative_Alt: -30.1028 m \
+ Target_Track: blue_1.2 \
+  Start_Time: 34.00000 Update_Time: 154.00000 Update_Count: 119 Quality: 0.5 Domain: air Type: P \
+  Target_Truth: Name: red_1 Type: FIGHTER Side: red \
+  Originator: LLA: 30:00:03.26n 122:23:49.84e 8000 m \
+  Track: LLA: 30:00:03.26n 122:36:03.95e 8000 m Flags: L3RB \
+  Truth: LLA: 30:00:03.26n 122:36:03.95e 8000 m  Difference: 0.159931 m  \
+  Track: Vel: 250 m/s Hdg: 270.05 deg  Truth: Vel: 250 m/s Hdg: 270.05 deg \
+  Track: Range: 19866.6 m Bearing: 89.9486 deg Elevation: -0.0882993 deg \
+  Truth: Range: 19699.8 m Bearing: 89.9486 deg Elevation: -0.0882986 deg
+154.00000 PLATFORM_ADDED blue_2_aam_2 Type: AAM Side: blue \
+
+154.00000 WEAPON_FIRED blue_2 red_2 blue_2_aam_2 Engagement: 4 Start_Time: 154.00000 \
+ Launch: LLA: 30:15:03.28n 122:23:59.66e 8000 m Heading: 89.950 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.001 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:15:03.28n 122:36:00.34e 8000 m Heading: 270.050 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.001 -1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Truth: Slant_Range: 19290.9 m Ground_Range: 19290.9 m Down_Range: 19290.9 m Cross_Range: -0.0849925 m Relative_Alt: -29.1117 m \
+ Target_Track: blue_2.2 \
+  Start_Time: 33.50000 Update_Time: 154.00000 Update_Count: 120 Quality: 0.5 Domain: air Type: P \
+  Target_Truth: Name: red_2 Type: FIGHTER Side: red \
+  Originator: LLA: 30:15:03.28n 122:23:56.54e 8000 m \
+  Track: LLA: 30:15:03.28n 122:36:00.34e 8000 m Flags: L3RB \
+  Truth: LLA: 30:15:03.28n 122:36:00.34e 8000 m  Difference: 0.0789108 m  \
+  Track: Vel: 250 m/s Hdg: 270.05 deg  Truth: Vel: 250 m/s Hdg: 270.05 deg \
+  Track: Range: 19457.7 m Bearing: 89.9491 deg Elevation: -0.0868388 deg \
+  Truth: Range: 19374.3 m Bearing: 89.9491 deg Elevation: -0.0868385 deg
+154.00000 PLATFORM_ADDED red_1_aam_1 Type: AAM Side: red \
+
+154.00000 WEAPON_FIRED red_1 blue_1 red_1_aam_1 Engagement: 5 Start_Time: 154.00000 \
+ Launch: LLA: 30:00:03.26n 122:36:03.95e 8000 m Heading: 270.050 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.001 -1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:00:03.26n 122:23:56.05e 8000 m Heading: 89.950 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.001 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Truth: Slant_Range: 19533 m Ground_Range: 19533 m Down_Range: 19533 m Cross_Range: 0.0867023 m Relative_Alt: -29.8474 m \
+ Target_Track: red_1.2 \
+  Start_Time: 34.00000 Update_Time: 154.00000 Update_Count: 119 Quality: 0.5 Domain: air Type: P \
+  Target_Truth: Name: blue_1 Type: FIGHTER Side: blue \
+  Originator: LLA: 30:00:03.26n 122:36:10.16e 8000 m \
+  Track: LLA: 30:00:03.26n 122:23:56.05e 8000 m Flags: L3RB \
+  Truth: LLA: 30:00:03.26n 122:23:56.05e 8000 m  Difference: 0.159931 m  \
+  Track: Vel: 250 m/s Hdg: 89.9497 deg  Truth: Vel: 250 m/s Hdg: 89.9497 deg \
+  Track: Range: 19866.6 m Bearing: 270.051 deg Elevation: -0.0882993 deg \
+  Truth: Range: 19699.8 m Bearing: 270.051 deg Elevation: -0.0882986 deg
+154.00000 PLATFORM_ADDED red_2_aam_2 Type: AAM Side: red \
+
+154.00000 WEAPON_FIRED red_2 blue_2 red_2_aam_2 Engagement: 6 Start_Time: 154.00000 \
+ Launch: LLA: 30:15:03.28n 122:36:00.34e 8000 m Heading: 270.050 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.001 -1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:15:03.28n 122:23:59.66e 8000 m Heading: 89.950 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.001 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Truth: Slant_Range: 19290.9 m Ground_Range: 19290.9 m Down_Range: 19290.9 m Cross_Range: 0.0849925 m Relative_Alt: -29.1117 m \
+ Target_Track: red_2.2 \
+  Start_Time: 33.00000 Update_Time: 154.00000 Update_Count: 120 Quality: 0.5 Domain: air Type: P \
+  Target_Truth: Name: blue_2 Type: FIGHTER Side: blue \
+  Originator: LLA: 30:15:03.28n 122:36:06.57e 8000 m \
+  Track: LLA: 30:15:03.28n 122:23:59.65e 8000 m Flags: L3RB \
+  Truth: LLA: 30:15:03.28n 122:23:59.66e 8000 m  Difference: 0.157822 m  \
+  Track: Vel: 250 m/s Hdg: 89.9498 deg  Truth: Vel: 250 m/s Hdg: 89.9498 deg \
+  Track: Range: 19624.6 m Bearing: 270.051 deg Elevation: -0.087213 deg \
+  Truth: Range: 19457.7 m Bearing: 270.051 deg Elevation: -0.0872123 deg
+154.00000 SENSOR_TRACK_INITIATED blue_1 red_1_aam_1 Sensor: radar TrackId: blue_1.7 \
+  Start_Time: 154.00000 Update_Time: 154.00000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: red_1_aam_1 Type: AAM Side: red \
+  Originator: LLA: 30:00:03.26n 122:23:56.05e 8000 m \
+  Track: LLA: 30:00:03.26n 122:36:03.95e 8000 m Flags: L3RB \
+  Truth: LLA: 30:00:03.26n 122:36:03.95e 8000 m  Difference: 0 m  \
+  Track: Vel: 260 m/s Hdg: 270.05 deg  Truth: Vel: 260 m/s Hdg: 270.05 deg \
+  Track: Range: 19533 m Bearing: 89.9495 deg Elevation: -0.0875508 deg \
+  Truth: Range: 19533 m Bearing: 89.9495 deg Elevation: -0.0875508 deg
+154.00000 SENSOR_TRACK_INITIATED blue_2 red_2_aam_2 Sensor: radar TrackId: blue_2.7 \
+  Start_Time: 154.00000 Update_Time: 154.00000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: red_2_aam_2 Type: AAM Side: red \
+  Originator: LLA: 30:15:03.28n 122:23:59.66e 8000 m \
+  Track: LLA: 30:15:03.28n 122:36:00.34e 8000 m Flags: L3RB \
+  Truth: LLA: 30:15:03.28n 122:36:00.34e 8000 m  Difference: 0 m  \
+  Track: Vel: 260 m/s Hdg: 270.05 deg  Truth: Vel: 260 m/s Hdg: 270.05 deg \
+  Track: Range: 19290.9 m Bearing: 89.9496 deg Elevation: -0.0864646 deg \
+  Truth: Range: 19290.9 m Bearing: 89.9496 deg Elevation: -0.0864646 deg
+154.00000 SENSOR_TRACK_INITIATED red_1 blue_2_aam_2 Sensor: radar TrackId: red_1.7 \
+  Start_Time: 154.00000 Update_Time: 154.00000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: blue_2_aam_2 Type: AAM Side: blue \
+  Originator: LLA: 30:00:03.26n 122:36:03.95e 8000 m \
+  Track: LLA: 30:15:03.28n 122:23:59.66e 8000 m Flags: L3RB \
+  Truth: LLA: 30:15:03.28n 122:23:59.66e 8000 m  Difference: 0 m  \
+  Track: Vel: 260 m/s Hdg: 89.9498 deg  Truth: Vel: 260 m/s Hdg: 89.9498 deg \
+  Track: Range: 33864.9 m Bearing: 325.076 deg Elevation: -0.152303 deg \
+  Truth: Range: 33864.9 m Bearing: 325.076 deg Elevation: -0.152303 deg
+154.20000 SENSOR_TRACK_INITIATED blue_1 red_2_aam_2 Sensor: radar TrackId: blue_1.9 \
+  Start_Time: 154.20000 Update_Time: 154.20000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: red_2_aam_2 Type: AAM Side: red \
+  Originator: LLA: 30:00:03.26n 122:23:57.92e 8000 m \
+  Track: LLA: 30:15:03.28n 122:35:58.35e 7999.9997 m Flags: L3RB \
+  Truth: LLA: 30:15:03.28n 122:35:58.35e 7999.9997 m  Difference: 0 m  \
+  Track: Vel: 271.413 m/s Hdg: 270.049 deg  Truth: Vel: 271.413 m/s Hdg: 270.049 deg \
+  Track: Range: 33805.8 m Bearing: 34.781 deg Elevation: -0.152039 deg \
+  Truth: Range: 33805.8 m Bearing: 34.781 deg Elevation: -0.152039 deg
+154.20000 SENSOR_TRACK_INITIATED blue_2 red_1_aam_1 Sensor: radar TrackId: blue_2.9 \
+  Start_Time: 154.20000 Update_Time: 154.20000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: red_1_aam_1 Type: AAM Side: red \
+  Originator: LLA: 30:15:03.28n 122:24:01.53e 8000 m \
+  Track: LLA: 30:00:03.26n 122:36:01.96e 7999.9997 m Flags: L3RB \
+  Truth: LLA: 30:00:03.26n 122:36:01.96e 7999.9997 m  Difference: 0 m  \
+  Track: Vel: 271.413 m/s Hdg: 270.049 deg  Truth: Vel: 271.413 m/s Hdg: 270.049 deg \
+  Track: Range: 33805.8 m Bearing: 145.119 deg Elevation: -0.152037 deg \
+  Truth: Range: 33805.8 m Bearing: 145.119 deg Elevation: -0.152037 deg
+154.20000 SENSOR_TRACK_INITIATED red_1 blue_1_aam_1 Sensor: radar TrackId: red_1.9 \
+  Start_Time: 154.20000 Update_Time: 154.20000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: blue_1_aam_1 Type: AAM Side: blue \
+  Originator: LLA: 30:00:03.26n 122:36:02.08e 8000 m \
+  Track: LLA: 30:00:03.26n 122:23:58.04e 7999.9997 m Flags: L3RB \
+  Truth: LLA: 30:00:03.26n 122:23:58.04e 7999.9997 m  Difference: 0 m  \
+  Track: Vel: 271.413 m/s Hdg: 89.9512 deg  Truth: Vel: 271.413 m/s Hdg: 89.9512 deg \
+  Track: Range: 19429.7 m Bearing: 270.05 deg Elevation: -0.0870885 deg \
+  Truth: Range: 19429.7 m Bearing: 270.05 deg Elevation: -0.0870885 deg
+154.20000 SENSOR_TRACK_INITIATED red_2 blue_2_aam_2 Sensor: radar TrackId: red_2.7 \
+  Start_Time: 154.20000 Update_Time: 154.20000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: blue_2_aam_2 Type: AAM Side: blue \
+  Originator: LLA: 30:15:03.28n 122:35:58.47e 8000 m \
+  Track: LLA: 30:15:03.28n 122:24:01.65e 7999.9997 m Flags: L3RB \
+  Truth: LLA: 30:15:03.28n 122:24:01.65e 7999.9997 m  Difference: 0 m  \
+  Track: Vel: 271.413 m/s Hdg: 89.9513 deg  Truth: Vel: 271.413 m/s Hdg: 89.9513 deg \
+  Track: Range: 19187.6 m Bearing: 270.05 deg Elevation: -0.0860023 deg \
+  Truth: Range: 19187.6 m Bearing: 270.05 deg Elevation: -0.0860023 deg
+154.40000 SENSOR_TRACK_INITIATED red_2 blue_1_aam_1 Sensor: radar TrackId: red_2.9 \
+  Start_Time: 154.40000 Update_Time: 154.40000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: blue_1_aam_1 Type: AAM Side: blue \
+  Originator: LLA: 30:15:03.28n 122:35:56.60e 8000 m \
+  Track: LLA: 30:00:03.26n 122:24:00.11e 7999.9987 m Flags: L3RB \
+  Truth: LLA: 30:00:03.26n 122:24:00.11e 7999.9987 m  Difference: 0 m  \
+  Track: Vel: 282.801 m/s Hdg: 89.9525 deg  Truth: Vel: 282.801 m/s Hdg: 89.9525 deg \
+  Track: Range: 33745.6 m Bearing: 214.734 deg Elevation: -0.15177 deg \
+  Truth: Range: 33745.6 m Bearing: 214.734 deg Elevation: -0.15177 deg
+155.00000 PLATFORM_ADDED blue_1_aam_2 Type: AAM Side: blue \
+
+155.00000 WEAPON_FIRED blue_1 red_1 blue_1_aam_2 Engagement: 7 Start_Time: 155.00000 \
+ Launch: LLA: 30:00:03.27n 122:24:05.38e 8000 m Heading: 89.951 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.001 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:00:03.27n 122:35:54.62e 8000 m Heading: 270.049 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.001 -1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Truth: Slant_Range: 19032.5 m Ground_Range: 19032.5 m Down_Range: 19032.5 m Cross_Range: -0.0823162 m Relative_Alt: -28.3375 m \
+ Target_Track: blue_1.2 \
+  Start_Time: 34.00000 Update_Time: 155.00000 Update_Count: 120 Quality: 0.5 Domain: air Type: P \
+  Target_Truth: Name: red_1 Type: FIGHTER Side: red \
+  Originator: LLA: 30:00:03.27n 122:24:01.65e 8000 m \
+  Track: LLA: 30:00:03.27n 122:35:54.62e 8000 m Flags: L3RB \
+  Truth: LLA: 30:00:03.27n 122:35:54.62e 8000 m  Difference: 0.0959585 m  \
+  Track: Vel: 250 m/s Hdg: 270.049 deg  Truth: Vel: 250 m/s Hdg: 270.049 deg \
+  Track: Range: 19232.7 m Bearing: 89.9502 deg Elevation: -0.0857566 deg \
+  Truth: Range: 19132.6 m Bearing: 89.9502 deg Elevation: -0.0857562 deg
+155.00000 PLATFORM_ADDED red_1_aam_2 Type: AAM Side: red \
+
+155.00000 WEAPON_FIRED red_1 blue_1 red_1_aam_2 Engagement: 8 Start_Time: 155.00000 \
+ Launch: LLA: 30:00:03.27n 122:35:54.62e 8000 m Heading: 270.049 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.001 -1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:00:03.27n 122:24:05.38e 8000 m Heading: 89.951 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.001 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Truth: Slant_Range: 19032.5 m Ground_Range: 19032.5 m Down_Range: 19032.5 m Cross_Range: 0.0823162 m Relative_Alt: -28.3375 m \
+ Target_Track: red_1.2 \
+  Start_Time: 34.00000 Update_Time: 155.00000 Update_Count: 120 Quality: 0.5 Domain: air Type: P \
+  Target_Truth: Name: blue_1 Type: FIGHTER Side: blue \
+  Originator: LLA: 30:00:03.27n 122:35:58.35e 8000 m \
+  Track: LLA: 30:00:03.27n 122:24:05.38e 8000 m Flags: L3RB \
+  Truth: LLA: 30:00:03.27n 122:24:05.38e 8000 m  Difference: 0.0959585 m  \
+  Track: Vel: 250 m/s Hdg: 89.951 deg  Truth: Vel: 250 m/s Hdg: 89.951 deg \
+  Track: Range: 19232.7 m Bearing: 270.05 deg Elevation: -0.0857566 deg \
+  Truth: Range: 19132.6 m Bearing: 270.05 deg Elevation: -0.0857562 deg
+155.20000 SENSOR_TRACK_INITIATED blue_2 red_1_aam_2 Sensor: radar TrackId: blue_2.11 \
+  Start_Time: 155.20000 Update_Time: 155.20000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: red_1_aam_2 Type: AAM Side: red \
+  Originator: LLA: 30:15:03.29n 122:24:10.88e 8000 m \
+  Track: LLA: 30:00:03.27n 122:35:52.63e 7999.9997 m Flags: L3RB \
+  Truth: LLA: 30:00:03.27n 122:35:52.63e 7999.9997 m  Difference: 0 m  \
+  Track: Vel: 271.413 m/s Hdg: 270.048 deg  Truth: Vel: 271.413 m/s Hdg: 270.048 deg \
+  Track: Range: 33522.4 m Bearing: 145.822 deg Elevation: -0.150771 deg \
+  Truth: Range: 33522.4 m Bearing: 145.822 deg Elevation: -0.150771 deg
+155.20000 SENSOR_TRACK_INITIATED red_2 blue_1_aam_2 Sensor: radar TrackId: red_2.11 \
+  Start_Time: 155.20000 Update_Time: 155.20000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: blue_1_aam_2 Type: AAM Side: blue \
+  Originator: LLA: 30:15:03.29n 122:35:49.12e 8000 m \
+  Track: LLA: 30:00:03.27n 122:24:07.37e 7999.9997 m Flags: L3RB \
+  Truth: LLA: 30:00:03.27n 122:24:07.37e 7999.9997 m  Difference: 0 m  \
+  Track: Vel: 271.413 m/s Hdg: 89.9525 deg  Truth: Vel: 271.413 m/s Hdg: 89.9525 deg \
+  Track: Range: 33522.4 m Bearing: 214.178 deg Elevation: -0.150771 deg \
+  Truth: Range: 33522.4 m Bearing: 214.178 deg Elevation: -0.150771 deg
+155.36667 SENSOR_TRACK_INITIATED blue_1 red_1_aam_2 Sensor: radar TrackId: blue_1.11 \
+  Start_Time: 155.36667 Update_Time: 155.36667 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: red_1_aam_2 Type: AAM Side: red \
+  Originator: LLA: 30:00:03.27n 122:24:08.80e 8000 m \
+  Track: LLA: 30:00:03.27n 122:35:50.91e 7999.9989 m Flags: L3RB \
+  Truth: LLA: 30:00:03.27n 122:35:50.91e 7999.9989 m  Difference: 0 m  \
+  Track: Vel: 280.904 m/s Hdg: 270.046 deg  Truth: Vel: 280.904 m/s Hdg: 270.046 deg \
+  Track: Range: 18841.3 m Bearing: 89.9512 deg Elevation: -0.084454 deg \
+  Truth: Range: 18841.3 m Bearing: 89.9512 deg Elevation: -0.084454 deg
+155.86667 SENSOR_TRACK_INITIATED red_1 blue_1_aam_2 Sensor: radar TrackId: red_1.11 \
+  Start_Time: 155.86667 Update_Time: 155.86667 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: blue_1_aam_2 Type: AAM Side: blue \
+  Originator: LLA: 30:00:03.27n 122:35:46.54e 8000 m \
+  Track: LLA: 30:00:03.28n 122:24:14.60e 7999.992 m Flags: L3RB \
+  Truth: LLA: 30:00:03.28n 122:24:14.60e 7999.992 m  Difference: 0 m  \
+  Track: Vel: 309.231 m/s Hdg: 89.9564 deg  Truth: Vel: 309.231 m/s Hdg: 89.9564 deg \
+  Track: Range: 18568.3 m Bearing: 270.048 deg Elevation: -0.0832515 deg \
+  Truth: Range: 18568.3 m Bearing: 270.048 deg Elevation: -0.0832515 deg
+185.80000 WEAPON_HIT blue_2 red_2 blue_2_aam_2 Engagement: 4 Start_Time: 154.00000 \
+ Intercept_Pk: 0.85 Pk_Degrade: 1 Pk: 0.85 Pk_Drawn: 0.358152 INTENDED_TARGET Damage_Factor: 1 Result: KILLED \
+ Extended_Result: Target_proximity \
+ Weapon: LLA: 30:15:03.41n 122:31:03.45e 7999.9654 m Heading: 90.179 deg Pitch: -0.189 deg Roll: 0.000 deg \
+  Speed: 230.700 m/s * [ -0.003 1.000 0.003 ] Acceleration: 21.720 m/s2 * [ -0.719 -0.447 -0.532 ] \
+ Target: LLA: 30:15:03.41n 122:31:03.45e 8000 m Heading: 270.009 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.000 -1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Miss_Distance: 0.0346112 m \
+ Weapon_Loc_ECS: [ 9.66096e-05 0.00142778 0.0345816 ] m \
+ Weapon_Vel_ECS: 480.699 m/s * [ -0.999998 -0.00142726 0.00158663 ]
+185.80000 WEAPON_HIT red_2 blue_2 red_2_aam_2 Engagement: 6 Start_Time: 154.00000 \
+ Intercept_Pk: 0.85 Pk_Degrade: 1 Pk: 0.85 Pk_Drawn: 0.750686 INTENDED_TARGET Damage_Factor: 1 Result: KILLED \
+ Extended_Result: Target_proximity \
+ Weapon: LLA: 30:15:03.41n 122:28:56.56e 7999.9696 m Heading: 269.825 deg Pitch: -0.171 deg Roll: 0.000 deg \
+  Speed: 230.666 m/s * [ -0.003 -1.000 0.003 ] Acceleration: 21.625 m/s2 * [ -0.710 0.449 -0.543 ] \
+ Target: LLA: 30:15:03.41n 122:28:56.56e 8000 m Heading: 89.991 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.000 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Miss_Distance: 0.0304628 m \
+ Weapon_Loc_ECS: [ 8.09433e-05 -0.00159639 0.0304208 ] m \
+ Weapon_Vel_ECS: 480.665 m/s * [ -0.999998 0.00138944 0.00143155 ]
+185.80000 PLATFORM_BROKEN blue_2_aam_2 Type: AAM Side: blue Ps: 0 \
+ LLA: 30:15:03.41n 122:31:03.45e 7999.9654 m Heading: 90.179 deg Pitch: -0.189 deg Roll: 0.000 deg \
+ Speed: 230.700 m/s * [ -0.003 1.000 0.003 ] Acceleration: 21.720 m/s2 * [ -0.719 -0.447 -0.532 ]
+185.80000 PLATFORM_DELETED blue_2_aam_2 Type: AAM Side: blue Ps: 0 \
+ LLA: 30:15:03.41n 122:31:03.45e 7999.9654 m Heading: 90.179 deg Pitch: -0.189 deg Roll: 0.000 deg \
+ Speed: 230.700 m/s * [ -0.003 1.000 0.003 ] Acceleration: 21.720 m/s2 * [ -0.719 -0.447 -0.532 ]
+185.80000 PLATFORM_BROKEN red_2 Type: FIGHTER Side: red Ps: 0 \
+ LLA: 30:15:03.41n 122:31:03.45e 8000 m Heading: 270.009 deg Pitch: 0.000 deg Roll: 0.000 deg \
+ Speed: 250.000 m/s * [ 0.000 -1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ]
+185.80000 PLATFORM_DELETED red_2 Type: FIGHTER Side: red Ps: 0 \
+ LLA: 30:15:03.41n 122:31:03.45e 8000 m Heading: 270.009 deg Pitch: 0.000 deg Roll: 0.000 deg \
+ Speed: 250.000 m/s * [ 0.000 -1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ]
+185.80000 PLATFORM_BROKEN red_2_aam_2 Type: AAM Side: red Ps: 0 \
+ LLA: 30:15:03.41n 122:28:56.56e 7999.9696 m Heading: 269.825 deg Pitch: -0.171 deg Roll: 0.000 deg \
+ Speed: 230.666 m/s * [ -0.003 -1.000 0.003 ] Acceleration: 21.625 m/s2 * [ -0.710 0.449 -0.543 ]
+185.80000 PLATFORM_DELETED red_2_aam_2 Type: AAM Side: red Ps: 0 \
+ LLA: 30:15:03.41n 122:28:56.56e 7999.9696 m Heading: 269.825 deg Pitch: -0.171 deg Roll: 0.000 deg \
+ Speed: 230.666 m/s * [ -0.003 -1.000 0.003 ] Acceleration: 21.625 m/s2 * [ -0.710 0.449 -0.543 ]
+185.80000 PLATFORM_BROKEN blue_2 Type: FIGHTER Side: blue Ps: 0 \
+ LLA: 30:15:03.41n 122:28:56.56e 8000 m Heading: 89.991 deg Pitch: 0.000 deg Roll: 0.000 deg \
+ Speed: 250.000 m/s * [ 0.000 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ]
+185.80000 PLATFORM_DELETED blue_2 Type: FIGHTER Side: blue Ps: 0 \
+ LLA: 30:15:03.41n 122:28:56.56e 8000 m Heading: 89.991 deg Pitch: 0.000 deg Roll: 0.000 deg \
+ Speed: 250.000 m/s * [ 0.000 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ]
+186.25000 WEAPON_HIT blue_1 red_1 blue_1_aam_2 Engagement: 7 Start_Time: 155.00000 \
+ Intercept_Pk: 0.85 Pk_Degrade: 1 Pk: 0.85 Pk_Drawn: 0.607831 INTENDED_TARGET Damage_Factor: 1 Result: KILLED \
+ Extended_Result: Target_proximity \
+ Weapon: LLA: 30:00:03.40n 122:31:03.44e 8000.0294 m Heading: 89.798 deg Pitch: -0.173 deg Roll: 0.000 deg \
+  Speed: 233.702 m/s * [ 0.004 1.000 0.003 ] Acceleration: 36.814 m/s2 * [ 0.450 -0.272 0.850 ] \
+ Target: LLA: 30:00:03.40n 122:31:03.44e 8000 m Heading: 270.009 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.000 -1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Miss_Distance: 0.0293901 m \
+ Weapon_Loc_ECS: [ 5.18644e-05 -0.000714782 -0.0293813 ] m \
+ Weapon_Vel_ECS: 483.7 m/s * [ -0.999997 0.00177372 0.00146334 ]
+186.25000 WEAPON_HIT red_1 blue_1 red_1_aam_2 Engagement: 8 Start_Time: 155.00000 \
+ Intercept_Pk: 0.85 Pk_Degrade: 1 Pk: 0.85 Pk_Drawn: 0.325047 INTENDED_TARGET Damage_Factor: 1 Result: KILLED \
+ Extended_Result: Target_proximity \
+ Weapon: LLA: 30:00:03.40n 122:28:56.55e 8000.0231 m Heading: 270.261 deg Pitch: -0.129 deg Roll: 0.000 deg \
+  Speed: 233.707 m/s * [ 0.005 -1.000 0.002 ] Acceleration: 35.461 m/s2 * [ 0.607 0.283 0.742 ] \
+ Target: LLA: 30:00:03.40n 122:28:56.55e 8000 m Heading: 89.991 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ 0.000 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Miss_Distance: 0.023144 m \
+ Weapon_Loc_ECS: [ 3.76287e-05 0.00092045 -0.0231256 ] m \
+ Weapon_Vel_ECS: 483.705 m/s * [ -0.999997 -0.0022774 0.00108567 ]
+186.25000 PLATFORM_BROKEN blue_1_aam_2 Type: AAM Side: blue Ps: 0 \
+ LLA: 30:00:03.40n 122:31:03.44e 8000.0294 m Heading: 89.798 deg Pitch: -0.173 deg Roll: 0.000 deg \
+ Speed: 233.702 m/s * [ 0.004 1.000 0.003 ] Acceleration: 36.814 m/s2 * [ 0.450 -0.272 0.850 ]
+186.25000 PLATFORM_DELETED blue_1_aam_2 Type: AAM Side: blue Ps: 0 \
+ LLA: 30:00:03.40n 122:31:03.44e 8000.0294 m Heading: 89.798 deg Pitch: -0.173 deg Roll: 0.000 deg \
+ Speed: 233.702 m/s * [ 0.004 1.000 0.003 ] Acceleration: 36.814 m/s2 * [ 0.450 -0.272 0.850 ]
+186.25000 PLATFORM_BROKEN red_1 Type: FIGHTER Side: red Ps: 0 \
+ LLA: 30:00:03.40n 122:31:03.44e 8000 m Heading: 270.009 deg Pitch: 0.000 deg Roll: 0.000 deg \
+ Speed: 250.000 m/s * [ 0.000 -1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ]
+186.25000 PLATFORM_DELETED red_1 Type: FIGHTER Side: red Ps: 0 \
+ LLA: 30:00:03.40n 122:31:03.44e 8000 m Heading: 270.009 deg Pitch: 0.000 deg Roll: 0.000 deg \
+ Speed: 250.000 m/s * [ 0.000 -1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ]
+186.25000 PLATFORM_BROKEN red_1_aam_2 Type: AAM Side: red Ps: 0 \
+ LLA: 30:00:03.40n 122:28:56.55e 8000.0231 m Heading: 270.261 deg Pitch: -0.129 deg Roll: 0.000 deg \
+ Speed: 233.707 m/s * [ 0.005 -1.000 0.002 ] Acceleration: 35.461 m/s2 * [ 0.607 0.283 0.742 ]
+186.25000 PLATFORM_DELETED red_1_aam_2 Type: AAM Side: red Ps: 0 \
+ LLA: 30:00:03.40n 122:28:56.55e 8000.0231 m Heading: 270.261 deg Pitch: -0.129 deg Roll: 0.000 deg \
+ Speed: 233.707 m/s * [ 0.005 -1.000 0.002 ] Acceleration: 35.461 m/s2 * [ 0.607 0.283 0.742 ]
+186.25000 PLATFORM_BROKEN blue_1 Type: FIGHTER Side: blue Ps: 0 \
+ LLA: 30:00:03.40n 122:28:56.55e 8000 m Heading: 89.991 deg Pitch: 0.000 deg Roll: 0.000 deg \
+ Speed: 250.000 m/s * [ 0.000 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ]
+186.25000 PLATFORM_DELETED blue_1 Type: FIGHTER Side: blue Ps: 0 \
+ LLA: 30:00:03.40n 122:28:56.55e 8000 m Heading: 89.991 deg Pitch: 0.000 deg Roll: 0.000 deg \
+ Speed: 250.000 m/s * [ 0.000 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ]
+187.85000 PLATFORM_BROKEN blue_2_aam_1 Type: AAM Side: blue Ps: 0 \
+ LLA: 30:15:03.41n 122:31:19.97e 8001.2629 m Heading: 90.053 deg Pitch: 0.209 deg Roll: 0.000 deg \
+ Speed: 215.635 m/s * [ -0.001 1.000 -0.004 ] Acceleration: 4.835 m/s2 * [ -0.028 -0.999 -0.046 ]
+187.85000 PLATFORM_DELETED blue_2_aam_1 Type: AAM Side: blue Ps: 0 \
+ LLA: 30:15:03.41n 122:31:19.97e 8001.2629 m Heading: 90.053 deg Pitch: 0.209 deg Roll: 0.000 deg \
+ Speed: 215.635 m/s * [ -0.001 1.000 -0.004 ] Acceleration: 4.835 m/s2 * [ -0.028 -0.999 -0.046 ]
+187.85000 PLATFORM_BROKEN red_2_aam_1 Type: AAM Side: red Ps: 0 \
+ LLA: 30:15:03.49n 122:28:40.05e 7997.9403 m Heading: 270.412 deg Pitch: -0.407 deg Roll: 0.000 deg \
+ Speed: 215.764 m/s * [ 0.007 -1.000 0.007 ] Acceleration: 4.657 m/s2 * [ 0.103 0.982 0.161 ]
+187.85000 PLATFORM_DELETED red_2_aam_1 Type: AAM Side: red Ps: 0 \
+ LLA: 30:15:03.49n 122:28:40.05e 7997.9403 m Heading: 270.412 deg Pitch: -0.407 deg Roll: 0.000 deg \
+ Speed: 215.764 m/s * [ 0.007 -1.000 0.007 ] Acceleration: 4.657 m/s2 * [ 0.103 0.982 0.161 ]
+188.30000 PLATFORM_BROKEN blue_1_aam_1 Type: AAM Side: blue Ps: 0 \
+ LLA: 30:00:03.37n 122:31:20.07e 8000.1259 m Heading: 90.135 deg Pitch: 0.133 deg Roll: 0.000 deg \
+ Speed: 217.891 m/s * [ -0.002 1.000 -0.002 ] Acceleration: 4.975 m/s2 * [ -0.029 -0.994 -0.104 ]
+188.30000 PLATFORM_DELETED blue_1_aam_1 Type: AAM Side: blue Ps: 0 \
+ LLA: 30:00:03.37n 122:31:20.07e 8000.1259 m Heading: 90.135 deg Pitch: 0.133 deg Roll: 0.000 deg \
+ Speed: 217.891 m/s * [ -0.002 1.000 -0.002 ] Acceleration: 4.975 m/s2 * [ -0.029 -0.994 -0.104 ]
+188.30000 PLATFORM_BROKEN red_1_aam_1 Type: AAM Side: red Ps: 0 \
+ LLA: 30:00:03.34n 122:28:39.89e 8000.8067 m Heading: 269.738 deg Pitch: 0.121 deg Roll: 0.000 deg \
+ Speed: 218.323 m/s * [ -0.005 -1.000 -0.002 ] Acceleration: 4.881 m/s2 * [ -0.028 1.000 -0.011 ]
+188.30000 PLATFORM_DELETED red_1_aam_1 Type: AAM Side: red Ps: 0 \
+ LLA: 30:00:03.34n 122:28:39.89e 8000.8067 m Heading: 269.738 deg Pitch: 0.121 deg Roll: 0.000 deg \
+ Speed: 218.323 m/s * [ -0.005 -1.000 -0.002 ] Acceleration: 4.881 m/s2 * [ -0.028 1.000 -0.011 ]

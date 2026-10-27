@@ -1,0 +1,84 @@
+0.00000 PLATFORM_ADDED blue_1 Type: FIGHTER Side: blue \
+
+0.00000 PLATFORM_ADDED blue_2 Type: FIGHTER Side: blue \
+
+0.00000 PLATFORM_ADDED red_1 Type: FIGHTER Side: red \
+
+0.00000 PLATFORM_ADDED red_2 Type: FIGHTER Side: red \
+
+0.00000 SENSOR_TRACK_INITIATED blue_1 red_1 Sensor: radar TrackId: blue_1.1 \
+  Start_Time: 0.00000 Update_Time: 0.00000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: red_1 Type: FIGHTER Side: red \
+  Originator: LLA: 30:00:00.00n 122:00:00.00e 8000 m \
+  Track: LLA: 30:00:00.00n 122:27:00.00e 8000 m Flags: L3RB \
+  Truth: LLA: 30:00:00.00n 122:27:00.00e 8000 m  Difference: 0 m  \
+  Track: Range: 43473.1 m Bearing: 89.8875 deg Elevation: -0.194856 deg \
+  Truth: Range: 43473.1 m Bearing: 89.8875 deg Elevation: -0.194856 deg
+0.00000 SENSOR_TRACK_INITIATED blue_2 red_1 Sensor: radar TrackId: blue_2.1 \
+  Start_Time: 0.00000 Update_Time: 0.00000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: red_1 Type: FIGHTER Side: red \
+  Originator: LLA: 30:09:00.00n 122:00:00.00e 8000 m \
+  Track: LLA: 30:00:00.00n 122:27:00.00e 8000 m Flags: L3RB \
+  Truth: LLA: 30:00:00.00n 122:27:00.00e 8000 m  Difference: 0 m  \
+  Track: Range: 46521.5 m Bearing: 110.857 deg Elevation: -0.208652 deg \
+  Truth: Range: 46521.5 m Bearing: 110.857 deg Elevation: -0.208652 deg
+0.00000 SENSOR_TRACK_INITIATED red_1 blue_1 Sensor: radar TrackId: red_1.1 \
+  Start_Time: 0.00000 Update_Time: 0.00000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: blue_1 Type: FIGHTER Side: blue \
+  Originator: LLA: 30:00:00.00n 122:27:00.00e 8000 m \
+  Track: LLA: 30:00:00.00n 122:00:00.00e 8000 m Flags: L3RB \
+  Truth: LLA: 30:00:00.00n 122:00:00.00e 8000 m  Difference: 0 m  \
+  Track: Range: 43473.1 m Bearing: 270.113 deg Elevation: -0.194856 deg \
+  Truth: Range: 43473.1 m Bearing: 270.113 deg Elevation: -0.194856 deg
+0.00000 SENSOR_TRACK_INITIATED red_2 blue_2 Sensor: radar TrackId: red_2.1 \
+  Start_Time: 0.00000 Update_Time: 0.00000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: blue_2 Type: FIGHTER Side: blue \
+  Originator: LLA: 30:09:00.00n 122:27:00.00e 8000 m \
+  Track: LLA: 30:09:00.00n 122:00:00.00e 8000 m Flags: L3RB \
+  Truth: LLA: 30:09:00.00n 122:00:00.00e 8000 m  Difference: 0 m  \
+  Track: Range: 43407.6 m Bearing: 270.113 deg Elevation: -0.19456 deg \
+  Truth: Range: 43407.6 m Bearing: 270.113 deg Elevation: -0.19456 deg
+0.50000 SENSOR_TRACK_INITIATED blue_1 red_2 Sensor: radar TrackId: blue_1.3 \
+  Start_Time: 0.50000 Update_Time: 0.50000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: red_2 Type: FIGHTER Side: red \
+  Originator: LLA: 30:00:00.01n 122:00:04.66e 8000 m \
+  Track: LLA: 30:09:00.01n 122:26:55.33e 8000 m Flags: L3RB \
+  Truth: LLA: 30:09:00.01n 122:26:55.33e 8000 m  Difference: 0 m  \
+  Track: Range: 46288 m Bearing: 68.8073 deg Elevation: -0.207608 deg \
+  Truth: Range: 46288 m Bearing: 68.8073 deg Elevation: -0.207608 deg
+0.50000 SENSOR_TRACK_INITIATED blue_2 red_2 Sensor: radar TrackId: blue_2.3 \
+  Start_Time: 0.50000 Update_Time: 0.50000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: red_2 Type: FIGHTER Side: red \
+  Originator: LLA: 30:09:00.01n 122:00:04.67e 8000 m \
+  Track: LLA: 30:09:00.01n 122:26:55.33e 8000 m Flags: L3RB \
+  Truth: LLA: 30:09:00.01n 122:26:55.33e 8000 m  Difference: 0 m  \
+  Track: Range: 43157.4 m Bearing: 89.8876 deg Elevation: -0.193439 deg \
+  Truth: Range: 43157.4 m Bearing: 89.8876 deg Elevation: -0.193439 deg
+0.50000 SENSOR_TRACK_INITIATED red_1 blue_2 Sensor: radar TrackId: red_1.3 \
+  Start_Time: 0.50000 Update_Time: 0.50000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: blue_2 Type: FIGHTER Side: blue \
+  Originator: LLA: 30:00:00.01n 122:26:55.34e 8000 m \
+  Track: LLA: 30:09:00.01n 122:00:04.67e 8000 m Flags: L3RB \
+  Truth: LLA: 30:09:00.01n 122:00:04.67e 8000 m  Difference: 0 m  \
+  Track: Range: 46288 m Bearing: 291.193 deg Elevation: -0.207608 deg \
+  Truth: Range: 46288 m Bearing: 291.193 deg Elevation: -0.207608 deg
+0.50000 SENSOR_TRACK_INITIATED red_2 blue_1 Sensor: radar TrackId: red_2.3 \
+  Start_Time: 0.50000 Update_Time: 0.50000 Update_Count: 0 Quality: 0.5 Domain: air Type: M \
+  Target_Truth: Name: blue_1 Type: FIGHTER Side: blue \
+  Originator: LLA: 30:09:00.01n 122:26:55.33e 8000 m \
+  Track: LLA: 30:00:00.01n 122:00:04.66e 8000 m Flags: L3RB \
+  Truth: LLA: 30:00:00.01n 122:00:04.66e 8000 m  Difference: 0 m  \
+  Track: Range: 46288 m Bearing: 249.032 deg Elevation: -0.207606 deg \
+  Truth: Range: 46288 m Bearing: 249.032 deg Elevation: -0.207606 deg
+1.00100 PLATFORM_DELETED blue_1 Type: FIGHTER Side: blue Ps: 1 \
+ LLA: 30:00:00.02n 122:00:09.32e 8000 m Heading: 89.877 deg Pitch: 0.000 deg Roll: 0.000 deg \
+ Speed: 250.000 m/s * [ 0.002 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ]
+1.00100 PLATFORM_DELETED blue_2 Type: FIGHTER Side: blue Ps: 1 \
+ LLA: 30:09:00.02n 122:00:09.34e 8000 m Heading: 89.876 deg Pitch: 0.000 deg Roll: 0.000 deg \
+ Speed: 250.000 m/s * [ 0.002 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ]
+1.00100 PLATFORM_DELETED red_1 Type: FIGHTER Side: red Ps: 1 \
+ LLA: 30:00:00.02n 122:26:50.68e 8000 m Heading: 270.123 deg Pitch: 0.000 deg Roll: 0.000 deg \
+ Speed: 250.000 m/s * [ 0.002 -1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ]
+1.00100 PLATFORM_DELETED red_2 Type: FIGHTER Side: red Ps: 1 \
+ LLA: 30:09:00.02n 122:26:50.66e 8000 m Heading: 270.124 deg Pitch: 0.000 deg Roll: 0.000 deg \
+ Speed: 250.000 m/s * [ 0.002 -1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ]

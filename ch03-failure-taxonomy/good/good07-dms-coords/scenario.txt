@@ -1,0 +1,11 @@
+event_output
+   file output/scenario.evt
+   enable PLATFORM_ADDED
+end_event_output
+
+end_time 5 s
+
+platform plane WSF_PLATFORM
+   side blue
+   position 00:05:00.00n 01:10:00.00w altitude 30000.00 ft
+end_platform

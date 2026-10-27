@@ -1,0 +1,24 @@
+script_interface
+end_script_interface
+
+event_output
+   file output/scenario.evt
+   enable PLATFORM_ADDED
+end_event_output
+
+end_time 40 s
+
+platform_type FIGHTER WSF_PLATFORM
+   mover WSF_AIR_MOVER
+   end_mover
+end_platform_type
+
+platform plane FIGHTER
+   side blue
+   execute at_time 10 s absolute
+      writeln("at_time fired at ", TIME_NOW);
+   end_execute
+   execute at_interval_of 15 s
+      writeln("interval fired at ", TIME_NOW);
+   end_execute
+end_platform

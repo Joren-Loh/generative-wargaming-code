@@ -1,0 +1,61 @@
+{
+  "scenario": "ch02-scenario-anatomy/scenario.txt",
+  "engine": "AFSIM 2.9.0 (WSF Version 2.9.0 02-25-2022, win_1916_64bit_release-hwe)",
+  "exit_code": 0,
+  "sim_time_seconds": 300.001,
+  "engine_wall_clock_seconds": {
+    "first_run": 0.021,
+    "steady_state_5_runs": [
+      0.0269,
+      0.0293,
+      0.0281,
+      0.0294,
+      0.0294
+    ]
+  },
+  "console_tail": "Simulation complete",
+  "outputs": {
+    "scenario.evt": {
+      "bytes": 36073,
+      "lines": 472,
+      "events": 72
+    },
+    "scenario.aer": {
+      "bytes": 130561
+    },
+    "scenario.log": {
+      "bytes": 275,
+      "lines": 6
+    }
+  },
+  "events": {
+    "PLATFORM_ADDED": 12,
+    "PLATFORM_BROKEN": 12,
+    "PLATFORM_DELETED": 12,
+    "SENSOR_TRACK_INITIATED": 24,
+    "WEAPON_FIRED": 8,
+    "WEAPON_HIT": 4
+  },
+  "timeline": {
+    "first_track_s": 33.0,
+    "first_shot_s": 153.0,
+    "last_shot_s": 155.0,
+    "first_hit_s": 185.8,
+    "last_event_s": 188.3
+  },
+  "engagement": {
+    "shots_fired": 8,
+    "hits": 4,
+    "missiles_expired": 4,
+    "fighters_killed": 4,
+    "pk_per_shot": 0.5,
+    "pk_table": 0.85,
+    "pk_drawn_sample": 0.358152,
+    "fire_range_m": [
+      19032.6,
+      19791.6
+    ]
+  },
+  "note": "The four misses produced no WEAPON_MISSED event; each ended as a PLATFORM_BROKEN self-destruct. Counting misses by WEAPON_MISSED alone undercounts them.",
+  "process_wall_clock_seconds_approx": 0.31
+}

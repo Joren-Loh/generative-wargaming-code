@@ -1,0 +1,10 @@
+# WSF_AIR_MOVER does not accept aero_file (that is a WSF_BRAWLER_MOVER parameter)
+platform_type FIGHTER WSF_PLATFORM
+   mover WSF_AIR_MOVER
+      aero_file no_such_file.fxw
+   end_mover
+end_platform_type
+
+platform plane FIGHTER
+   side blue
+end_platform

@@ -1,0 +1,114 @@
+# the scenario template for one game; arena.py fills it in and writes scenario.txt
+# every number in braces comes from skill parameters and the game seed; the scenario holds no random decisions
+end_time 300 sec
+random_seed {{SEED}}
+
+include_once models/short_range_ir_missile.txt
+
+platform_type DUEL_FIGHTER WSF_PLATFORM
+   icon f-18
+   mover WSF_AIR_MOVER
+   end_mover
+   sensor eye WSF_GEOMETRIC_SENSOR
+      on
+      processor track_mgr
+      azimuth_field_of_view -180 deg 180 deg
+      elevation_field_of_view -90 deg 90 deg
+      minimum_range 0 m
+      maximum_range 80 km
+      frame_time 1 sec
+      ignore_same_side
+      reports_location
+      reports_velocity
+      hits_to_establish_track 1 1
+      hits_to_maintain_track 1 1
+      track_quality 1.0
+   end_sensor
+   processor track_mgr WSF_TRACK_PROCESSOR
+      purge_interval 60 sec
+   end_processor
+   processor shooter WSF_SCRIPT_PROCESSOR
+      update_interval 1 sec
+      script_variables
+         double FIRE_RANGE = 12000.0;
+         int SALVO = 1;
+         double COOLDOWN = 20.0;     # seconds between shots
+         double mNextShot = 0.0;
+         int mShots = 0;
+      end_script_variables
+      on_update
+         if (TIME_NOW < mNextShot) { return; }
+         WsfLocalTrackList tracks = PLATFORM.MasterTrackList();
+         if (tracks.Size() == 0) { return; }
+         WsfLocalTrack t = tracks.Entry(0);
+         if (!t.IsValid()) { return; }
+         if (PLATFORM.SlantRangeTo(t) > FIRE_RANGE) { return; }
+         WsfWeapon w = PLATFORM.Weapon("srm");
+         if (!w.IsValid()) { return; }
+         w.CueToTarget(t);
+         int n = 0;
+         for (int i = 0; i < SALVO; i = i + 1)
+         {
+            if (w.Fire(t)) { n = n + 1; }
+         }
+         if (n > 0)
+         {
+            mShots = mShots + n;
+            mNextShot = TIME_NOW + COOLDOWN;
+            writeln("SHOT ", PLATFORM.Name(), " t=", TIME_NOW, " r=",
+                    PLATFORM.SlantRangeTo(t), " n=", n, " total=", mShots);
+         }
+      end_on_update
+   end_processor
+   add weapon srm SHORT_RANGE_IR_MISSILE
+      quantity 2
+   end_weapon
+end_platform_type
+
+platform blue_1 DUEL_FIGHTER
+   side blue
+   position {{BLUE_LAT}} {{BLUE_LON}} altitude {{BLUE_ALT}}
+   route
+      position {{BLUE_LAT}} {{BLUE_LON}} altitude {{BLUE_ALT}} speed {{BLUE_SPEED}}
+      position {{BLUE_END_LAT}} {{BLUE_LON}} altitude {{BLUE_ALT}} speed {{BLUE_SPEED}}
+   end_route
+   processor shooter
+      script_variables
+         FIRE_RANGE = {{BLUE_FIRE_RANGE}};
+         SALVO = {{BLUE_SALVO}};
+      end_script_variables
+   end_processor
+   weapon srm
+      quantity {{BLUE_QUANTITY}}
+   end_weapon
+end_platform
+
+platform red_1 DUEL_FIGHTER
+   side red
+   position {{RED_LAT}} {{RED_LON}} altitude {{RED_ALT}}
+   route
+      position {{RED_LAT}} {{RED_LON}} altitude {{RED_ALT}} speed {{RED_SPEED}}
+      position {{RED_END_LAT}} {{RED_LON}} altitude {{RED_ALT}} speed {{RED_SPEED}}
+   end_route
+   processor shooter
+      script_variables
+         FIRE_RANGE = {{RED_FIRE_RANGE}};
+         SALVO = {{RED_SALVO}};
+      end_script_variables
+   end_processor
+   weapon srm
+      quantity {{RED_QUANTITY}}
+   end_weapon
+end_platform
+
+event_output
+   file output/scenario.evt
+   enable PLATFORM_INITIALIZED
+   enable PLATFORM_ADDED
+   enable PLATFORM_BROKEN
+   enable SENSOR_TRACK_INITIATED
+   enable WEAPON_FIRED
+   enable WEAPON_HIT
+   enable WEAPON_MISSED
+   enable WEAPON_TERMINATED
+end_event_output

@@ -1,0 +1,33 @@
+# =====================================================================
+# library/base/aircraft_base.txt -- layer one: the base type
+#
+# This layer holds only what every aircraft shares: kinematics and signature.
+# No weapons, no sensors, no processors: those belong to layer two.
+#
+# Syntax: platform_type <derived name> <parent type>
+#   The second argument is the parent type (measured; see demos/base_types/platforms/*.txt).
+#   The parent must be defined first, so this file must be included before its derivatives.
+# =====================================================================
+
+radar_signature SIG_AIRCRAFT_RADAR
+   constant 2 m^2
+end_radar_signature
+
+infrared_signature SIG_AIRCRAFT_IR
+   constant 10 watts/steradian
+end_infrared_signature
+
+optical_signature SIG_AIRCRAFT_OPTICAL
+   constant 2 m^2
+end_optical_signature
+
+platform_type AIRCRAFT_BASE WSF_PLATFORM
+   radar_signature    SIG_AIRCRAFT_RADAR
+   infrared_signature SIG_AIRCRAFT_IR
+   optical_signature  SIG_AIRCRAFT_OPTICAL
+
+   mover WSF_AIR_MOVER
+      default_linear_acceleration 1.0 g
+      default_radial_acceleration 1.0 g
+   end_mover
+end_platform_type

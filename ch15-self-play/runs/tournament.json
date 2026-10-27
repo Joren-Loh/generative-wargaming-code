@@ -1,0 +1,3054 @@
+{
+  "games": [
+    {
+      "tag": "dash_low_vs_notch_east",
+      "seed": 2000,
+      "blue": "dash_low",
+      "red": "notch_east",
+      "blue_params": {
+        "alt_m": 2025,
+        "speed_ms": 265,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.011000000000000001
+      },
+      "red_params": {
+        "alt_m": 8240,
+        "speed_ms": 250,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.064
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 214,
+      "evt_events": 236,
+      "winner": "blue",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 47.0,
+        "red": 52.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "notch_east_vs_dash_low",
+      "seed": 2001,
+      "blue": "notch_east",
+      "red": "dash_low",
+      "blue_params": {
+        "alt_m": 8277,
+        "speed_ms": 246,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.053
+      },
+      "red_params": {
+        "alt_m": 2062,
+        "speed_ms": 261,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.022
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 219,
+      "evt_events": 236,
+      "winner": "red",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 52.0,
+        "red": 47.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "dash_low_vs_notch_east",
+      "seed": 2002,
+      "blue": "dash_low",
+      "red": "notch_east",
+      "blue_params": {
+        "alt_m": 2099,
+        "speed_ms": 257,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.012
+      },
+      "red_params": {
+        "alt_m": 7713,
+        "speed_ms": 253,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.063
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 203,
+      "evt_events": 236,
+      "winner": "blue",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 47.0,
+        "red": 51.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "notch_east_vs_dash_low",
+      "seed": 2003,
+      "blue": "notch_east",
+      "red": "dash_low",
+      "blue_params": {
+        "alt_m": 7750,
+        "speed_ms": 249,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.052
+      },
+      "red_params": {
+        "alt_m": 2136,
+        "speed_ms": 264,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.023
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 289,
+      "evt_events": 236,
+      "winner": "red",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 51.0,
+        "red": 46.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "dash_low_vs_notch_west",
+      "seed": 2000,
+      "blue": "dash_low",
+      "red": "notch_west",
+      "blue_params": {
+        "alt_m": 2025,
+        "speed_ms": 265,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.011000000000000001
+      },
+      "red_params": {
+        "alt_m": 8262,
+        "speed_ms": 250,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.056999999999999995
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 186,
+      "evt_events": 236,
+      "winner": "blue",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 45.0,
+        "red": 49.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "notch_west_vs_dash_low",
+      "seed": 2001,
+      "blue": "notch_west",
+      "red": "dash_low",
+      "blue_params": {
+        "alt_m": 8299,
+        "speed_ms": 246,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.068
+      },
+      "red_params": {
+        "alt_m": 2062,
+        "speed_ms": 261,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.022
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 191,
+      "evt_events": 210,
+      "winner": "blue",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 1,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 1,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 50.0,
+        "red": 46.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "red"
+      ]
+    },
+    {
+      "tag": "dash_low_vs_notch_west",
+      "seed": 2002,
+      "blue": "dash_low",
+      "red": "notch_west",
+      "blue_params": {
+        "alt_m": 2099,
+        "speed_ms": 257,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.012
+      },
+      "red_params": {
+        "alt_m": 7735,
+        "speed_ms": 253,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.057999999999999996
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 209,
+      "evt_events": 236,
+      "winner": "blue",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 45.0,
+        "red": 49.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "notch_west_vs_dash_low",
+      "seed": 2003,
+      "blue": "notch_west",
+      "red": "dash_low",
+      "blue_params": {
+        "alt_m": 7772,
+        "speed_ms": 249,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.06899999999999999
+      },
+      "red_params": {
+        "alt_m": 2136,
+        "speed_ms": 264,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.023
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 208,
+      "evt_events": 236,
+      "winner": "red",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 49.0,
+        "red": 45.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "dash_low_vs_rush_low",
+      "seed": 2000,
+      "blue": "dash_low",
+      "red": "rush_low",
+      "blue_params": {
+        "alt_m": 2025,
+        "speed_ms": 265,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.011000000000000001
+      },
+      "red_params": {
+        "alt_m": 3059,
+        "speed_ms": 315,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": 0.004
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 219,
+      "evt_events": 242,
+      "winner": "blue",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 1,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 1,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 37.0,
+        "red": 51.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue",
+        "red"
+      ]
+    },
+    {
+      "tag": "rush_low_vs_dash_low",
+      "seed": 2001,
+      "blue": "rush_low",
+      "red": "dash_low",
+      "blue_params": {
+        "alt_m": 3096,
+        "speed_ms": 322,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": -0.006
+      },
+      "red_params": {
+        "alt_m": 2062,
+        "speed_ms": 261,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.022
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 204,
+      "evt_events": 219,
+      "winner": "red",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 1,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 1,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 51.0,
+        "red": 37.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue",
+        "red"
+      ]
+    },
+    {
+      "tag": "dash_low_vs_rush_low",
+      "seed": 2002,
+      "blue": "dash_low",
+      "red": "rush_low",
+      "blue_params": {
+        "alt_m": 2099,
+        "speed_ms": 257,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.012
+      },
+      "red_params": {
+        "alt_m": 3133,
+        "speed_ms": 318,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": 0.005
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 295,
+      "evt_events": 239,
+      "winner": "red",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 37.0,
+        "red": 51.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue"
+      ]
+    },
+    {
+      "tag": "rush_low_vs_dash_low",
+      "seed": 2003,
+      "blue": "rush_low",
+      "red": "dash_low",
+      "blue_params": {
+        "alt_m": 3170,
+        "speed_ms": 325,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": -0.005
+      },
+      "red_params": {
+        "alt_m": 2136,
+        "speed_ms": 264,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.023
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 199,
+      "evt_events": 236,
+      "winner": "red",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 51.0,
+        "red": 37.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "dash_low_vs_standoff_high",
+      "seed": 2000,
+      "blue": "dash_low",
+      "red": "standoff_high",
+      "blue_params": {
+        "alt_m": 2025,
+        "speed_ms": 265,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.011000000000000001
+      },
+      "red_params": {
+        "alt_m": 10939,
+        "speed_ms": 233,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.002
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 211,
+      "evt_events": 239,
+      "winner": "red",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 48.0,
+        "red": 35.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue"
+      ]
+    },
+    {
+      "tag": "standoff_high_vs_dash_low",
+      "seed": 2001,
+      "blue": "standoff_high",
+      "red": "dash_low",
+      "blue_params": {
+        "alt_m": 10976,
+        "speed_ms": 229,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.008
+      },
+      "red_params": {
+        "alt_m": 2062,
+        "speed_ms": 261,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.022
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 312,
+      "evt_events": 173,
+      "winner": "blue",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 1,
+      "shots": {
+        "blue": 2,
+        "red": 1
+      },
+      "hits": {
+        "blue": 1,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 35.0,
+        "red": 49.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "red"
+      ]
+    },
+    {
+      "tag": "dash_low_vs_standoff_high",
+      "seed": 2002,
+      "blue": "dash_low",
+      "red": "standoff_high",
+      "blue_params": {
+        "alt_m": 2099,
+        "speed_ms": 257,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.012
+      },
+      "red_params": {
+        "alt_m": 11013,
+        "speed_ms": 225,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.003
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 209,
+      "evt_events": 236,
+      "winner": "red",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 50.0,
+        "red": 36.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "standoff_high_vs_dash_low",
+      "seed": 2003,
+      "blue": "standoff_high",
+      "red": "dash_low",
+      "blue_params": {
+        "alt_m": 11050,
+        "speed_ms": 232,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.007
+      },
+      "red_params": {
+        "alt_m": 2136,
+        "speed_ms": 264,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.023
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 211,
+      "evt_events": 236,
+      "winner": "blue",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 35.0,
+        "red": 49.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "dash_low_vs_twin_salvo",
+      "seed": 2000,
+      "blue": "dash_low",
+      "red": "twin_salvo",
+      "blue_params": {
+        "alt_m": 2025,
+        "speed_ms": 265,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.011000000000000001
+      },
+      "red_params": {
+        "alt_m": 9270,
+        "speed_ms": 242,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": 0.005
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 205,
+      "evt_events": 343,
+      "winner": "red",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 4
+      },
+      "hits": {
+        "blue": 0,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 45.0,
+        "red": 55.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue"
+      ]
+    },
+    {
+      "tag": "twin_salvo_vs_dash_low",
+      "seed": 2001,
+      "blue": "twin_salvo",
+      "red": "dash_low",
+      "blue_params": {
+        "alt_m": 8706,
+        "speed_ms": 249,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": -0.005
+      },
+      "red_params": {
+        "alt_m": 2062,
+        "speed_ms": 261,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.022
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 240,
+      "evt_events": 343,
+      "winner": "blue",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 1,
+      "shots": {
+        "blue": 4,
+        "red": 2
+      },
+      "hits": {
+        "blue": 1,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 54.0,
+        "red": 45.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "red"
+      ]
+    },
+    {
+      "tag": "dash_low_vs_twin_salvo",
+      "seed": 2002,
+      "blue": "dash_low",
+      "red": "twin_salvo",
+      "blue_params": {
+        "alt_m": 2099,
+        "speed_ms": 257,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.012
+      },
+      "red_params": {
+        "alt_m": 8743,
+        "speed_ms": 245,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": 0.006
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 205,
+      "evt_events": 343,
+      "winner": "red",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 4
+      },
+      "hits": {
+        "blue": 0,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 45.0,
+        "red": 54.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue"
+      ]
+    },
+    {
+      "tag": "twin_salvo_vs_dash_low",
+      "seed": 2003,
+      "blue": "twin_salvo",
+      "red": "dash_low",
+      "blue_params": {
+        "alt_m": 8780,
+        "speed_ms": 241,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": -0.004
+      },
+      "red_params": {
+        "alt_m": 2136,
+        "speed_ms": 264,
+        "fire_range_km": 16,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.023
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 203,
+      "evt_events": 343,
+      "winner": "blue",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 1,
+      "shots": {
+        "blue": 4,
+        "red": 2
+      },
+      "hits": {
+        "blue": 1,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 55.0,
+        "red": 45.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "red"
+      ]
+    },
+    {
+      "tag": "notch_east_vs_notch_west",
+      "seed": 2000,
+      "blue": "notch_east",
+      "red": "notch_west",
+      "blue_params": {
+        "alt_m": 8240,
+        "speed_ms": 250,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.064
+      },
+      "red_params": {
+        "alt_m": 8262,
+        "speed_ms": 250,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.056999999999999995
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 321,
+      "evt_events": 236,
+      "winner": "draw",
+      "reason": "tie",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 56.0,
+        "red": 56.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "notch_west_vs_notch_east",
+      "seed": 2001,
+      "blue": "notch_west",
+      "red": "notch_east",
+      "blue_params": {
+        "alt_m": 8299,
+        "speed_ms": 246,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.068
+      },
+      "red_params": {
+        "alt_m": 8277,
+        "speed_ms": 246,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.053
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 220,
+      "evt_events": 236,
+      "winner": "draw",
+      "reason": "tie",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 57.0,
+        "red": 57.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "notch_east_vs_notch_west",
+      "seed": 2002,
+      "blue": "notch_east",
+      "red": "notch_west",
+      "blue_params": {
+        "alt_m": 7713,
+        "speed_ms": 253,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.063
+      },
+      "red_params": {
+        "alt_m": 7735,
+        "speed_ms": 253,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.057999999999999996
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 224,
+      "evt_events": 236,
+      "winner": "draw",
+      "reason": "tie",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 55.0,
+        "red": 55.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "notch_west_vs_notch_east",
+      "seed": 2003,
+      "blue": "notch_west",
+      "red": "notch_east",
+      "blue_params": {
+        "alt_m": 7772,
+        "speed_ms": 249,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.06899999999999999
+      },
+      "red_params": {
+        "alt_m": 7750,
+        "speed_ms": 249,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.052
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 222,
+      "evt_events": 236,
+      "winner": "draw",
+      "reason": "tie",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 56.0,
+        "red": 56.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "notch_east_vs_rush_low",
+      "seed": 2000,
+      "blue": "notch_east",
+      "red": "rush_low",
+      "blue_params": {
+        "alt_m": 8240,
+        "speed_ms": 250,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.064
+      },
+      "red_params": {
+        "alt_m": 3059,
+        "speed_ms": 315,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": 0.004
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 199,
+      "evt_events": 106,
+      "winner": "blue",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 1,
+      "shots": {
+        "blue": 2,
+        "red": 0
+      },
+      "hits": {
+        "blue": 1,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 45.0,
+        "red": null
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "red"
+      ]
+    },
+    {
+      "tag": "rush_low_vs_notch_east",
+      "seed": 2001,
+      "blue": "rush_low",
+      "red": "notch_east",
+      "blue_params": {
+        "alt_m": 3096,
+        "speed_ms": 322,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": -0.006
+      },
+      "red_params": {
+        "alt_m": 8277,
+        "speed_ms": 246,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.053
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 334,
+      "evt_events": 210,
+      "winner": "red",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 58.0,
+        "red": 44.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue"
+      ]
+    },
+    {
+      "tag": "notch_east_vs_rush_low",
+      "seed": 2002,
+      "blue": "notch_east",
+      "red": "rush_low",
+      "blue_params": {
+        "alt_m": 7713,
+        "speed_ms": 253,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.063
+      },
+      "red_params": {
+        "alt_m": 3133,
+        "speed_ms": 318,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": 0.005
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 205,
+      "evt_events": 236,
+      "winner": "blue",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 45.0,
+        "red": 60.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "rush_low_vs_notch_east",
+      "seed": 2003,
+      "blue": "rush_low",
+      "red": "notch_east",
+      "blue_params": {
+        "alt_m": 3170,
+        "speed_ms": 325,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": -0.005
+      },
+      "red_params": {
+        "alt_m": 7750,
+        "speed_ms": 249,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.052
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 202,
+      "evt_events": 236,
+      "winner": "red",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 56.0,
+        "red": 43.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "notch_east_vs_standoff_high",
+      "seed": 2000,
+      "blue": "notch_east",
+      "red": "standoff_high",
+      "blue_params": {
+        "alt_m": 8240,
+        "speed_ms": 250,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.064
+      },
+      "red_params": {
+        "alt_m": 10939,
+        "speed_ms": 233,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.002
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 193,
+      "evt_events": 210,
+      "winner": "blue",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 1,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 1,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 51.0,
+        "red": 34.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "red"
+      ]
+    },
+    {
+      "tag": "standoff_high_vs_notch_east",
+      "seed": 2001,
+      "blue": "standoff_high",
+      "red": "notch_east",
+      "blue_params": {
+        "alt_m": 10976,
+        "speed_ms": 229,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.008
+      },
+      "red_params": {
+        "alt_m": 8277,
+        "speed_ms": 246,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.053
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 191,
+      "evt_events": 173,
+      "winner": "blue",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 1,
+      "shots": {
+        "blue": 2,
+        "red": 1
+      },
+      "hits": {
+        "blue": 1,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 33.0,
+        "red": 51.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "red"
+      ]
+    },
+    {
+      "tag": "notch_east_vs_standoff_high",
+      "seed": 2002,
+      "blue": "notch_east",
+      "red": "standoff_high",
+      "blue_params": {
+        "alt_m": 7713,
+        "speed_ms": 253,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.063
+      },
+      "red_params": {
+        "alt_m": 11013,
+        "speed_ms": 225,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.003
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 201,
+      "evt_events": 187,
+      "winner": "red",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 0,
+      "shots": {
+        "blue": 1,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 52.0,
+        "red": 34.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue"
+      ]
+    },
+    {
+      "tag": "standoff_high_vs_notch_east",
+      "seed": 2003,
+      "blue": "standoff_high",
+      "red": "notch_east",
+      "blue_params": {
+        "alt_m": 11050,
+        "speed_ms": 232,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.007
+      },
+      "red_params": {
+        "alt_m": 7750,
+        "speed_ms": 249,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.052
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 216,
+      "evt_events": 210,
+      "winner": "red",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 33.0,
+        "red": 50.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue"
+      ]
+    },
+    {
+      "tag": "notch_east_vs_twin_salvo",
+      "seed": 2000,
+      "blue": "notch_east",
+      "red": "twin_salvo",
+      "blue_params": {
+        "alt_m": 8240,
+        "speed_ms": 250,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.064
+      },
+      "red_params": {
+        "alt_m": 9270,
+        "speed_ms": 242,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": 0.005
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 188,
+      "evt_events": 291,
+      "winner": "red",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 0,
+      "shots": {
+        "blue": 1,
+        "red": 4
+      },
+      "hits": {
+        "blue": 0,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 50.0,
+        "red": 55.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue"
+      ]
+    },
+    {
+      "tag": "twin_salvo_vs_notch_east",
+      "seed": 2001,
+      "blue": "twin_salvo",
+      "red": "notch_east",
+      "blue_params": {
+        "alt_m": 8706,
+        "speed_ms": 249,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": -0.005
+      },
+      "red_params": {
+        "alt_m": 8277,
+        "speed_ms": 246,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.053
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 313,
+      "evt_events": 294,
+      "winner": "red",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 1,
+      "shots": {
+        "blue": 4,
+        "red": 1
+      },
+      "hits": {
+        "blue": 1,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 53.0,
+        "red": 48.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue",
+        "red"
+      ]
+    },
+    {
+      "tag": "notch_east_vs_twin_salvo",
+      "seed": 2002,
+      "blue": "notch_east",
+      "red": "twin_salvo",
+      "blue_params": {
+        "alt_m": 7713,
+        "speed_ms": 253,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.063
+      },
+      "red_params": {
+        "alt_m": 8743,
+        "speed_ms": 245,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": 0.006
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 305,
+      "evt_events": 294,
+      "winner": "blue",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 1,
+      "shots": {
+        "blue": 1,
+        "red": 4
+      },
+      "hits": {
+        "blue": 1,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 50.0,
+        "red": 54.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "red",
+        "blue"
+      ]
+    },
+    {
+      "tag": "twin_salvo_vs_notch_east",
+      "seed": 2003,
+      "blue": "twin_salvo",
+      "red": "notch_east",
+      "blue_params": {
+        "alt_m": 8780,
+        "speed_ms": 241,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": -0.004
+      },
+      "red_params": {
+        "alt_m": 7750,
+        "speed_ms": 249,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.052
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 198,
+      "evt_events": 294,
+      "winner": "red",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 1,
+      "shots": {
+        "blue": 4,
+        "red": 1
+      },
+      "hits": {
+        "blue": 1,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 53.0,
+        "red": 49.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue",
+        "red"
+      ]
+    },
+    {
+      "tag": "notch_west_vs_rush_low",
+      "seed": 2000,
+      "blue": "notch_west",
+      "red": "rush_low",
+      "blue_params": {
+        "alt_m": 8262,
+        "speed_ms": 250,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.056999999999999995
+      },
+      "red_params": {
+        "alt_m": 3059,
+        "speed_ms": 315,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": 0.004
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 201,
+      "evt_events": 236,
+      "winner": "blue",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 45.0,
+        "red": 59.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "rush_low_vs_notch_west",
+      "seed": 2001,
+      "blue": "rush_low",
+      "red": "notch_west",
+      "blue_params": {
+        "alt_m": 3096,
+        "speed_ms": 322,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": -0.006
+      },
+      "red_params": {
+        "alt_m": 8299,
+        "speed_ms": 246,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.068
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 190,
+      "evt_events": 132,
+      "winner": "draw",
+      "reason": "tie",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 0,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": null,
+        "red": 46.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "notch_west_vs_rush_low",
+      "seed": 2002,
+      "blue": "notch_west",
+      "red": "rush_low",
+      "blue_params": {
+        "alt_m": 7735,
+        "speed_ms": 253,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.057999999999999996
+      },
+      "red_params": {
+        "alt_m": 3133,
+        "speed_ms": 318,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": 0.005
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 200,
+      "evt_events": 236,
+      "winner": "blue",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 44.0,
+        "red": 57.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "rush_low_vs_notch_west",
+      "seed": 2003,
+      "blue": "rush_low",
+      "red": "notch_west",
+      "blue_params": {
+        "alt_m": 3170,
+        "speed_ms": 325,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": -0.005
+      },
+      "red_params": {
+        "alt_m": 7772,
+        "speed_ms": 249,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.06899999999999999
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 207,
+      "evt_events": 236,
+      "winner": "red",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 63.0,
+        "red": 45.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": []
+    },
+    {
+      "tag": "notch_west_vs_standoff_high",
+      "seed": 2000,
+      "blue": "notch_west",
+      "red": "standoff_high",
+      "blue_params": {
+        "alt_m": 8262,
+        "speed_ms": 250,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.056999999999999995
+      },
+      "red_params": {
+        "alt_m": 10939,
+        "speed_ms": 233,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.002
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 201,
+      "evt_events": 210,
+      "winner": "blue",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 1,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 1,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 51.0,
+        "red": 33.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "red"
+      ]
+    },
+    {
+      "tag": "standoff_high_vs_notch_west",
+      "seed": 2001,
+      "blue": "standoff_high",
+      "red": "notch_west",
+      "blue_params": {
+        "alt_m": 10976,
+        "speed_ms": 229,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.008
+      },
+      "red_params": {
+        "alt_m": 8299,
+        "speed_ms": 246,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.068
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 205,
+      "evt_events": 173,
+      "winner": "blue",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 1,
+      "shots": {
+        "blue": 2,
+        "red": 1
+      },
+      "hits": {
+        "blue": 1,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 35.0,
+        "red": 53.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "red"
+      ]
+    },
+    {
+      "tag": "notch_west_vs_standoff_high",
+      "seed": 2002,
+      "blue": "notch_west",
+      "red": "standoff_high",
+      "blue_params": {
+        "alt_m": 7735,
+        "speed_ms": 253,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.057999999999999996
+      },
+      "red_params": {
+        "alt_m": 11013,
+        "speed_ms": 225,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.003
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 209,
+      "evt_events": 210,
+      "winner": "blue",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 1,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 1,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 51.0,
+        "red": 34.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "red"
+      ]
+    },
+    {
+      "tag": "standoff_high_vs_notch_west",
+      "seed": 2003,
+      "blue": "standoff_high",
+      "red": "notch_west",
+      "blue_params": {
+        "alt_m": 11050,
+        "speed_ms": 232,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.007
+      },
+      "red_params": {
+        "alt_m": 7772,
+        "speed_ms": 249,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.06899999999999999
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 195,
+      "evt_events": 187,
+      "winner": "blue",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 1,
+      "shots": {
+        "blue": 2,
+        "red": 1
+      },
+      "hits": {
+        "blue": 1,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 34.0,
+        "red": 53.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "red"
+      ]
+    },
+    {
+      "tag": "notch_west_vs_twin_salvo",
+      "seed": 2000,
+      "blue": "notch_west",
+      "red": "twin_salvo",
+      "blue_params": {
+        "alt_m": 8262,
+        "speed_ms": 250,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.056999999999999995
+      },
+      "red_params": {
+        "alt_m": 9270,
+        "speed_ms": 242,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": 0.005
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 235,
+      "evt_events": 291,
+      "winner": "red",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 0,
+      "shots": {
+        "blue": 1,
+        "red": 4
+      },
+      "hits": {
+        "blue": 0,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 49.0,
+        "red": 53.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue"
+      ]
+    },
+    {
+      "tag": "twin_salvo_vs_notch_west",
+      "seed": 2001,
+      "blue": "twin_salvo",
+      "red": "notch_west",
+      "blue_params": {
+        "alt_m": 8706,
+        "speed_ms": 249,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": -0.005
+      },
+      "red_params": {
+        "alt_m": 8299,
+        "speed_ms": 246,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.068
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 222,
+      "evt_events": 294,
+      "winner": "red",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 1,
+      "shots": {
+        "blue": 4,
+        "red": 1
+      },
+      "hits": {
+        "blue": 1,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 55.0,
+        "red": 50.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue",
+        "red"
+      ]
+    },
+    {
+      "tag": "notch_west_vs_twin_salvo",
+      "seed": 2002,
+      "blue": "notch_west",
+      "red": "twin_salvo",
+      "blue_params": {
+        "alt_m": 7735,
+        "speed_ms": 253,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.057999999999999996
+      },
+      "red_params": {
+        "alt_m": 8743,
+        "speed_ms": 245,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": 0.006
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 206,
+      "evt_events": 294,
+      "winner": "blue",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 1,
+      "shots": {
+        "blue": 1,
+        "red": 4
+      },
+      "hits": {
+        "blue": 1,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 48.0,
+        "red": 53.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "red",
+        "blue"
+      ]
+    },
+    {
+      "tag": "twin_salvo_vs_notch_west",
+      "seed": 2003,
+      "blue": "twin_salvo",
+      "red": "notch_west",
+      "blue_params": {
+        "alt_m": 8780,
+        "speed_ms": 241,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": -0.004
+      },
+      "red_params": {
+        "alt_m": 7772,
+        "speed_ms": 249,
+        "fire_range_km": 14,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.06899999999999999
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 223,
+      "evt_events": 294,
+      "winner": "red",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 1,
+      "shots": {
+        "blue": 4,
+        "red": 1
+      },
+      "hits": {
+        "blue": 1,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 55.0,
+        "red": 51.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue",
+        "red"
+      ]
+    },
+    {
+      "tag": "rush_low_vs_standoff_high",
+      "seed": 2000,
+      "blue": "rush_low",
+      "red": "standoff_high",
+      "blue_params": {
+        "alt_m": 3059,
+        "speed_ms": 315,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": 0.004
+      },
+      "red_params": {
+        "alt_m": 10939,
+        "speed_ms": 233,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.002
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 198,
+      "evt_events": 121,
+      "winner": "red",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 0,
+      "shots": {
+        "blue": 0,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": null,
+        "red": 31.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue"
+      ]
+    },
+    {
+      "tag": "standoff_high_vs_rush_low",
+      "seed": 2001,
+      "blue": "standoff_high",
+      "red": "rush_low",
+      "blue_params": {
+        "alt_m": 10976,
+        "speed_ms": 229,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.008
+      },
+      "red_params": {
+        "alt_m": 3096,
+        "speed_ms": 322,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": -0.006
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 202,
+      "evt_events": 239,
+      "winner": "blue",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 1,
+      "shots": {
+        "blue": 2,
+        "red": 2
+      },
+      "hits": {
+        "blue": 1,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 30.0,
+        "red": 65.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "red"
+      ]
+    },
+    {
+      "tag": "rush_low_vs_standoff_high",
+      "seed": 2002,
+      "blue": "rush_low",
+      "red": "standoff_high",
+      "blue_params": {
+        "alt_m": 3133,
+        "speed_ms": 318,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": 0.005
+      },
+      "red_params": {
+        "alt_m": 11013,
+        "speed_ms": 225,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.003
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 188,
+      "evt_events": 121,
+      "winner": "red",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 0,
+      "shots": {
+        "blue": 0,
+        "red": 2
+      },
+      "hits": {
+        "blue": 0,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": null,
+        "red": 31.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue"
+      ]
+    },
+    {
+      "tag": "standoff_high_vs_rush_low",
+      "seed": 2003,
+      "blue": "standoff_high",
+      "red": "rush_low",
+      "blue_params": {
+        "alt_m": 11050,
+        "speed_ms": 232,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.007
+      },
+      "red_params": {
+        "alt_m": 3170,
+        "speed_ms": 325,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": -0.005
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 201,
+      "evt_events": 121,
+      "winner": "blue",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 0,
+      "red_losses": 1,
+      "shots": {
+        "blue": 2,
+        "red": 0
+      },
+      "hits": {
+        "blue": 1,
+        "red": 0
+      },
+      "first_shot": {
+        "blue": 30.0,
+        "red": null
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "red"
+      ]
+    },
+    {
+      "tag": "rush_low_vs_twin_salvo",
+      "seed": 2000,
+      "blue": "rush_low",
+      "red": "twin_salvo",
+      "blue_params": {
+        "alt_m": 3059,
+        "speed_ms": 315,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": 0.004
+      },
+      "red_params": {
+        "alt_m": 9270,
+        "speed_ms": 242,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": 0.005
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 187,
+      "evt_events": 343,
+      "winner": "red",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 4
+      },
+      "hits": {
+        "blue": 0,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 58.0,
+        "red": 49.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue"
+      ]
+    },
+    {
+      "tag": "twin_salvo_vs_rush_low",
+      "seed": 2001,
+      "blue": "twin_salvo",
+      "red": "rush_low",
+      "blue_params": {
+        "alt_m": 8706,
+        "speed_ms": 249,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": -0.005
+      },
+      "red_params": {
+        "alt_m": 3096,
+        "speed_ms": 322,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": -0.006
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 202,
+      "evt_events": 346,
+      "winner": "blue",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 1,
+      "shots": {
+        "blue": 4,
+        "red": 2
+      },
+      "hits": {
+        "blue": 1,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 47.0,
+        "red": 55.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "red",
+        "blue"
+      ]
+    },
+    {
+      "tag": "rush_low_vs_twin_salvo",
+      "seed": 2002,
+      "blue": "rush_low",
+      "red": "twin_salvo",
+      "blue_params": {
+        "alt_m": 3133,
+        "speed_ms": 318,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": 0.005
+      },
+      "red_params": {
+        "alt_m": 8743,
+        "speed_ms": 245,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": 0.006
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 195,
+      "evt_events": 346,
+      "winner": "red",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 1,
+      "shots": {
+        "blue": 2,
+        "red": 4
+      },
+      "hits": {
+        "blue": 1,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 56.0,
+        "red": 47.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue",
+        "red"
+      ]
+    },
+    {
+      "tag": "twin_salvo_vs_rush_low",
+      "seed": 2003,
+      "blue": "twin_salvo",
+      "red": "rush_low",
+      "blue_params": {
+        "alt_m": 8780,
+        "speed_ms": 241,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": -0.004
+      },
+      "red_params": {
+        "alt_m": 3170,
+        "speed_ms": 325,
+        "fire_range_km": 8,
+        "quantity": 2,
+        "salvo": 2,
+        "offset_deg": -0.005
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 192,
+      "evt_events": 346,
+      "winner": "blue",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 1,
+      "shots": {
+        "blue": 4,
+        "red": 2
+      },
+      "hits": {
+        "blue": 1,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 47.0,
+        "red": 56.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "red",
+        "blue"
+      ]
+    },
+    {
+      "tag": "standoff_high_vs_twin_salvo",
+      "seed": 2000,
+      "blue": "standoff_high",
+      "red": "twin_salvo",
+      "blue_params": {
+        "alt_m": 10939,
+        "speed_ms": 233,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.002
+      },
+      "red_params": {
+        "alt_m": 9270,
+        "speed_ms": 242,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": 0.005
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 188,
+      "evt_events": 332,
+      "winner": "blue",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 1,
+      "shots": {
+        "blue": 2,
+        "red": 4
+      },
+      "hits": {
+        "blue": 1,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 32.0,
+        "red": 53.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "red",
+        "blue"
+      ]
+    },
+    {
+      "tag": "twin_salvo_vs_standoff_high",
+      "seed": 2001,
+      "blue": "twin_salvo",
+      "red": "standoff_high",
+      "blue_params": {
+        "alt_m": 8706,
+        "speed_ms": 249,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": -0.005
+      },
+      "red_params": {
+        "alt_m": 10976,
+        "speed_ms": 229,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.008
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 218,
+      "evt_events": 332,
+      "winner": "red",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 1,
+      "shots": {
+        "blue": 4,
+        "red": 2
+      },
+      "hits": {
+        "blue": 1,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 53.0,
+        "red": 32.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue",
+        "red"
+      ]
+    },
+    {
+      "tag": "standoff_high_vs_twin_salvo",
+      "seed": 2002,
+      "blue": "standoff_high",
+      "red": "twin_salvo",
+      "blue_params": {
+        "alt_m": 11013,
+        "speed_ms": 225,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": 0.003
+      },
+      "red_params": {
+        "alt_m": 8743,
+        "speed_ms": 245,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": 0.006
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 198,
+      "evt_events": 343,
+      "winner": "red",
+      "reason": "kills",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 0,
+      "shots": {
+        "blue": 2,
+        "red": 4
+      },
+      "hits": {
+        "blue": 0,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 33.0,
+        "red": 54.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue"
+      ]
+    },
+    {
+      "tag": "twin_salvo_vs_standoff_high",
+      "seed": 2003,
+      "blue": "twin_salvo",
+      "red": "standoff_high",
+      "blue_params": {
+        "alt_m": 8780,
+        "speed_ms": 241,
+        "fire_range_km": 12,
+        "quantity": 4,
+        "salvo": 4,
+        "offset_deg": -0.004
+      },
+      "red_params": {
+        "alt_m": 11050,
+        "speed_ms": 232,
+        "fire_range_km": 22,
+        "quantity": 2,
+        "salvo": 1,
+        "offset_deg": -0.007
+      },
+      "returncode": 0,
+      "complete": true,
+      "elapsed_ms": 210,
+      "evt_events": 346,
+      "winner": "red",
+      "reason": "first_shot",
+      "error": "",
+      "blue_losses": 1,
+      "red_losses": 1,
+      "shots": {
+        "blue": 4,
+        "red": 2
+      },
+      "hits": {
+        "blue": 1,
+        "red": 1
+      },
+      "first_shot": {
+        "blue": 54.0,
+        "red": 33.0
+      },
+      "first_detect": {
+        "blue_1": 0.0,
+        "red_1": 0.0
+      },
+      "broken_sides": [
+        "blue",
+        "red"
+      ]
+    }
+  ],
+  "ratings": {
+    "dash_low": {
+      "elo": 1475.597724538869,
+      "games": 20,
+      "w": 10,
+      "d": 0,
+      "l": 10
+    },
+    "notch_east": {
+      "elo": 1540.366001089326,
+      "games": 20,
+      "w": 9,
+      "d": 4,
+      "l": 7
+    },
+    "notch_west": {
+      "elo": 1535.6744518189257,
+      "games": 20,
+      "w": 9,
+      "d": 5,
+      "l": 6
+    },
+    "rush_low": {
+      "elo": 1353.3249450270687,
+      "games": 20,
+      "w": 1,
+      "d": 1,
+      "l": 18
+    },
+    "standoff_high": {
+      "elo": 1586.5021418286851,
+      "games": 20,
+      "w": 15,
+      "d": 0,
+      "l": 5
+    },
+    "twin_salvo": {
+      "elo": 1508.5347356971256,
+      "games": 20,
+      "w": 11,
+      "d": 0,
+      "l": 9
+    }
+  },
+  "matrix": {
+    "dash_low|notch_east": 1.0,
+    "notch_east|dash_low": 0.0,
+    "dash_low|notch_west": 0.75,
+    "notch_west|dash_low": 0.25,
+    "dash_low|rush_low": 0.75,
+    "rush_low|dash_low": 0.25,
+    "dash_low|standoff_high": 0.0,
+    "standoff_high|dash_low": 1.0,
+    "dash_low|twin_salvo": 0.0,
+    "twin_salvo|dash_low": 1.0,
+    "notch_east|notch_west": 0.5,
+    "notch_west|notch_east": 0.5,
+    "notch_east|rush_low": 1.0,
+    "rush_low|notch_east": 0.0,
+    "notch_east|standoff_high": 0.5,
+    "standoff_high|notch_east": 0.5,
+    "notch_east|twin_salvo": 0.75,
+    "twin_salvo|notch_east": 0.25,
+    "notch_west|rush_low": 0.875,
+    "rush_low|notch_west": 0.125,
+    "notch_west|standoff_high": 0.5,
+    "standoff_high|notch_west": 0.5,
+    "notch_west|twin_salvo": 0.75,
+    "twin_salvo|notch_west": 0.25,
+    "rush_low|standoff_high": 0.0,
+    "standoff_high|rush_low": 1.0,
+    "rush_low|twin_salvo": 0.0,
+    "twin_salvo|rush_low": 1.0,
+    "standoff_high|twin_salvo": 0.75,
+    "twin_salvo|standoff_high": 0.25
+  }
+}

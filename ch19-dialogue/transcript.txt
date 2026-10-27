@@ -1,0 +1,63 @@
+System    Conversational wargame ready (AFSIM 2.9.0). Say "new scenario" first, or deploy forces directly.
+Director  run simulation
+System    Current state IDLE does not accept "run simulation". What you can do: add platform, new scenario, query results, set duration.
+Director  new scenario
+System    Cleared. You can deploy forces now, e.g. "two Blue F-16s enter from the east, altitude 8000 m".
+Director  two Blue F-16s enter from the east, altitude 8000 m
+System    Added 2 platforms: Blue 1, Blue 2.
+Director  two Red, entering from the west
+System    Added 2 platforms: Red 1, Red 2.
+Director  run simulation
+System    Run complete (return code 0, wall clock 0.20 s, 72 events).
+System    at 81.0 s Blue 2's 2nd missile hits, Pk=0.85, engine adjudicates KILLED
+System    at 81.0 s Red 2's 2nd missile hits, Pk=0.85, engine adjudicates KILLED
+System    at 81.0 s Red 2 is shot down
+System    at 81.0 s Blue 2 is shot down
+System    at 81.2 s Blue 1's 2nd missile hits, Pk=0.85, engine adjudicates KILLED
+System    at 81.2 s Red 1's 2nd missile hits, Pk=0.85, engine adjudicates KILLED
+System    at 81.2 s Red 1 is shot down
+System    at 81.2 s Blue 1 is shot down
+System    Blue fired 4, hit 2; Red fired 4, hit 2.
+System    Shot down: Red 2 (81 s), Blue 2 (81 s), Red 1 (81 s), Blue 1 (81 s).
+System    First shot at 38 s.
+System    Run length 300 s.
+Director  who was shot down?
+System    Shot down: Red 2 (81.0 s), Blue 2 (81.0 s), Red 1 (81.2 s), Blue 1 (81.2 s), 4 in total.
+Director  how many missiles were fired in total?
+System    Blue fired 4 and hit 2; Red fired 4 and hit 2.
+Director  set Blue 1's altitude to 3000 m
+System    Changed Blue 1: altitude 3000 m. Run again for it to take effect.
+Director  run simulation
+System    Run complete (return code 0, wall clock 0.21 s, 72 events).
+System    at 81.0 s Blue 2's 2nd missile hits, Pk=0.85, engine adjudicates KILLED
+System    at 81.0 s Red 2's 2nd missile hits, Pk=0.85, engine adjudicates KILLED
+System    at 81.0 s Red 2 is shot down
+System    at 81.0 s Blue 2 is shot down
+System    at 82.1 s Red 1's 2nd missile hits, Pk=0.85, engine adjudicates KILLED
+System    at 82.1 s Blue 1 is shot down
+System    at 99.0 s Blue 1's 1st missile misses
+System    at 100.0 s Blue 1's 2nd missile misses
+System    Blue fired 4, hit 1; Red fired 4, hit 2.
+System    Shot down: Red 2 (81 s), Blue 2 (81 s), Blue 1 (82 s).
+System    First shot at 38 s.
+System    Run length 300 s.
+Director  undo
+System    Undone: "set Blue 1's altitude to 3000 m (change alt)" (set /platforms/blue_1/alt).
+Director  run 600 seconds
+System    Run length set to 600 s.
+Director  run simulation
+System    Run complete (return code 0, wall clock 0.22 s, 72 events).
+System    at 81.0 s Blue 2's 2nd missile hits, Pk=0.85, engine adjudicates KILLED
+System    at 81.0 s Red 2's 2nd missile hits, Pk=0.85, engine adjudicates KILLED
+System    at 81.0 s Red 2 is shot down
+System    at 81.0 s Blue 2 is shot down
+System    at 81.2 s Blue 1's 2nd missile hits, Pk=0.85, engine adjudicates KILLED
+System    at 81.2 s Red 1's 2nd missile hits, Pk=0.85, engine adjudicates KILLED
+System    at 81.2 s Red 1 is shot down
+System    at 81.2 s Blue 1 is shot down
+System    Blue fired 4, hit 2; Red fired 4, hit 2.
+System    Shot down: Red 2 (81 s), Blue 2 (81 s), Red 1 (81 s), Blue 1 (81 s).
+System    First shot at 38 s.
+System    Run length 600 s.
+Director  export report
+System    Wrote output/report.md (8596 bytes).

@@ -1,0 +1,18 @@
+{
+  "run_id": "004",
+  "params": {
+    "run_id": "004",
+    "seed": "1004",
+    "r0_km": "66",
+    "aspect_deg": "45",
+    "red_speed_mps": "240",
+    "fire_range_km": "35",
+    "end_time_s": "90"
+  },
+  "rendered_position": {
+    "blue": "30:00:00.00n 122:00:00.00e",
+    "red": "30:25:09.24n 122:29:02.72e"
+  },
+  "template_sha256_12": "68b4abf8ca51",
+  "generated_at": "2026-10-26T15:25:02+00:00"
+}

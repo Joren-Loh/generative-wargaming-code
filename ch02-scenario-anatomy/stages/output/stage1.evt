@@ -1,0 +1,5 @@
+0.00000 PLATFORM_ADDED blue_1 Type: WSF_PLATFORM Side: blue \
+
+60.00100 PLATFORM_DELETED blue_1 Type: WSF_PLATFORM Side: blue Ps: 1 \
+ LLA: 30:00:00.00n 122:00:00.00e 8000 m Heading: 0.000 deg Pitch: 0.000 deg Roll: 0.000 deg \
+ Speed: 0.000 m/s * [ 0.000 0.000 0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ]

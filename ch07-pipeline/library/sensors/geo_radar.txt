@@ -1,0 +1,20 @@
+# =====================================================================
+# library/sensors/geo_radar.txt
+# Three-layer library, layer one: equipment. A purely geometric radar, there to produce detection events.
+# Depends on nothing. Any platform_type may reference it.
+# Blast radius: maximum_range is shared, so changing it moves every platform that references GEO_RADAR.
+# =====================================================================
+
+sensor GEO_RADAR WSF_GEOMETRIC_SENSOR
+   on                          # a geometric sensor with no mode must be switched on, or it silently detects nothing
+   frame_time 1.0 s
+   maximum_range 80 km
+   azimuth_field_of_view -60 deg 60 deg
+   elevation_field_of_view -20 deg 20 deg
+   hits_to_establish_track 2 2
+   reports_bearing
+   reports_elevation
+   reports_range
+   reports_side
+   track_quality 0.9
+end_sensor

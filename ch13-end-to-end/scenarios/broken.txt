@@ -1,0 +1,9 @@
+end_time 60 sec
+platform ghost NO_SUCH_FIGHTER_TYPE
+   side blue
+   position 39:00:00n 116:00:00e altitude 8000 m
+end_platform
+event_output
+   file output/broken.evt
+   enable PLATFORM_INITIALIZED
+end_event_output

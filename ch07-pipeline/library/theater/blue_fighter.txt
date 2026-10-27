@@ -1,0 +1,36 @@
+# =====================================================================
+# blue_fighter -- the Blue fighter, theatre layer
+# Overrides ../base/fighter_base.txt
+# Fields this layer overrides (changing the layer above has no effect):
+#   sensor rdr1    maximum_range  60 km   <- the equipment layer default is 80 km
+#   weapon aam_med quantity       2       <- the equipment layer default is 4
+#
+# This layer carries theatre and batch differences only: missile count, radar range, icon.
+# Editing here leaves the other users of FIGHTER_BASE untouched.
+#
+# Syntax notes, measured from demos/base_types/platforms/*_ripr.txt:
+#   edit   <part type> <instance> ... end_<part type>   change an inherited part's parameters
+#   delete <part type> <instance>                       remove an inherited part
+#   <part type> <instance> <type> ... end_<part type>   add a new part
+# =====================================================================
+
+include_once ../base/fighter_base.txt
+
+platform_type BLUE_FIGHTER FIGHTER_BASE
+   icon F-16
+
+   // The theatre type pulls radar range down to 60 km; layer two's GEO_RADAR is 80 km.
+   // Note: edit changes this copy only, never the GEO_RADAR type itself.
+   edit sensor rdr1
+      maximum_range 60 km
+   end_sensor
+
+   edit weapon aam_med
+      quantity 2
+   end_weapon
+end_platform_type
+
+platform_type RED_TARGET AIRCRAFT_BASE
+   side red
+   icon Su-27
+end_platform_type

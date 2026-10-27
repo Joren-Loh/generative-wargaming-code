@@ -1,0 +1,40 @@
+# =====================================================================
+# ch01-the-model-chain / scenario.txt
+# Smallest runnable scenario: one aircraft, one two-waypoint route, event output
+# Run: mission.exe scenario.txt
+# =====================================================================
+
+# 1) Run log: the engine writes its compile-time and run-time diagnostics here
+log_file output/scenario.log
+
+# 2) Event output: the flight recorder. Every event type must be enabled explicitly; the default set is not to be trusted
+event_output
+   file output/scenario.evt
+   enable PLATFORM_ADDED
+   enable PLATFORM_DELETED
+end_event_output
+
+# 3) Platform type: an aircraft that does nothing but fly its route, with a single mover component
+platform_type SIMPLE_AIRCRAFT WSF_PLATFORM
+   mover WSF_AIR_MOVER
+      maximum_speed                250 m/sec
+      minimum_speed                120 m/sec
+      default_radial_acceleration  3.0 g
+      maximum_linear_acceleration  2.0 g
+   end_mover
+end_platform_type
+
+# 4) Platform instance: side, icon, route
+platform blue_01 SIMPLE_AIRCRAFT
+   side blue
+   icon F-16
+   route
+      position 30:00:00n 122:00:00e altitude 25000 ft msl
+         speed 200 m/sec
+      position 30:00:00n 122:30:00e altitude 25000 ft msl
+         speed 200 m/sec
+   end_route
+end_platform
+
+# 5) Simulation boundary: end_time is a top-level command; there is no simulation ... end_simulation block
+end_time 2 min

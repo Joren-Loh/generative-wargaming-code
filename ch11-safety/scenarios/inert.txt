@@ -1,0 +1,13 @@
+end_time 60 sec
+platform p1 WSF_PLATFORM
+   side blue
+   position 39:00:00n 116:00:00e altitude 8000 m
+end_platform
+platform p2 WSF_PLATFORM
+   side red
+   position 39:10:00n 116:00:00e altitude 8000 m
+end_platform
+event_output
+   file output/inert.evt
+   enable PLATFORM_INITIALIZED
+end_event_output

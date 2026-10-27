@@ -1,0 +1,167 @@
+# =============================================================================
+# the benchmark scenario template (1v1, head-on)
+# benchmark.py substitutes the placeholders and writes runs/<episode>/scenario.txt:
+#   __SEED__ __END__ __BLUE_FR__ __RED_FR__ __BLUE_SPD__ __RED_SPD__
+#   __BLUE_ALT__ __RED_ALT__
+# .evt only: every KPI comes from events, and no per-frame position is needed.
+# =============================================================================
+file_path .
+end_time __END__ s
+random_seed __SEED__
+log_file output/run.log
+
+event_output
+   file output/scenario.evt
+   enable PLATFORM_ADDED
+   enable PLATFORM_BROKEN
+   enable WEAPON_FIRED
+   enable WEAPON_HIT
+   enable WEAPON_MISSED
+end_event_output
+
+# Global script variable: fire range comes from the side, so one processor serves both Blue and Red
+script_variables
+   double BLUE_FIRE_RANGE = __BLUE_FR__;
+   double RED_FIRE_RANGE  = __RED_FR__;
+end_script_variables
+
+radar_signature FIGHTER_RCS WSF_RADAR_SIGNATURE
+   constant 5 m^2
+end_radar_signature
+
+radar_signature MISSILE_RCS WSF_RADAR_SIGNATURE
+   constant 0.1 m^2
+end_radar_signature
+
+aero AAM_AERO WSF_AERO
+   mach_and_cd  0.0 1.40
+   mach_and_cd  0.9 1.40
+   mach_and_cd  1.2 2.00
+   mach_and_cd  2.0 1.70
+   mach_and_cd  3.0 1.30
+   reference_area 0.02 m^2
+   cl_max 12.0
+   aspect_ratio 8.0
+   oswalds_factor 0.85
+end_aero
+
+weapon_effects AAM_EFFECT WSF_GRADUATED_LETHALITY
+   radius_and_pk 15 m 0.6
+end_weapon_effects
+
+platform_type AAM WSF_PLATFORM
+   icon aim9x
+   category missile
+   radar_signature MISSILE_RCS
+
+   mover WSF_GUIDED_MOVER
+      total_mass      152 kg
+      fuel_mass        62 kg
+      specific_impulse 220 sec
+      thrust         2135 lbf
+      thrust_duration 6.0 sec
+      update_interval 0.10 s
+      compute_all_forces_each_substep true
+      aero AAM_AERO
+   end_mover
+
+   processor autopilot WSF_GUIDANCE_COMPUTER
+      proportional_navigation_gain 30.0
+      velocity_pursuit_gain        30.0
+      g_bias                        1.0
+      maximum_commanded_g          40.0 g
+      update_interval               0.1 s
+   end_processor
+
+   processor seeker WSF_PERFECT_TRACKER
+      update_interval 0.1 s
+   end_processor
+
+   processor fuse WSF_AIR_TARGET_FUSE
+      max_time_of_flight_to_detonate 30.0 sec
+   end_processor
+end_platform_type
+
+platform_type FIGHTER WSF_PLATFORM
+   icon f15c
+   radar_signature FIGHTER_RCS
+
+   mover WSF_AIR_MOVER
+      maximum_speed        450 m/s
+      minimum_speed         90 m/s
+      maximum_altitude   16000 m
+      maximum_radial_acceleration 9 g
+      maximum_linear_acceleration 0.5 g
+      update_interval      0.25 s
+   end_mover
+
+   weapon aam WSF_EXPLICIT_WEAPON
+      launched_platform_type AAM
+      weapon_effects AAM_EFFECT
+      quantity        2
+      firing_interval 2.0 sec
+      salvo_interval  4.0 sec
+      slew_mode       azimuth_and_elevation
+      azimuth_slew_limits -180 deg 180 deg
+   end_weapon
+
+   processor shooter WSF_SCRIPT_PROCESSOR
+      update_interval 0.5 s
+      script_variables
+         double min_range   = 2500.0;
+         double fire_gap    = 6.0;
+         double last_fire_t = -999.0;
+      end_script_variables
+
+      on_update
+         if (TIME_NOW - last_fire_t < fire_gap) return;
+         WsfWeapon w = PLATFORM.Weapon("aam");
+         if (!w.IsValid()) return;
+         if (w.QuantityRemaining() <= 0) return;
+
+         double fr = RED_FIRE_RANGE;
+         if (PLATFORM.Side() == "blue") fr = BLUE_FIRE_RANGE;
+
+         string tgt_name = "";
+         double best_r = 1.0e9;
+         for (int i = 0; i < WsfSimulation.PlatformCount(); i += 1)
+         {
+            WsfPlatform p = WsfSimulation.PlatformEntry(i);
+            if (!p.IsValid()) continue;
+            if (p.Side() == PLATFORM.Side()) continue;
+            if (p.Type() != "FIGHTER") continue;
+            double r = PLATFORM.SlantRangeTo(p);
+            if (r < best_r) { best_r = r; tgt_name = p.Name(); }
+         }
+         if (tgt_name == "") return;
+         if (best_r < min_range || best_r > fr) return;
+
+         WsfTrack track = WsfTrack();
+         track.Initialize();
+         track.SetTarget(tgt_name);
+         if (w.Fire(track)) { last_fire_t = TIME_NOW; }
+      end_on_update
+   end_processor
+end_platform_type
+
+platform blue_1 FIGHTER
+   side blue
+   commander SELF
+   heading 90 deg
+   position 00:05:00.00n __BLUE_LON__ altitude __BLUE_ALT__ m msl
+   route
+      position 00:05:00.00n __BLUE_LON__ altitude __BLUE_ALT__ m speed __BLUE_SPD__ m/s
+      position 00:05:00.00n __RED_LON__ altitude __BLUE_ALT__ m speed __BLUE_SPD__ m/s
+   end_route
+end_platform
+
+platform red_1 FIGHTER
+   side red
+   commander SELF
+   heading 270 deg
+   position 00:05:00.00n __RED_LON__ altitude __RED_ALT__ m msl
+   route
+      position 00:05:00.00n __RED_LON__ altitude __RED_ALT__ m speed __RED_SPD__ m/s
+      position 00:05:00.00n __BLUE_LON__ altitude __RED_ALT__ m speed __RED_SPD__ m/s
+   end_route
+end_platform

@@ -1,0 +1,50 @@
+0.00000 PLATFORM_ADDED blue_01 Type: BLUE_FIGHTER Side: blue \
+
+0.00000 PLATFORM_ADDED red_01 Type: RED_TARGET Side: red \
+
+41.00000 SENSOR_TRACK_INITIATED blue_01 red_01 Sensor: rdr1 TrackId: blue_01.1 \
+  Start_Time: 41.00000 Update_Time: 41.00000 Update_Count: 0 Quality: 0.9 Domain: air Type: M \
+  Target_Truth: Name: red_01 Type: RED_TARGET Side: red \
+  Originator: LLA: 30:00:00.45n 122:06:22.35e 7620 m \
+  Track: LLA: 30:27:06.88n 122:26:15.22e 7620 m Flags: 3RBE \
+  Truth: LLA: 30:27:06.88n 122:26:15.22e 7620 m  Difference: 3.63798e-12 m  \
+  Track: Range: 59449.6 m Bearing: 32.4098 deg Elevation: -0.267434 deg \
+  Truth: Range: 59449.6 m Bearing: 32.4098 deg Elevation: -0.267434 deg \
+  Side_ID: red
+107.50000 WEAPON_FIRED blue_01 red_01 IMPLICIT ( aam_med ) Engagement: 1 Start_Time: 107.50000 \
+ Launch: LLA: 30:00:00.52n 122:16:42.50e 7620 m Heading: 90.035 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ -0.001 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:18:51.07n 122:18:14.55e 7620 m Heading: 220.014 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 300.000 m/s * [ -0.766 -0.643 -0.000 ] Acceleration: 0.014 m/s2 * [ 0.003 -0.000 1.000 ] \
+ Truth: Slant_Range: 34942.1 m Ground_Range: 34941.9 m Down_Range: 2440.65 m Cross_Range: -34856.6 m Relative_Alt: -95.9977 m \
+ Target_Track: blue_01.2 \
+  Start_Time: 107.50000 Update_Time: 107.50000 Update_Count: 0 Quality: 0.5 Domain: air Type: P \
+  Target_Truth: Name: red_01 Type: RED_TARGET Side: red \
+  Originator: LLA: 30:00:00.52n 122:16:42.50e 7620 m \
+  Track: LLA: 30:18:51.07n 122:18:14.55e 7620 m Flags: L3 \
+  Truth: LLA: 30:18:51.07n 122:18:14.55e 7620 m  Difference: 0 m  \
+  Track: Vel: 300 m/s Hdg: 220.014 deg  Truth: Vel: 300 m/s Hdg: 220.014 deg \
+  Track: Range: 34942.1 m Bearing: 4.04064 deg Elevation: -0.157411 deg \
+  Truth: Range: 34942.1 m Bearing: 4.04064 deg Elevation: -0.157411 deg \
+  Type_ID: RED_TARGET Side_ID: red
+108.00000 WEAPON_MISSED blue_01 red_01 IMPLICIT ( aam_med ) Engagement: 1 Start_Time: 107.50000 \
+ Intercept_Pk: 0.5 Pk_Degrade: 1 Pk: 0.5 Pk_Drawn: 0.740699 INTENDED_TARGET Damage_Factor: 0 Result: MISSED \
+ Launch: LLA: 30:00:00.51n 122:16:47.16e 7620 m Heading: 90.036 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ -0.001 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:18:47.34n 122:18:10.94e 7620 m Heading: 220.014 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 300.000 m/s * [ -0.766 -0.643 -0.000 ] Acceleration: 0.014 m/s2 * [ 0.003 -0.000 1.000 ] \
+ Truth: Slant_Range: 34812.5 m Ground_Range: 34812.3 m Down_Range: 2219.1 m Cross_Range: -34741.5 m Relative_Alt: -95.2872 m
+109.00000 WEAPON_MISSED blue_01 red_01 IMPLICIT ( aam_med ) Engagement: 1 Start_Time: 107.50000 \
+ Intercept_Pk: 0.05 Pk_Degrade: 1 Pk: 0.05 Pk_Drawn: 0.721264 INTENDED_TARGET Damage_Factor: 0 Result: MISSED \
+ Launch: LLA: 30:00:00.51n 122:16:56.49e 7620 m Heading: 90.037 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ -0.001 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:18:39.88n 122:18:03.72e 7620 m Heading: 220.013 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 300.000 m/s * [ -0.766 -0.643 -0.000 ] Acceleration: 0.014 m/s2 * [ 0.003 -0.000 1.000 ] \
+ Truth: Slant_Range: 34557.2 m Ground_Range: 34557 m Down_Range: 1775.99 m Cross_Range: -34511.4 m Relative_Alt: -93.8956 m
+110.00000 WEAPON_MISSED blue_01 red_01 IMPLICIT ( aam_med ) Engagement: 1 Start_Time: 107.50000 \
+ Intercept_Pk: 0.05 Pk_Degrade: 1 Pk: 0.05 Pk_Drawn: 0.295348 INTENDED_TARGET Damage_Factor: 0 Result: MISSED \
+ Launch: LLA: 30:00:00.50n 122:17:05.81e 7620 m Heading: 90.039 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ -0.001 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:18:32.42n 122:17:56.50e 7620 m Heading: 220.012 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 300.000 m/s * [ -0.766 -0.643 -0.000 ] Acceleration: 0.014 m/s2 * [ 0.003 -0.000 1.000 ] \
+ Truth: Slant_Range: 34307.3 m Ground_Range: 34307.1 m Down_Range: 1332.87 m Cross_Range: -34281.2 m Relative_Alt: -92.543 m

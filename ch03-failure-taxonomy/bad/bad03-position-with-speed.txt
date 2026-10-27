@@ -1,0 +1,5 @@
+# speed on a position line (speed belongs to a route waypoint)
+platform plane WSF_PLATFORM
+   side blue
+   position 30.0n 118.0e altitude 30000 ft speed 450 kts
+end_platform

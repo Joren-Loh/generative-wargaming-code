@@ -1,0 +1,39 @@
+# =====================================================================
+# samples/dead_scenario.txt -- a run that finishes and nothing happens.
+#
+# Two things no engineer would write, and the engine reports neither:
+#   1) altitude written as 3.0 ft: the aircraft flies the whole route at ground level;
+#   2) no sensors and no weapons, so the event log holds nothing but PLATFORM_ADDED.
+# Exit code 0 and Simulation complete in the log: judged by those two alone, this passes.
+# Gate 2 stops it on SENSOR_TRACK_INITIATED >= 1 and WEAPON_FIRED >= 1.
+#
+# Run: python gates.py --run-engine --smoke samples/dead_scenario.txt
+# =====================================================================
+
+log_file output/dead.log
+
+event_output
+   file output/scenario.evt
+   enable PLATFORM_ADDED
+   enable SENSOR_TRACK_INITIATED
+   enable WEAPON_FIRED
+end_event_output
+
+platform_type DEAD_AIRCRAFT WSF_PLATFORM
+   mover WSF_AIR_MOVER
+      maximum_speed 250 m/sec
+      minimum_speed 120 m/sec
+   end_mover
+end_platform_type
+
+platform blue_01 DEAD_AIRCRAFT
+   side blue
+   route
+      position 30:00:00.00n 122:00:00.00e altitude 3.0 ft msl
+         speed 200 m/sec
+      position 30:20:00.00n 122:00:00.00e altitude 3.0 ft msl
+         speed 200 m/sec
+   end_route
+end_platform
+
+end_time 30 s

@@ -1,0 +1,39 @@
+0.00000 PLATFORM_ADDED blue_01 Type: BLUE_FIGHTER Side: blue \
+
+0.00000 PLATFORM_ADDED red_01 Type: RED_TARGET Side: red \
+
+28.00000 SENSOR_TRACK_INITIATED blue_01 red_01 Sensor: rdr1 TrackId: blue_01.1 \
+  Start_Time: 28.00000 Update_Time: 28.00000 Update_Count: 0 Quality: 0.9 Domain: air Type: M \
+  Target_Truth: Name: red_01 Type: RED_TARGET Side: red \
+  Originator: LLA: 30:00:00.34n 122:04:21.12e 7620 m \
+  Track: LLA: 30:22:19.38n 122:30:42.28e 7620 m Flags: 3RBE \
+  Truth: LLA: 30:22:19.38n 122:30:42.28e 7620 m  Difference: 1.02898e-11 m  \
+  Track: Range: 59141.2 m Bearing: 45.6204 deg Elevation: -0.265749 deg \
+  Truth: Range: 59141.2 m Bearing: 45.6204 deg Elevation: -0.265749 deg \
+  Side_ID: red
+86.50000 WEAPON_FIRED blue_01 red_01 IMPLICIT ( aam_med ) Engagement: 1 Start_Time: 86.50000 \
+ Launch: LLA: 30:00:00.58n 122:13:26.66e 7620 m Heading: 90.008 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ -0.000 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:16:50.39n 122:23:08.84e 7620 m Heading: 230.061 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 270.000 m/s * [ -0.642 -0.767 -0.000 ] Acceleration: 0.011 m/s2 * [ 0.003 0.000 1.000 ] \
+ Truth: Slant_Range: 34822.2 m Ground_Range: 34822.1 m Down_Range: 15573.4 m Cross_Range: -31145.6 m Relative_Alt: -95.2468 m \
+ Target_Track: blue_01.2 \
+  Start_Time: 86.50000 Update_Time: 86.50000 Update_Count: 0 Quality: 0.5 Domain: air Type: P \
+  Target_Truth: Name: red_01 Type: RED_TARGET Side: red \
+  Originator: LLA: 30:00:00.58n 122:13:26.66e 7620 m \
+  Track: LLA: 30:16:50.39n 122:23:08.84e 7620 m Flags: L3 \
+  Truth: LLA: 30:16:50.39n 122:23:08.84e 7620 m  Difference: 0 m  \
+  Track: Vel: 270 m/s Hdg: 230.061 deg  Truth: Vel: 270 m/s Hdg: 230.061 deg \
+  Track: Range: 34822.2 m Bearing: 26.5742 deg Elevation: -0.156718 deg \
+  Truth: Range: 34822.2 m Bearing: 26.5742 deg Elevation: -0.156718 deg \
+  Type_ID: RED_TARGET Side_ID: red
+87.00000 WEAPON_HIT blue_01 red_01 IMPLICIT ( aam_med ) Engagement: 1 Start_Time: 86.50000 \
+ Intercept_Pk: 0.5 Pk_Degrade: 1 Pk: 0.5 Pk_Drawn: 0.175081 INTENDED_TARGET Damage_Factor: 1 Result: KILLED \
+ Launch: LLA: 30:00:00.58n 122:13:31.33e 7620 m Heading: 90.009 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 250.000 m/s * [ -0.000 1.000 -0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ] \
+ Target: LLA: 30:16:47.58n 122:23:04.97e 7620 m Heading: 230.061 deg Pitch: 0.000 deg Roll: 0.000 deg \
+  Speed: 270.000 m/s * [ -0.642 -0.767 -0.000 ] Acceleration: 0.011 m/s2 * [ 0.003 0.000 1.000 ] \
+ Truth: Slant_Range: 34642.6 m Ground_Range: 34642.5 m Down_Range: 15344.8 m Cross_Range: -31058.7 m Relative_Alt: -94.2688 m
+87.00000 PLATFORM_BROKEN red_01 Type: RED_TARGET Side: red Ps: 0 \
+ LLA: 30:16:47.58n 122:23:04.97e 7620 m Heading: 230.061 deg Pitch: 0.000 deg Roll: 0.000 deg \
+ Speed: 270.000 m/s * [ -0.642 -0.767 -0.000 ] Acceleration: 0.011 m/s2 * [ 0.003 0.000 1.000 ]

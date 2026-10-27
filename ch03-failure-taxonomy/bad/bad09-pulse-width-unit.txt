@@ -1,0 +1,18 @@
+# pulse width unit microsec does not exist; use usec or seconds
+sensor R WSF_RADAR_SENSOR
+   transmitter
+      power 1000 watts
+      frequency 9.0 ghz
+      pulse_width 2.0 microsec
+   end_transmitter
+   frame_time 1 sec
+end_sensor
+
+platform_type FIGHTER WSF_PLATFORM
+   sensor r R
+   end_sensor
+end_platform_type
+
+platform plane FIGHTER
+   side blue
+end_platform

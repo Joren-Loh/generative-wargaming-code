@@ -1,0 +1,5 @@
+0.00000 PLATFORM_ADDED blue_01 Type: SIMPLE_AIRCRAFT Side: blue \
+
+120.00100 PLATFORM_DELETED blue_01 Type: SIMPLE_AIRCRAFT Side: blue Ps: 1 \
+ LLA: 30:00:00.00n 122:00:00.00e 7620 m Heading: 89.875 deg Pitch: 0.000 deg Roll: 0.000 deg \
+ Speed: 200.000 m/s * [ 0.002 1.000 0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ]

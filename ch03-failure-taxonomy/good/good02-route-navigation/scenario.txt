@@ -1,0 +1,23 @@
+event_output
+   file output/scenario.evt
+   enable PLATFORM_ADDED
+end_event_output
+
+end_time 30 s
+
+platform_type FIGHTER WSF_PLATFORM
+   mover WSF_AIR_MOVER
+      maximum_speed 900 ft/s
+   end_mover
+end_platform_type
+
+platform plane FIGHTER
+   side blue
+   position 30.0n 118.0e altitude 30000 ft
+   route
+      navigation
+         position 30.0n 118.0e altitude 30000 ft speed 800 ft/s
+         position 30.0n 118.5e altitude 30000 ft speed 800 ft/s
+      end_navigation
+   end_route
+end_platform

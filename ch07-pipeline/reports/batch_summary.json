@@ -1,0 +1,15 @@
+{
+  "runs": 24,
+  "ok": 24,
+  "success_rate": 1.0,
+  "wall_total_s": 6.54,
+  "wall_mean_s": 0.273,
+  "detect_t_mean": 14.667,
+  "detect_t_std": 15.456,
+  "fire_t_mean": 64.583,
+  "fire_t_std": 29.578,
+  "hit_rate": 0.583,
+  "fired_mean": 1,
+  "wall_parallel_s": 2.19,
+  "workers": 6
+}

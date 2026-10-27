@@ -1,0 +1,13 @@
+event_output
+   file output/scenario.evt
+   enable PLATFORM_ADDED
+end_event_output
+
+end_time 5 s
+
+include_once platforms/fighter_types.txt
+
+platform blue-1 BLUE_FIGHTER
+   side blue
+   position 30.0n 118.0e altitude 30000 ft
+end_platform

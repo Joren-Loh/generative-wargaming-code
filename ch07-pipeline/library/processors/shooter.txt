@@ -1,0 +1,42 @@
+# =====================================================================
+# library/processors/shooter.txt -- layer two: the shooter
+#
+# Fire when slant range closes inside FIRE_RANGE_M, a global the host scenario supplies.
+# Range rather than a fixed instant, so that the launch time becomes a function of geometry and speed
+# and a batch run produces a distribution worth counting.
+#
+# A design trade-off, the one deliberate simplification in this chapter:
+#   The real chain is sensor -> track manager -> fire-control solution -> launch.
+#   Measured here: with no fusion centre configured, PLATFORM.MasterTrackList() is empty,
+#   and WSF_TRACK_PROCESSOR exposes no track list a script can read.
+#   So that this chapter stays about engineering rather than fire-control modelling, the hint
+#   comes from the target's MakeTrack(), its truth track. The real chain is not covered in this edition.
+#   Note this affects only where the shot goes, not when it goes: the range gate decides when.
+# =====================================================================
+
+processor SHOOTER WSF_SCRIPT_PROCESSOR
+   update_interval 0.5 s
+
+   script_variables
+      bool mFired = false;
+   end_script_variables
+
+   on_update
+      // FIRE_RANGE_M and TARGET_NAME are global script_variables at the top of the host scenario,
+      // and must precede every include_once.
+      if (!mFired)
+      {
+         WsfPlatform tgt = WsfSimulation.FindPlatform(TARGET_NAME);
+         if (tgt.IsValid() && (PLATFORM.SlantRangeTo(tgt) <= FIRE_RANGE_M))
+         {
+            WsfTrack trk = tgt.MakeTrack();
+            WsfWeapon w = PLATFORM.Weapon("aam_med");
+            if (w.IsValid() && (w.QuantityRemaining() > 0) && w.Fire(trk))
+            {
+               writeln("SHOT t=", TIME_NOW, " r=", PLATFORM.SlantRangeTo(tgt));
+               mFired = true;
+            }
+         }
+      }
+   end_on_update
+end_processor

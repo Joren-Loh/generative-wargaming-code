@@ -1,0 +1,27 @@
+# =====================================================================
+# library/weapons/aam_implicit.txt
+# Three-layer library, layer one: equipment. An implicit air-to-air weapon, with no flight phase.
+#
+# Why WSF_IMPLICIT_WEAPON rather than WSF_EXPLICIT_WEAPON:
+#   This chapter is about engineering (generation, batch runs, gates), not ballistic or seeker modelling.
+#   An implicit weapon creates no munition platform: one engagement, one damage decision,
+#   so a run stays cheap (about 0.35 s here) and dozens or hundreds of runs are practical.
+#   Real flight ballistics, seekers and fuses are outside this edition.
+#
+# Key semantics, measured: an implicit weapon with no launch_computer, when update_interval
+# expires, compares the aim point frozen at launch against the target's current position, and
+# samples Pk from whichever radius_and_pk band that miss distance falls into.
+# A target at 200 m/sec with a 1 s evaluation delay misses by about 200 m, which is where the bands come from.
+# =====================================================================
+
+weapon_effects AAM_PK_BANDS WSF_GRADUATED_LETHALITY
+   radius_and_pk   50.0 m 0.90
+   radius_and_pk  300.0 m 0.50
+   radius_and_pk  900.0 m 0.05
+end_weapon_effects
+
+weapon AAM_MED WSF_IMPLICIT_WEAPON
+   quantity 4
+   update_interval 1.0 s
+   weapon_effects AAM_PK_BANDS
+end_weapon

@@ -1,0 +1,209 @@
+# Simulation report
+
+## Scenario
+
+```text
+# =====================================================================
+# ch23-acceptance / scenario_base.txt
+# The base scenario of the conversational wargame: types and weapons only; wargame.py renders the instances from state.json
+# Two placeholder markers sit at the end of the file, replaced by patch.render() with the platform blocks and the duration
+# =====================================================================
+
+log_file output/scenario.log
+
+event_output
+   file output/scenario.evt
+   enable PLATFORM_ADDED
+   enable SENSOR_TRACK_INITIATED
+   enable WEAPON_FIRED
+   enable WEAPON_HIT
+   enable WEAPON_MISSED
+   enable PLATFORM_BROKEN
+   enable PLATFORM_DELETED
+end_event_output
+
+radar_signature FIGHTER_RCS
+   constant 5 m^2
+end_radar_signature
+
+# ---------------- missile ----------------
+aero AAM_AERO WSF_AERO
+   mach_and_cd 0.0 1.35
+   mach_and_cd 1.0 1.85
+   mach_and_cd 2.0 1.65
+   reference_area 0.0136 m^2
+   cl_max 10.0
+   aspect_ratio 17.7
+   oswalds_factor 0.9
+end_aero
+
+platform_type AAM WSF_PLATFORM
+   mover WSF_GUIDED_MOVER
+      total_mass        85.0 kg
+      fuel_mass         27.5 kg
+      specific_impulse  222.0 sec
+      thrust            1200.0 lbf
+      thrust_duration   5.1 sec
+      update_interval   0.1 sec
+      aero AAM_AERO
+   end_mover
+   processor autopilot WSF_GUIDANCE_COMPUTER
+      proportional_navigation_gain 30.0
+      velocity_pursuit_gain        30.0
+      g_bias                       1.0
+      maximum_commanded_g          40.0 g
+      update_interval              0.1 sec
+   end_processor
+   processor seeker WSF_PERFECT_TRACKER
+      update_interval 0.1 sec
+   end_processor
+   processor fuse WSF_AIR_TARGET_FUSE
+      max_time_of_flight_to_detonate 60.0 sec
+   end_processor
+end_platform_type
+
+weapon_effects AAM_EFFECT WSF_GRADUATED_LETHALITY
+   radius_and_pk 100.0 m 0.85
+end_weapon_effects
+
+weapon AAM_LAUNCHER WSF_EXPLICIT_WEAPON
+   launched_platform_type AAM
+   weapon_effects        AAM_EFFECT
+   quantity              2
+   launch_delta_v        10.0 0.0 0.0 m/s
+end_weapon
+
+# ---------------- fighter ----------------
+platform_type FIGHTER WSF_PLATFORM
+   radar_signature FIGHTER_RCS
+   mover WSF_AIR_MOVER
+      maximum_speed                600 m/sec
+      minimum_speed                120 m/sec
+      default_radial_acceleration  6.0 g
+      at_end_of_path               extrapolate
+   end_mover
+   sensor radar WSF_GEOMETRIC_SENSOR
+      on
+      frame_time                   1 sec
+      maximum_range                80 km
+      azimuth_field_of_view        -60 deg 60 deg
+      elevation_field_of_view      -30 deg 30 deg
+      reports_location
+      reports_range
+      reports_bearing
+      ignore_same_side
+      internal_link tracker
+   end_sensor
+   # With no WSF_TRACK_PROCESSOR, PLATFORM.MasterTrackList() stays empty and the script never fires
+   processor tracker WSF_TRACK_PROCESSOR
+      update_interval 1 sec
+   end_processor
+   weapon aam AAM_LAUNCHER
+      on
+   end_weapon
+   processor shooter WSF_SCRIPT_PROCESSOR
+      update_interval 1 sec
+      script_variables
+         int shots = 0;
+      end_script_variables
+      on_update
+         foreach (WsfTrack track in PLATFORM.MasterTrackList())
+         {
+            double r = PLATFORM.SlantRangeTo(track);
+            if (shots < 2 && r < 25000.0 && track.TargetType() == "FIGHTER"
+                && PLATFORM.Weapon("aam").QuantityRemaining() > 0)
+            {
+               if (PLATFORM.Weapon("aam").Fire(track)) { shots = shots + 1; }
+            }
+         }
+      end_on_update
+   end_processor
+end_platform_type
+
+# ---------------- platform instances, rendered from state.json ----------------
+platform blue_1 FIGHTER
+   side blue
+   route
+      position 30:00:00.0n 122:00:00.0e altitude 8000 m msl speed 250 m/sec
+      position 30:00:00.0n 122:30:00.0e altitude 8000 m msl speed 250 m/sec
+   end_route
+end_platform
+
+platform blue_2 FIGHTER
+   side blue
+   route
+      position 30:09:00.0n 122:00:00.0e altitude 8000 m msl speed 250 m/sec
+      position 30:09:00.0n 122:30:00.0e altitude 8000 m msl speed 250 m/sec
+   end_route
+end_platform
+
+platform red_1 FIGHTER
+   side red
+   route
+      position 30:00:00.0n 122:27:00.0e altitude 8000 m msl speed 250 m/sec
+      position 30:00:00.0n 121:57:00.0e altitude 8000 m msl speed 250 m/sec
+   end_route
+end_platform
+
+platform red_2 FIGHTER
+   side red
+   route
+      position 30:09:00.0n 122:27:00.0e altitude 8000 m msl speed 250 m/sec
+      position 30:09:00.0n 121:57:00.0e altitude 8000 m msl speed 250 m/sec
+   end_route
+end_platform
+
+end_time 600 sec
+
+```
+
+## Event narrative
+
+- at 0 s Blue 1 (FIGHTER) enters the battle
+- at 0 s Blue 2 (FIGHTER) enters the battle
+- at 0 s Red 1 (FIGHTER) enters the battle
+- at 0 s Red 2 (FIGHTER) enters the battle
+- at 0 s Blue 1's radar detects Red 1 at 43.5 km
+- at 0 s Blue 2's radar detects Red 1 at 46.5 km
+- at 0 s Red 1's radar detects Blue 1 at 43.5 km
+- at 0 s Red 2's radar detects Blue 2 at 43.4 km
+- at 0 s Blue 1's radar detects Red 2 at 46.3 km
+- at 0 s Blue 2's radar detects Red 2 at 43.2 km
+- at 0 s Red 1's radar detects Blue 2 at 46.3 km
+- at 0 s Red 2's radar detects Blue 1 at 46.3 km
+- at 38 s Blue 1 launches 1 missile at Red 1 (Blue 1's 1st missile)
+- at 38 s Blue 2 launches 1 missile at Red 2 (Blue 2's 1st missile)
+- at 38 s Red 1 launches 1 missile at Blue 1 (Red 1's 1st missile)
+- at 38 s Red 2 launches 1 missile at Blue 2 (Red 2's 1st missile)
+- at 38 s Blue 1's radar detects Red 2's 1st missile at 29.6 km
+- at 38 s Blue 2's radar detects Red 2's 1st missile at 24.4 km
+- at 38 s Red 1's radar detects Blue 2's 1st missile at 29.6 km
+- at 38 s Red 2's radar detects Blue 1's 1st missile at 29.6 km
+- at 38 s Blue 1's radar detects Red 1's 1st missile at 24.3 km
+- at 38 s Blue 2's radar detects Red 1's 1st missile at 29.5 km
+- at 38 s Red 1's radar detects Blue 1's 1st missile at 24.3 km
+- at 38 s Red 2's radar detects Blue 2's 1st missile at 24.3 km
+- at 39 s Blue 1 launches 1 missile at Red 1 (Blue 1's 2nd missile)
+- at 39 s Blue 2 launches 1 missile at Red 2 (Blue 2's 2nd missile)
+- at 39 s Red 1 launches 1 missile at Blue 1 (Red 1's 2nd missile)
+- at 39 s Red 2 launches 1 missile at Blue 2 (Red 2's 2nd missile)
+- at 39 s Blue 1's radar detects Red 2's 2nd missile at 29.1 km
+- at 39 s Blue 2's radar detects Red 1's 2nd missile at 29.1 km
+- at 39 s Red 1's radar detects Blue 1's 2nd missile at 24.0 km
+- at 39 s Blue 1's radar detects Red 1's 2nd missile at 23.9 km
+- at 39 s Blue 2's radar detects Red 2's 2nd missile at 23.8 km
+- at 39 s Red 1's radar detects Blue 2's 2nd missile at 29.1 km
+- at 39 s Red 2's radar detects Blue 2's 2nd missile at 23.8 km
+- at 39 s Red 2's radar detects Blue 1's 2nd missile at 29.0 km
+- at 81.0 s Blue 2's 2nd missile hits, Pk=0.85, engine adjudicates KILLED
+- at 81.0 s Red 2's 2nd missile hits, Pk=0.85, engine adjudicates KILLED
+- at 81.0 s Red 2 is shot down
+- at 81.0 s Blue 2 is shot down
+- ... (the remaining events are in output/scenario.evt)
+
+## Statistics
+
+Blue fired 4, hit 2; Red fired 4, hit 2.
+Shot down: Red 2 (81 s), Blue 2 (81 s), Red 1 (81 s), Blue 1 (81 s).
+First shot at 38 s.
+Run length 600 s.

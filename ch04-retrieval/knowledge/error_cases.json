@@ -1,0 +1,52 @@
+[
+ {
+  "error": "Could not find platform_type BLUE_ADV_FIGHTER",
+  "type": "type-name hallucination",
+  "hint": "the platform references a type that does not exist; use one from the knowledge base, or define it in this file"
+ },
+ {
+  "error": "Could not open file 'models/fighter.txt'",
+  "type": "wrong include path",
+  "hint": "the include_once path does not exist on this machine; delete it or use a path the demos use"
+ },
+ {
+  "error": "Unknown identifier: START_TYPE",
+  "type": "undeclared variable",
+  "hint": "global script_variables must precede every include_once"
+ },
+ {
+  "error": "Bad value for: position",
+  "type": "reversed coordinates",
+  "hint": "position takes latitude, then longitude, then an optional altitude"
+ },
+ {
+  "error": "Coincident waypoints!",
+  "type": "coincident waypoints",
+  "hint": "route contains numerically duplicated waypoints; dedupe them or offset one slightly"
+ },
+ {
+  "error": "Expected value '0' to be > 0",
+  "type": "illegal time value",
+  "hint": "execute at_time must be greater than 0; change 0.0 to 0.1 or 1.0"
+ },
+ {
+  "error": "Unknown command: microsec",
+  "type": "illegal unit",
+  "hint": "microsec is not a unit here; write 1.0e-6 sec instead"
+ },
+ {
+  "error": "a speed clause at the end of a position line",
+  "type": "clause in the wrong place",
+  "hint": "speed belongs to a route waypoint; a position line does not accept it"
+ },
+ {
+  "error": ".evt is zero bytes and nothing is reported",
+  "type": "event_output without enable",
+  "hint": "every event you need must be enabled explicitly inside the event_output block"
+ },
+ {
+  "error": "Null object reference",
+  "type": "missing command_chain",
+  "hint": "a platform must carry command_chain before a script calls Commander or CommandChain"
+ }
+]

@@ -1,0 +1,6 @@
+{
+  "afsim_root": "C:/AFSIM/afsim-2.9.0",
+  "project_root": "",
+  "mission_timeout_sec": 120,
+  "max_output_chars": 20000
+}

@@ -1,0 +1,11 @@
+2026-10-27 01:01:43 version wsf 2.9.0
+2026-10-27 01:01:43 file scenario.txt
+2026-10-27 01:01:43 file ../../library/theater/blue_fighter.txt
+2026-10-27 01:01:43 file ..\..\library\theater\../base/fighter_base.txt
+2026-10-27 01:01:43 file ..\..\library\base\./aircraft_base.txt
+2026-10-27 01:01:43 file ..\..\library\base\../sensors/geo_radar.txt
+2026-10-27 01:01:43 file ..\..\library\base\../weapons/aam_implicit.txt
+2026-10-27 01:01:43 file ..\..\library\base\../processors/shooter.txt
+2026-10-27 01:01:43 Event output file: output/scenario.evt
+2026-10-27 01:01:43 start 1
+2026-10-27 01:01:43 complete 65.001 0.001 0.000

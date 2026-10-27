@@ -1,0 +1,21 @@
+event_output
+   file output/scenario.evt
+   enable PLATFORM_ADDED
+end_event_output
+
+end_time 5 s
+
+platform_type BASE_FIGHTER WSF_PLATFORM
+   mover WSF_AIR_MOVER
+      maximum_speed 900 ft/s
+   end_mover
+end_platform_type
+
+platform_type BLUE_FIGHTER BASE_FIGHTER
+   icon f15c
+end_platform_type
+
+platform blue-1 BLUE_FIGHTER
+   side blue
+   position 30.0n 118.0e altitude 30000 ft
+end_platform

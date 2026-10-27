@@ -1,0 +1,14 @@
+# A real dialogue script: one user turn per line, replayed by wargame.py --batch
+run simulation
+new scenario
+two Blue F-16s enter from the east, altitude 8000 m
+two Red, entering from the west
+run simulation
+who was shot down?
+how many missiles were fired in total?
+set Blue 1's altitude to 3000 m
+run simulation
+undo
+run 600 seconds
+run simulation
+export report

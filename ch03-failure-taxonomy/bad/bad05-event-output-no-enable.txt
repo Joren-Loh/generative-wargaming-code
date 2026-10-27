@@ -1,0 +1,6 @@
+# event_output with a file but no enable: a zero-byte .evt, and no engine error
+event_output
+   file output/scenario.evt
+end_event_output
+
+end_time 3 s

@@ -1,0 +1,19 @@
+# an extra layer of script inside on_initialize
+script_interface
+end_script_interface
+
+platform_type FIGHTER WSF_PLATFORM
+   mover WSF_AIR_MOVER
+   end_mover
+   processor brain WSF_SCRIPT_PROCESSOR
+      on_initialize
+         script
+            double t0 = TIME_NOW;
+         end_script
+      end_on_initialize
+   end_processor
+end_platform_type
+
+platform plane FIGHTER
+   side blue
+end_platform

@@ -1,0 +1,4 @@
+- The Red penetration route needs a start, an end, and a pass through the Blue responsibility area.
+- Blue's intercept point sits upstream on that route, at a distance from the asset worth defending that exceeds the engagement depth.
+- State when the sensor comes on, and the rules of engagement (ROE).
+- The scenario needs a stated objective, e.g. "intercept before Red penetrates".

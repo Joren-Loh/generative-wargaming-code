@@ -1,0 +1,29 @@
+# =====================================================================
+# samples/bad_position.txt -- coordinates written the GIS way, longitude first.
+# Structurally closed, so gate 1 reports only two "position looks longitude-first";
+# the engine reports Bad value for: position and exits with code 1.
+#
+# Run: python gates.py --extra "samples/*.txt"
+#       mission.exe samples/bad_position.txt
+# =====================================================================
+
+event_output
+   file output/sample.evt
+   enable PLATFORM_ADDED
+end_event_output
+
+platform_type SAMPLE_AIRCRAFT WSF_PLATFORM
+   mover WSF_AIR_MOVER
+   end_mover
+end_platform_type
+
+platform sample_01 SAMPLE_AIRCRAFT
+   route
+      position 122:00:00.00e 30:00:00.00n altitude 25000 ft msl
+         speed 200 m/sec
+      position 122:30:00.00e 30:00:00.00n altitude 25000 ft msl
+         speed 200 m/sec
+   end_route
+end_platform
+
+end_time 30 s

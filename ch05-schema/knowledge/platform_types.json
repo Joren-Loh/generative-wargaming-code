@@ -1,0 +1,1714 @@
+{
+ "ACOUSTIC_TARGET": {
+  "name": "ACOUSTIC_TARGET",
+  "defined_in": "demos/acoustic/acoustic_demo.txt"
+ },
+ "JUNGLE_DAY_ACOUSTIC_PLATFORM": {
+  "name": "JUNGLE_DAY_ACOUSTIC_PLATFORM",
+  "defined_in": "demos/acoustic/acoustic_demo.txt"
+ },
+ "JUNGLE_NIGHT_ACOUSTIC_PLATFORM": {
+  "name": "JUNGLE_NIGHT_ACOUSTIC_PLATFORM",
+  "defined_in": "demos/acoustic/acoustic_demo.txt"
+ },
+ "INDUSTRIAL_ACOUSTIC_PLATFORM": {
+  "name": "INDUSTRIAL_ACOUSTIC_PLATFORM",
+  "defined_in": "demos/acoustic/acoustic_demo.txt"
+ },
+ "RURAL_ACOUSTIC_PLATFORM": {
+  "name": "RURAL_ACOUSTIC_PLATFORM",
+  "defined_in": "demos/acoustic/acoustic_demo.txt"
+ },
+ "RESIDENTIAL_ACOUSTIC_PLATFORM": {
+  "name": "RESIDENTIAL_ACOUSTIC_PLATFORM",
+  "defined_in": "demos/acoustic/acoustic_demo.txt"
+ },
+ "ACOUSTIC_TARGET1": {
+  "name": "ACOUSTIC_TARGET1",
+  "defined_in": "demos/acoustic/acoustic_demo2.txt"
+ },
+ "ACOUSTIC_TARGET2": {
+  "name": "ACOUSTIC_TARGET2",
+  "defined_in": "demos/acoustic/acoustic_demo2.txt"
+ },
+ "ACOUSTIC_TARGET3": {
+  "name": "ACOUSTIC_TARGET3",
+  "defined_in": "demos/acoustic/acoustic_demo2.txt"
+ },
+ "ACOUSTIC_TARGET4": {
+  "name": "ACOUSTIC_TARGET4",
+  "defined_in": "demos/acoustic/acoustic_demo2.txt"
+ },
+ "ACOUSTIC_TARGET5": {
+  "name": "ACOUSTIC_TARGET5",
+  "defined_in": "demos/acoustic/acoustic_demo2.txt"
+ },
+ "CHAFF": {
+  "name": "CHAFF",
+  "defined_in": "demos/chaff/chaff_example.txt"
+ },
+ "BLUE_AIRLIFTER_JET": {
+  "name": "BLUE_AIRLIFTER_JET",
+  "defined_in": "demos/chaff/chaff_example.txt"
+ },
+ "EW_RADAR_SITE": {
+  "name": "EW_RADAR_SITE",
+  "defined_in": "demos/chaff/chaff_example.txt"
+ },
+ "BLUE_AIR_LIFTER_JET": {
+  "name": "BLUE_AIR_LIFTER_JET",
+  "defined_in": "demos/chaff/chaff_example_ttr.txt"
+ },
+ "TTR_RADAR_SITE": {
+  "name": "TTR_RADAR_SITE",
+  "defined_in": "demos/chaff/chaff_example_ttr.txt"
+ },
+ "BASIC_FIGHTER": {
+  "name": "BASIC_FIGHTER",
+  "defined_in": "demos/comm/group_comm_example.txt"
+ },
+ "HULK": {
+  "name": "HULK",
+  "defined_in": "demos/cyber/avengers_detonate_effect.txt"
+ },
+ "WEAPON_PT": {
+  "name": "WEAPON_PT",
+  "defined_in": "demos/cyber/GoneFishing_ConstraintDemo.txt"
+ },
+ "FISH": {
+  "name": "FISH",
+  "defined_in": "demos/cyber/GoneFishing_ConstraintDemo.txt"
+ },
+ "AIRPORT": {
+  "name": "AIRPORT",
+  "defined_in": "demos/cyber/GoneFishing_ConstraintDemo.txt"
+ },
+ "FISHERMAN": {
+  "name": "FISHERMAN",
+  "defined_in": "demos/cyber/GoneFishing_ConstraintDemo.txt"
+ },
+ "my_type": {
+  "name": "my_type",
+  "defined_in": "demos/distributed_operations/xio_setup.txt"
+ },
+ "FIGHTER": {
+  "name": "FIGHTER",
+  "defined_in": "demos/draw/draw_demo.txt"
+ },
+ "JAMMER_PLATFORM": {
+  "name": "JAMMER_PLATFORM",
+  "defined_in": "demos/electronic_warfare/agile_auto-repeater_jamming.txt"
+ },
+ "STRIKER_PLATFORM": {
+  "name": "STRIKER_PLATFORM",
+  "defined_in": "demos/electronic_warfare/agile_auto-repeater_jamming.txt"
+ },
+ "JAMMER": {
+  "name": "JAMMER",
+  "defined_in": "demos/electronic_warfare/agile_repeater_jamming-rt1.txt"
+ },
+ "EW_RADAR": {
+  "name": "EW_RADAR",
+  "defined_in": "demos/electronic_warfare/agile_repeater_jamming-rt1.txt"
+ },
+ "STRIKER": {
+  "name": "STRIKER",
+  "defined_in": "demos/electronic_warfare/agile_repeater_jamming-rt1.txt"
+ },
+ "TTR_RADAR": {
+  "name": "TTR_RADAR",
+  "defined_in": "demos/electronic_warfare/closely_space_targets_ttr.txt"
+ },
+ "ESM_SITE": {
+  "name": "ESM_SITE",
+  "defined_in": "demos/electronic_warfare/esm_detect_jammer.txt"
+ },
+ "ESM_PLATFORM": {
+  "name": "ESM_PLATFORM",
+  "defined_in": "demos/electronic_warfare/esm_detect_multi_beam_radar.txt"
+ },
+ "COMMAND_CENTER": {
+  "name": "COMMAND_CENTER",
+  "defined_in": "demos/electronic_warfare/false-target_command_center.txt"
+ },
+ "AIRPLANE": {
+  "name": "AIRPLANE",
+  "defined_in": "demos/electronic_warfare/track_error.txt"
+ },
+ "SAM_LAUNCHER": {
+  "name": "SAM_LAUNCHER",
+  "defined_in": "demos/electronic_warfare/track_error.txt"
+ },
+ "SAM_MISSILE": {
+  "name": "SAM_MISSILE",
+  "defined_in": "demos/electronic_warfare/track_error.txt"
+ },
+ "LAUNCHER_TYPE": {
+  "name": "LAUNCHER_TYPE",
+  "defined_in": "demos/engage/flight_path.txt"
+ },
+ "TRACKER_TYPE": {
+  "name": "TRACKER_TYPE",
+  "defined_in": "demos/engage/flight_path.txt"
+ },
+ "TARGET_TYPE": {
+  "name": "TARGET_TYPE",
+  "defined_in": "demos/engage/flight_path.txt"
+ },
+ "FUEL_TEST_TYPE": {
+  "name": "FUEL_TEST_TYPE",
+  "defined_in": "demos/example_scripts/fuel_table_demo.txt"
+ },
+ "FIGHTER_SENSOR": {
+  "name": "FIGHTER_SENSOR",
+  "defined_in": "demos/example_scripts/output_file_demo.txt"
+ },
+ "F4_PHANTOM": {
+  "name": "F4_PHANTOM",
+  "defined_in": "demos/example_scripts/output_file_demo.txt"
+ },
+ "MY_STRIKER": {
+  "name": "MY_STRIKER",
+  "defined_in": "demos/example_scripts/proc_mover_demo.txt"
+ },
+ "RECEIVER": {
+  "name": "RECEIVER",
+  "defined_in": "demos/exchange_proc/receiver_definition.txt"
+ },
+ "TANKER": {
+  "name": "TANKER",
+  "defined_in": "demos/exchange_proc/tanker_definition.txt"
+ },
+ "TARGET": {
+  "name": "TARGET",
+  "defined_in": "demos/fires/time_on_target.txt"
+ },
+ "HEL": {
+  "name": "HEL",
+  "defined_in": "demos/hel/ground_hel_vs_hypersonic.txt"
+ },
+ "HEL_PLATFORM": {
+  "name": "HEL_PLATFORM",
+  "defined_in": "demos/hel/hel_test.txt"
+ },
+ "RED_ADV_FIGHTER_2": {
+  "name": "RED_ADV_FIGHTER_2",
+  "defined_in": "demos/hel/hel_test.txt"
+ },
+ "BM": {
+  "name": "BM",
+  "defined_in": "demos/hel/hel_test.txt"
+ },
+ "BLUE_MULTIROLE_FIGHTER_1EF": {
+  "name": "BLUE_MULTIROLE_FIGHTER_1EF",
+  "defined_in": "demos/hel/intersect_mesh_test.txt"
+ },
+ "FLYER": {
+  "name": "FLYER",
+  "defined_in": "demos/kinematic_mover/kinematic_mover_demo.txt"
+ },
+ "AIRFLYER": {
+  "name": "AIRFLYER",
+  "defined_in": "demos/kinematic_mover/kinematic_mover_demo.txt"
+ },
+ "TEST": {
+  "name": "TEST",
+  "defined_in": "demos/laser_designator/test.txt"
+ },
+ "SIMPLE_FIGHTER": {
+  "name": "SIMPLE_FIGHTER",
+  "defined_in": "demos/multiresolution_demos/air_mover_demo.txt"
+ },
+ "MR_SENDER_BASE": {
+  "name": "MR_SENDER_BASE",
+  "defined_in": "demos/multiresolution_demos/comm_demo.txt"
+ },
+ "SENDER_BASE": {
+  "name": "SENDER_BASE",
+  "defined_in": "demos/multiresolution_demos/comm_demo.txt"
+ },
+ "GENERIC_RADAR_SITE": {
+  "name": "GENERIC_RADAR_SITE",
+  "defined_in": "demos/multiresolution_demos/radar_signature_demo.txt"
+ },
+ "MR_SENSOR_SITE": {
+  "name": "MR_SENSOR_SITE",
+  "defined_in": "demos/multiresolution_demos/sensor_demo.txt"
+ },
+ "GEOMETRIC_SENSOR_SITE": {
+  "name": "GEOMETRIC_SENSOR_SITE",
+  "defined_in": "demos/multiresolution_demos/sensor_demo.txt"
+ },
+ "MR_TEST_SAT": {
+  "name": "MR_TEST_SAT",
+  "defined_in": "demos/multiresolution_demos/space_mover_demo.txt"
+ },
+ "target_type": {
+  "name": "target_type",
+  "defined_in": "demos/noise_cloud/noise_cloud.txt"
+ },
+ "OTH_RADAR_SITE": {
+  "name": "OTH_RADAR_SITE",
+  "defined_in": "demos/oth_radar/othTest.txt"
+ },
+ "AAM_TEST_PLATFORM": {
+  "name": "AAM_TEST_PLATFORM",
+  "defined_in": "demos/p6dof/aam_launch_test.txt"
+ },
+ "TEST_PLATFORM_TYPE": {
+  "name": "TEST_PLATFORM_TYPE",
+  "defined_in": "demos/p6dof/flight_envelope.txt"
+ },
+ "TEST_PLATFORM": {
+  "name": "TEST_PLATFORM",
+  "defined_in": "demos/p6dof/range_endurance_test.txt"
+ },
+ "SAM_TEST_PLATFORM": {
+  "name": "SAM_TEST_PLATFORM",
+  "defined_in": "demos/p6dof/sam_launch_test.txt"
+ },
+ "AIRMOVER_PLATFORM": {
+  "name": "AIRMOVER_PLATFORM",
+  "defined_in": "demos/p6dof/waypoint_test.txt"
+ },
+ "PARACHUTE": {
+  "name": "PARACHUTE",
+  "defined_in": "demos/parachute/parachute_example.txt"
+ },
+ "PARACHUTER": {
+  "name": "PARACHUTER",
+  "defined_in": "demos/parachute/parachute_example2.txt"
+ },
+ "REDSAM": {
+  "name": "REDSAM",
+  "defined_in": "demos/route_finder_demos/3d_route_finder.txt"
+ },
+ "NOTIONAL_GPS": {
+  "name": "NOTIONAL_GPS",
+  "defined_in": "demos/satellite_demos/4th_constellation_demo.txt"
+ },
+ "GROUND_TRACK": {
+  "name": "GROUND_TRACK",
+  "defined_in": "demos/satellite_demos/5th_iridium_flares_demo.txt"
+ },
+ "IRIDIUM": {
+  "name": "IRIDIUM",
+  "defined_in": "demos/satellite_demos/5th_iridium_flares_demo.txt"
+ },
+ "CENTER": {
+  "name": "CENTER",
+  "defined_in": "demos/satellite_demos/5th_iridium_flares_demo.txt"
+ },
+ "satellite": {
+  "name": "satellite",
+  "defined_in": "demos/satellite_demos/6th_Hohmann_leo_orbit_transfer_demo.txt"
+ },
+ "SPACE_SHUTTLE": {
+  "name": "SPACE_SHUTTLE",
+  "defined_in": "demos/satellite_demos/shuttle-tspi-demo.txt"
+ },
+ "ABORT_SITE": {
+  "name": "ABORT_SITE",
+  "defined_in": "demos/satellite_demos/shuttle-tspi-demo.txt"
+ },
+ "BOMB_1000_LB": {
+  "name": "BOMB_1000_LB",
+  "defined_in": "demos/script_demos/script_demo_2.txt"
+ },
+ "EARLY_WARNING_AIRCRAFT": {
+  "name": "EARLY_WARNING_AIRCRAFT",
+  "defined_in": "demos/script_demos/script_demo_2.txt"
+ },
+ "FIGHTER_BOMBER": {
+  "name": "FIGHTER_BOMBER",
+  "defined_in": "demos/script_demos/script_demo_2.txt"
+ },
+ "SUB_BODY": {
+  "name": "SUB_BODY",
+  "defined_in": "demos/script_demos/script_demo_3.txt"
+ },
+ "REF_BODY": {
+  "name": "REF_BODY",
+  "defined_in": "demos/script_demos/script_demo_3.txt"
+ },
+ "AWACS": {
+  "name": "AWACS",
+  "defined_in": "demos/script_demos/script_demo_5.txt"
+ },
+ "BLUE_GLIDE_BOMB_1": {
+  "name": "BLUE_GLIDE_BOMB_1",
+  "defined_in": "demos/script_demos/script_demo_6.txt"
+ },
+ "JET": {
+  "name": "JET",
+  "defined_in": "demos/sensor_demos/bistatic_demo.txt"
+ },
+ "UAV": {
+  "name": "UAV",
+  "defined_in": "demos/sensor_demos/nav_demo.txt"
+ },
+ "PASSENGER_JET": {
+  "name": "PASSENGER_JET",
+  "defined_in": "demos/sensor_demos/passive_detector_demo.txt"
+ },
+ "C4I_PLATFORM": {
+  "name": "C4I_PLATFORM",
+  "defined_in": "demos/sensor_demos/passive_detector_demo.txt"
+ },
+ "RCVR_PLATFORM": {
+  "name": "RCVR_PLATFORM",
+  "defined_in": "demos/sensor_demos/passive_detector_demo.txt"
+ },
+ "ORIENTED_SATELLITE": {
+  "name": "ORIENTED_SATELLITE",
+  "defined_in": "demos/space_operations/attitude_control.txt"
+ },
+ "COMMANDER": {
+  "name": "COMMANDER",
+  "defined_in": "demos/space_operations/cloud_attenuation.txt"
+ },
+ "SSN_RADAR": {
+  "name": "SSN_RADAR",
+  "defined_in": "demos/space_operations/cloud_attenuation.txt"
+ },
+ "SSN_TELESCOPE": {
+  "name": "SSN_TELESCOPE",
+  "defined_in": "demos/space_operations/cloud_attenuation.txt"
+ },
+ "AMATEUR": {
+  "name": "AMATEUR",
+  "defined_in": "demos/space_operations/conjunction_ssn.txt"
+ },
+ "SATELLITE": {
+  "name": "SATELLITE",
+  "defined_in": "demos/space_operations/demo_delta_iv_m.txt"
+ },
+ "DEBRIS": {
+  "name": "DEBRIS",
+  "defined_in": "demos/space_operations/satellite_breakup.txt"
+ },
+ "TEST_AIR_MOVER": {
+  "name": "TEST_AIR_MOVER",
+  "defined_in": "demos/terrain_following/terrain_demo.txt"
+ },
+ "blue_flyer_type": {
+  "name": "blue_flyer_type",
+  "defined_in": "demos/visual_part/blue_flyer.txt"
+ },
+ "red_tank_type": {
+  "name": "red_tank_type",
+  "defined_in": "demos/visual_part/red_tank.txt"
+ },
+ "BOMBER": {
+  "name": "BOMBER",
+  "defined_in": "demos/wargame/platforms/bomber.txt"
+ },
+ "COMMAND": {
+  "name": "COMMAND",
+  "defined_in": "demos/wargame/platforms/command.txt"
+ },
+ "SENSOR_DRONE": {
+  "name": "SENSOR_DRONE",
+  "defined_in": "demos/wargame/platforms/sensor_drone.txt"
+ },
+ "AAM_BASE": {
+  "name": "AAM_BASE",
+  "defined_in": "demos/wargame/weapons/aam/aam_type.txt"
+ },
+ "AGM_PLATFORM": {
+  "name": "AGM_PLATFORM",
+  "defined_in": "demos/wargame/weapons/agm/agm.txt"
+ },
+ "ATG_PLATFORM": {
+  "name": "ATG_PLATFORM",
+  "defined_in": "demos/wargame/weapons/agm/atg.txt"
+ },
+ "SAM": {
+  "name": "SAM",
+  "defined_in": "demos/wargame/weapons/sam/sam.txt"
+ },
+ "BLUE_AIRLIFTER_TURBOPROP": {
+  "name": "BLUE_AIRLIFTER_TURBOPROP",
+  "defined_in": "demos/traffic_demos/platforms/blue_airlifter_turboprop.txt"
+ },
+ "BLUE_MULTIROLE_FIGHTER_1_STATIC": {
+  "name": "BLUE_MULTIROLE_FIGHTER_1_STATIC",
+  "defined_in": "demos/traffic_demos/platforms/blue_multirole_fighter_1_static.txt"
+ },
+ "CAR": {
+  "name": "CAR",
+  "defined_in": "demos/traffic_demos/platforms/car.txt"
+ },
+ "CESSNA172": {
+  "name": "CESSNA172",
+  "defined_in": "demos/traffic_demos/platforms/cessna172.txt"
+ },
+ "COMMAND_POST_STATIC": {
+  "name": "COMMAND_POST_STATIC",
+  "defined_in": "demos/traffic_demos/platforms/command_post_static.txt"
+ },
+ "GROUND_RADAR_STATIC": {
+  "name": "GROUND_RADAR_STATIC",
+  "defined_in": "demos/traffic_demos/platforms/ground_radar_static.txt"
+ },
+ "NAVAL_JET_TANKER": {
+  "name": "NAVAL_JET_TANKER",
+  "defined_in": "demos/traffic_demos/platforms/naval_jet_tanker.txt"
+ },
+ "PICKUP_TRUCK": {
+  "name": "PICKUP_TRUCK",
+  "defined_in": "demos/traffic_demos/platforms/pickup_truck.txt"
+ },
+ "RED_SRBM_LAUNCHER_STATIC": {
+  "name": "RED_SRBM_LAUNCHER_STATIC",
+  "defined_in": "demos/traffic_demos/platforms/red_srbm_launcher_static.txt"
+ },
+ "SCHOOL_BUS": {
+  "name": "SCHOOL_BUS",
+  "defined_in": "demos/traffic_demos/platforms/school_bus.txt"
+ },
+ "CONTAINER_SHIP": {
+  "name": "CONTAINER_SHIP",
+  "defined_in": "demos/traffic_demos/platforms/ship_container.txt"
+ },
+ "LARGE_FISHING_TRAWLER_SHIP": {
+  "name": "LARGE_FISHING_TRAWLER_SHIP",
+  "defined_in": "demos/traffic_demos/platforms/ship_fishing_trawler.txt"
+ },
+ "JETSKI": {
+  "name": "JETSKI",
+  "defined_in": "demos/traffic_demos/platforms/ship_jetski.txt"
+ },
+ "SMALL_FISHING_SHIP": {
+  "name": "SMALL_FISHING_SHIP",
+  "defined_in": "demos/traffic_demos/platforms/ship_small_fishing.txt"
+ },
+ "TANKER_SHIP": {
+  "name": "TANKER_SHIP",
+  "defined_in": "demos/traffic_demos/platforms/ship_tanker.txt"
+ },
+ "TESTVEHICLE": {
+  "name": "TESTVEHICLE",
+  "defined_in": "demos/traffic_demos/scenarios/china_traffic.txt"
+ },
+ "FLIGHT_LEAD": {
+  "name": "FLIGHT_LEAD",
+  "defined_in": "demos/timeline_lead/platforms/flight_lead.txt"
+ },
+ "RED_FLIGHT_LEAD": {
+  "name": "RED_FLIGHT_LEAD",
+  "defined_in": "demos/timeline_lead/platforms/red_flight_lead.txt"
+ },
+ "MEDIUM_RANGE_RADAR_MISSILE": {
+  "name": "MEDIUM_RANGE_RADAR_MISSILE",
+  "defined_in": "demos/timeline_lead/weapons/aam/medium_range_radar_missile.txt"
+ },
+ "TBM1_LAUNCHER": {
+  "name": "TBM1_LAUNCHER",
+  "defined_in": "demos/tbm_demos/platforms/tbm_launcher1.txt"
+ },
+ "TBM2_LAUNCHER": {
+  "name": "TBM2_LAUNCHER",
+  "defined_in": "demos/tbm_demos/platforms/tbm_launcher2.txt"
+ },
+ "TBM3_LAUNCHER": {
+  "name": "TBM3_LAUNCHER",
+  "defined_in": "demos/tbm_demos/platforms/tbm_launcher3.txt"
+ },
+ "TBM1": {
+  "name": "TBM1",
+  "defined_in": "demos/tbm_demos/weapons/ssm/tbm1.txt"
+ },
+ "TBM2": {
+  "name": "TBM2",
+  "defined_in": "demos/tbm_demos/weapons/ssm/tbm2.txt"
+ },
+ "TBM3": {
+  "name": "TBM3",
+  "defined_in": "demos/tbm_demos/weapons/ssm/tbm3.txt"
+ },
+ "UHF_EW_RADAR_PLATFORM": {
+  "name": "UHF_EW_RADAR_PLATFORM",
+  "defined_in": "demos/swarm/platforms/uhf_ew_radar_sensor_platform.txt"
+ },
+ "CLIENT_AGM": {
+  "name": "CLIENT_AGM",
+  "defined_in": "demos/swarm/weapons/agm/client_agm.txt"
+ },
+ "LEADER_AGM": {
+  "name": "LEADER_AGM",
+  "defined_in": "demos/swarm/weapons/agm/leader_agm.txt"
+ },
+ "sam_battery": {
+  "name": "sam_battery",
+  "defined_in": "demos/suppressor/platforms/sam_battery.txt"
+ },
+ "sam_regiment": {
+  "name": "sam_regiment",
+  "defined_in": "demos/suppressor/platforms/sam_regiment.txt"
+ },
+ "IRON_500_LB_BOMB": {
+  "name": "IRON_500_LB_BOMB",
+  "defined_in": "demos/suppressor/weapons/agm/blue_gps_bomb_3.txt"
+ },
+ "BLUE_GPS_BOMB_3_500_LB": {
+  "name": "BLUE_GPS_BOMB_3_500_LB",
+  "defined_in": "demos/suppressor/weapons/agm/blue_gps_bomb_3.txt"
+ },
+ "IRON_1000_LB_BOMB": {
+  "name": "IRON_1000_LB_BOMB",
+  "defined_in": "demos/suppressor/weapons/agm/blue_gps_bomb_3.txt"
+ },
+ "BLUE_GPS_BOMB_3_1000_LB": {
+  "name": "BLUE_GPS_BOMB_3_1000_LB",
+  "defined_in": "demos/suppressor/weapons/agm/blue_gps_bomb_3.txt"
+ },
+ "BLUE_GPS_BOMB_3_1000_LB_PENETRATOR": {
+  "name": "BLUE_GPS_BOMB_3_1000_LB_PENETRATOR",
+  "defined_in": "demos/suppressor/weapons/agm/blue_gps_bomb_3.txt"
+ },
+ "IRON_2000_LB_BOMB": {
+  "name": "IRON_2000_LB_BOMB",
+  "defined_in": "demos/suppressor/weapons/agm/blue_gps_bomb_3.txt"
+ },
+ "BLUE_GPS_BOMB_3_2000_LB": {
+  "name": "BLUE_GPS_BOMB_3_2000_LB",
+  "defined_in": "demos/suppressor/weapons/agm/blue_gps_bomb_3.txt"
+ },
+ "BLUE_GPS_BOMB_3_2000_LB_PENETRATOR": {
+  "name": "BLUE_GPS_BOMB_3_2000_LB_PENETRATOR",
+  "defined_in": "demos/suppressor/weapons/agm/blue_gps_bomb_3.txt"
+ },
+ "BLUE_GPS_BOMB_3_5000_LB_PENETRATOR": {
+  "name": "BLUE_GPS_BOMB_3_5000_LB_PENETRATOR",
+  "defined_in": "demos/suppressor/weapons/agm/blue_gps_bomb_3.txt"
+ },
+ "MISSILE": {
+  "name": "MISSILE",
+  "defined_in": "demos/suppressor/weapons/sam/missile.txt"
+ },
+ "BLUE_ABM_TTR": {
+  "name": "BLUE_ABM_TTR",
+  "defined_in": "demos/space_operations/platforms/blue_abm_ttr.txt"
+ },
+ "BLUE_NAVAL_SAM_BATTERY": {
+  "name": "BLUE_NAVAL_SAM_BATTERY",
+  "defined_in": "demos/space_operations/platforms/blue_naval_sam_battery.txt"
+ },
+ "BLUE_NAVAL_SAM_LAUNCHER": {
+  "name": "BLUE_NAVAL_SAM_LAUNCHER",
+  "defined_in": "demos/space_operations/platforms/blue_naval_sam_launcher.txt"
+ },
+ "INTERCEPTOR": {
+  "name": "INTERCEPTOR",
+  "defined_in": "demos/space_operations/platforms/interceptor.txt"
+ },
+ "INTERCEPT_RADAR": {
+  "name": "INTERCEPT_RADAR",
+  "defined_in": "demos/space_operations/platforms/intercept_radar.txt"
+ },
+ "IRIDIUM_SATELLITE": {
+  "name": "IRIDIUM_SATELLITE",
+  "defined_in": "demos/space_operations/platforms/iridium_satellite.txt"
+ },
+ "LAUNCH_FACILITY": {
+  "name": "LAUNCH_FACILITY",
+  "defined_in": "demos/space_operations/platforms/launch_facility.txt"
+ },
+ "LAUNCH_VEHICLE": {
+  "name": "LAUNCH_VEHICLE",
+  "defined_in": "demos/space_operations/platforms/launch_vehicle.txt"
+ },
+ "SAT_SENSOR": {
+  "name": "SAT_SENSOR",
+  "defined_in": "demos/space_operations/platforms/sat_sensor.txt"
+ },
+ "STARLINK": {
+  "name": "STARLINK",
+  "defined_in": "demos/space_operations/platforms/starlink.txt"
+ },
+ "TAPSATELLITE": {
+  "name": "TAPSATELLITE",
+  "defined_in": "demos/space_operations/platforms/tapsatellite.txt"
+ },
+ "UPLINK": {
+  "name": "UPLINK",
+  "defined_in": "demos/space_operations/platforms/uplink.txt"
+ },
+ "SSN": {
+  "name": "SSN",
+  "defined_in": "demos/space_operations/scenarios/ssn_laydown.txt"
+ },
+ "BLUE_NAVAL_SAM": {
+  "name": "BLUE_NAVAL_SAM",
+  "defined_in": "demos/space_operations/weapons/blue_naval_sam.txt"
+ },
+ "LAUNCH_PLATFORM_TYPE": {
+  "name": "LAUNCH_PLATFORM_TYPE",
+  "defined_in": "demos/space_operations/weapons/blue_naval_sam_lcg.txt"
+ },
+ "ATLAS_V_401_BASE": {
+  "name": "ATLAS_V_401_BASE",
+  "defined_in": "demos/space_operations/launch_vehicles/atlas_v_401/atlas_v_401_base.txt"
+ },
+ "LAUNCHER": {
+  "name": "LAUNCHER",
+  "defined_in": "demos/space_operations/launch_vehicles/atlas_v_401/lcg_ccafs_leo.txt"
+ },
+ "DELTA_IV_M_BASE": {
+  "name": "DELTA_IV_M_BASE",
+  "defined_in": "demos/space_operations/launch_vehicles/delta_iv_m/delta_iv_m_base.txt"
+ },
+ "FALCON_9_BASE": {
+  "name": "FALCON_9_BASE",
+  "defined_in": "demos/space_operations/launch_vehicles/falcon_9/falcon_9_base.txt"
+ },
+ "FALCON_9_LAUNCHER": {
+  "name": "FALCON_9_LAUNCHER",
+  "defined_in": "demos/space_operations/launch_vehicles/falcon_9/lcg_ccafs_leo.txt"
+ },
+ "FALCON_HEAVY_BASE": {
+  "name": "FALCON_HEAVY_BASE",
+  "defined_in": "demos/space_operations/launch_vehicles/falcon_heavy/falcon_heavy_base.txt"
+ },
+ "FALCON_HEAVY_LAUNCHER": {
+  "name": "FALCON_HEAVY_LAUNCHER",
+  "defined_in": "demos/space_operations/launch_vehicles/falcon_heavy/lcg_ccafs_leo.txt"
+ },
+ "LAUNCHER_ONE_BASE": {
+  "name": "LAUNCHER_ONE_BASE",
+  "defined_in": "demos/space_operations/launch_vehicles/launcher_one/launcher_one_base.txt"
+ },
+ "COSMIC_GIRL": {
+  "name": "COSMIC_GIRL",
+  "defined_in": "demos/space_operations/launch_vehicles/launcher_one/lcg_ccafs_leo.txt"
+ },
+ "SATURN_V": {
+  "name": "SATURN_V",
+  "defined_in": "demos/space_operations/launch_vehicles/saturn_v/saturn_v_complex.txt"
+ },
+ "BLUE_MULTIROLE_FIGHTER_1": {
+  "name": "BLUE_MULTIROLE_FIGHTER_1",
+  "defined_in": "demos/sosm/test_mission/a2a/test_a2a.txt"
+ },
+ "RED_MULTIROLE_FIGHTER_3": {
+  "name": "RED_MULTIROLE_FIGHTER_3",
+  "defined_in": "demos/sosm/test_mission/a2a/test_a2a.txt"
+ },
+ "SENSOR_PLATFORM_TYPE": {
+  "name": "SENSOR_PLATFORM_TYPE",
+  "defined_in": "demos/sosm/sensor_plot/smap/smap.txt"
+ },
+ "BRAWLER_TEST": {
+  "name": "BRAWLER_TEST",
+  "defined_in": "demos/six_dof_with_brawler/platforms/brawler_test.txt"
+ },
+ "BRAWLER_TEST_AIRMOVER": {
+  "name": "BRAWLER_TEST_AIRMOVER",
+  "defined_in": "demos/six_dof_with_brawler/platforms/brawler_test.txt"
+ },
+ "LTE_FIGHTER_PM6": {
+  "name": "LTE_FIGHTER_PM6",
+  "defined_in": "demos/six_dof_with_brawler/six_dof_types/aircraft/LTE_FIGHTER/LTE_FIGHTER.txt"
+ },
+ "UNGUIDED_ROCKET_RB6": {
+  "name": "UNGUIDED_ROCKET_RB6",
+  "defined_in": "demos/six_dof/platforms/unguided_rocket.txt"
+ },
+ "UNGUIDED_ROCKET_PM6": {
+  "name": "UNGUIDED_ROCKET_PM6",
+  "defined_in": "demos/six_dof/platforms/unguided_rocket.txt"
+ },
+ "SSM_BASE": {
+  "name": "SSM_BASE",
+  "defined_in": "demos/signature_demos/movers/ssm_base.txt"
+ },
+ "GENERIC_EOIR_SITE": {
+  "name": "GENERIC_EOIR_SITE",
+  "defined_in": "demos/signature_demos/platforms/generic_eoir_site.txt"
+ },
+ "GENERIC_IRST_SITE": {
+  "name": "GENERIC_IRST_SITE",
+  "defined_in": "demos/signature_demos/platforms/generic_irst_site.txt"
+ },
+ "ROCKET": {
+  "name": "ROCKET",
+  "defined_in": "demos/signature_demos/platforms/rocket.txt"
+ },
+ "AIR_TARGET": {
+  "name": "AIR_TARGET",
+  "defined_in": "demos/shooter/platforms/air_target.txt"
+ },
+ "JET_AIRCRAFT": {
+  "name": "JET_AIRCRAFT",
+  "defined_in": "demos/shooter/platforms/jet_aircraft.txt"
+ },
+ "AA_MRM": {
+  "name": "AA_MRM",
+  "defined_in": "demos/shooter/weapons/aam/aa_mrm.txt"
+ },
+ "MISSILE_SHIP": {
+  "name": "MISSILE_SHIP",
+  "defined_in": "demos/ship_ad/platforms/missile_ship.txt"
+ },
+ "RED_MISSILE_DESTROYER": {
+  "name": "RED_MISSILE_DESTROYER",
+  "defined_in": "demos/ship_ad/platforms/red_missile_destroyer.txt"
+ },
+ "RED_MISSILE_FRIGATE": {
+  "name": "RED_MISSILE_FRIGATE",
+  "defined_in": "demos/ship_ad/platforms/red_missile_frigate.txt"
+ },
+ "RED_NAVAL_HELICOPTER": {
+  "name": "RED_NAVAL_HELICOPTER",
+  "defined_in": "demos/ship_ad/platforms/red_naval_helicopter.txt"
+ },
+ "RED_ASM_MSL": {
+  "name": "RED_ASM_MSL",
+  "defined_in": "demos/ship_ad/weapons/agm/red_asm_msl.txt"
+ },
+ "RED_SR_NAVAL_SAM_1": {
+  "name": "RED_SR_NAVAL_SAM_1",
+  "defined_in": "demos/ship_ad/weapons/sam/red_sr_naval_sam_1.txt"
+ },
+ "RED_SR_SAM_1": {
+  "name": "RED_SR_SAM_1",
+  "defined_in": "demos/ship_ad/weapons/sam/red_sr_sam_1.txt"
+ },
+ "RED_SR_SAM_2": {
+  "name": "RED_SR_SAM_2",
+  "defined_in": "demos/ship_ad/weapons/sam/red_sr_sam_2.txt"
+ },
+ "SSM_MISSILE": {
+  "name": "SSM_MISSILE",
+  "defined_in": "demos/ship_ad/weapons/ssm/ssm_missile.txt"
+ },
+ "TARGET_PLATFORM_TYPE": {
+  "name": "TARGET_PLATFORM_TYPE",
+  "defined_in": "demos/sensor_plot/clutter/clutter_table_generation.txt"
+ },
+ "PASSIVE_SNSR_PLATFORM": {
+  "name": "PASSIVE_SNSR_PLATFORM",
+  "defined_in": "demos/sensor_plot/esm/hm-tdoa.txt"
+ },
+ "JAMMER_PLATFORM_TYPE": {
+  "name": "JAMMER_PLATFORM_TYPE",
+  "defined_in": "demos/sensor_plot/radar/hm-bistatic-support-jamming-lab.txt"
+ },
+ "ISR": {
+  "name": "ISR",
+  "defined_in": "demos/sensor_plot/sar/dt_example.txt"
+ },
+ "SAR_PLATFORM": {
+  "name": "SAR_PLATFORM",
+  "defined_in": "demos/sensor_plot/sar/sc_example.txt"
+ },
+ "GROUND_SITE": {
+  "name": "GROUND_SITE",
+  "defined_in": "demos/sensor_demos/platforms/ground_site.txt"
+ },
+ "BEIDOU": {
+  "name": "BEIDOU",
+  "defined_in": "demos/satellite_demos/platforms/beidou.txt"
+ },
+ "BEIDOU_GS": {
+  "name": "BEIDOU_GS",
+  "defined_in": "demos/satellite_demos/platforms/beidou_gs.txt"
+ },
+ "COMSAT": {
+  "name": "COMSAT",
+  "defined_in": "demos/satellite_demos/platforms/comsat_satellite.txt"
+ },
+ "GALILEO": {
+  "name": "GALILEO",
+  "defined_in": "demos/satellite_demos/platforms/galileo.txt"
+ },
+ "GALILEO_GS": {
+  "name": "GALILEO_GS",
+  "defined_in": "demos/satellite_demos/platforms/galileo_gs.txt"
+ },
+ "GLOBALSTAR": {
+  "name": "GLOBALSTAR",
+  "defined_in": "demos/satellite_demos/platforms/globalstar.txt"
+ },
+ "GLOBALSTAR_GS": {
+  "name": "GLOBALSTAR_GS",
+  "defined_in": "demos/satellite_demos/platforms/globalstar_gs.txt"
+ },
+ "GLOBALSTAR_HANDHELD": {
+  "name": "GLOBALSTAR_HANDHELD",
+  "defined_in": "demos/satellite_demos/platforms/globalstar_handheld.txt"
+ },
+ "GLONASS": {
+  "name": "GLONASS",
+  "defined_in": "demos/satellite_demos/platforms/glonass.txt"
+ },
+ "GLONASS_GS": {
+  "name": "GLONASS_GS",
+  "defined_in": "demos/satellite_demos/platforms/glonass_gs.txt"
+ },
+ "GPS": {
+  "name": "GPS",
+  "defined_in": "demos/satellite_demos/platforms/gps.txt"
+ },
+ "GPS_CONTROL": {
+  "name": "GPS_CONTROL",
+  "defined_in": "demos/satellite_demos/platforms/gps_control.txt"
+ },
+ "GPS_HANDHELD": {
+  "name": "GPS_HANDHELD",
+  "defined_in": "demos/satellite_demos/platforms/gps_handheld.txt"
+ },
+ "SAT_GS": {
+  "name": "SAT_GS",
+  "defined_in": "demos/satellite_demos/platforms/ground_station.txt"
+ },
+ "INTELSAT": {
+  "name": "INTELSAT",
+  "defined_in": "demos/satellite_demos/platforms/intelsat.txt"
+ },
+ "INTELSAT_GS": {
+  "name": "INTELSAT_GS",
+  "defined_in": "demos/satellite_demos/platforms/intelsat_gs.txt"
+ },
+ "INTELSAT_HANDHELD": {
+  "name": "INTELSAT_HANDHELD",
+  "defined_in": "demos/satellite_demos/platforms/intelsat_handheld.txt"
+ },
+ "IRIDIUM_GS": {
+  "name": "IRIDIUM_GS",
+  "defined_in": "demos/satellite_demos/platforms/iridium_gs.txt"
+ },
+ "HANDHELD": {
+  "name": "HANDHELD",
+  "defined_in": "demos/satellite_demos/platforms/iridium_handheld.txt"
+ },
+ "IRNSS": {
+  "name": "IRNSS",
+  "defined_in": "demos/satellite_demos/platforms/irnss.txt"
+ },
+ "IRNSS_GS": {
+  "name": "IRNSS_GS",
+  "defined_in": "demos/satellite_demos/platforms/irnss_gs.txt"
+ },
+ "NOAA": {
+  "name": "NOAA",
+  "defined_in": "demos/satellite_demos/platforms/noaa.txt"
+ },
+ "NOAA_GS": {
+  "name": "NOAA_GS",
+  "defined_in": "demos/satellite_demos/platforms/noaa_gs.txt"
+ },
+ "ORBCOMM": {
+  "name": "ORBCOMM",
+  "defined_in": "demos/satellite_demos/platforms/orbcomm.txt"
+ },
+ "ORBCOMM_GS": {
+  "name": "ORBCOMM_GS",
+  "defined_in": "demos/satellite_demos/platforms/orbcomm_gs.txt"
+ },
+ "ORBCOMM_HANDHELD": {
+  "name": "ORBCOMM_HANDHELD",
+  "defined_in": "demos/satellite_demos/platforms/orbcomm_handheld.txt"
+ },
+ "RADAR_TRUCK": {
+  "name": "RADAR_TRUCK",
+  "defined_in": "demos/satellite_demos/platforms/radar_truck.txt"
+ },
+ "EGNOS": {
+  "name": "EGNOS",
+  "defined_in": "demos/satellite_demos/platforms/satellite_based_navigation_system.txt"
+ },
+ "WAAS": {
+  "name": "WAAS",
+  "defined_in": "demos/satellite_demos/platforms/satellite_based_navigation_system.txt"
+ },
+ "MSAS": {
+  "name": "MSAS",
+  "defined_in": "demos/satellite_demos/platforms/satellite_based_navigation_system.txt"
+ },
+ "QZSS": {
+  "name": "QZSS",
+  "defined_in": "demos/satellite_demos/platforms/satellite_based_navigation_system.txt"
+ },
+ "GAGAN": {
+  "name": "GAGAN",
+  "defined_in": "demos/satellite_demos/platforms/satellite_based_navigation_system.txt"
+ },
+ "SDCM": {
+  "name": "SDCM",
+  "defined_in": "demos/satellite_demos/platforms/satellite_based_navigation_system.txt"
+ },
+ "SPACE_STATION": {
+  "name": "SPACE_STATION",
+  "defined_in": "demos/satellite_demos/platforms/satellite_types.txt"
+ },
+ "EDUCATION": {
+  "name": "EDUCATION",
+  "defined_in": "demos/satellite_demos/platforms/satellite_types.txt"
+ },
+ "ENGINEERING": {
+  "name": "ENGINEERING",
+  "defined_in": "demos/satellite_demos/platforms/satellite_types.txt"
+ },
+ "GEO": {
+  "name": "GEO",
+  "defined_in": "demos/satellite_demos/platforms/satellite_types.txt"
+ },
+ "GOES": {
+  "name": "GOES",
+  "defined_in": "demos/satellite_demos/platforms/satellite_types.txt"
+ },
+ "MOLNIYA": {
+  "name": "MOLNIYA",
+  "defined_in": "demos/satellite_demos/platforms/satellite_types.txt"
+ },
+ "RUSSIA_LEO_NAV": {
+  "name": "RUSSIA_LEO_NAV",
+  "defined_in": "demos/satellite_demos/platforms/satellite_types.txt"
+ },
+ "NAVY_NAV": {
+  "name": "NAVY_NAV",
+  "defined_in": "demos/satellite_demos/platforms/satellite_types.txt"
+ },
+ "RESOURCE": {
+  "name": "RESOURCE",
+  "defined_in": "demos/satellite_demos/platforms/satellite_types.txt"
+ },
+ "SEARCH_RESCUE": {
+  "name": "SEARCH_RESCUE",
+  "defined_in": "demos/satellite_demos/platforms/satellite_types.txt"
+ },
+ "SCIENCE": {
+  "name": "SCIENCE",
+  "defined_in": "demos/satellite_demos/platforms/satellite_types.txt"
+ },
+ "TDRSS": {
+  "name": "TDRSS",
+  "defined_in": "demos/satellite_demos/platforms/satellite_types.txt"
+ },
+ "WEATHER": {
+  "name": "WEATHER",
+  "defined_in": "demos/satellite_demos/platforms/satellite_types.txt"
+ },
+ "CUBESAT": {
+  "name": "CUBESAT",
+  "defined_in": "demos/satellite_demos/platforms/satellite_types.txt"
+ },
+ "SIMPLE_SAT": {
+  "name": "SIMPLE_SAT",
+  "defined_in": "demos/satellite_demos/platforms/simple_satellite.txt"
+ },
+ "SBR": {
+  "name": "SBR",
+  "defined_in": "demos/satellite_demos/scenarios/constellation.txt"
+ },
+ "DECOY_MISSILE": {
+  "name": "DECOY_MISSILE",
+  "defined_in": "demos/satellite_demos/scenarios/gps_denied.txt"
+ },
+ "MEDIUM_RANGE_MISSILE": {
+  "name": "MEDIUM_RANGE_MISSILE",
+  "defined_in": "demos/route_finder_demos/weapons/aam/medium_range_missile.txt"
+ },
+ "ICBM_PLATFORM": {
+  "name": "ICBM_PLATFORM",
+  "defined_in": "demos/p6dof/platforms/simple-icbm-platform.txt"
+ },
+ "ICBM_STAGE1": {
+  "name": "ICBM_STAGE1",
+  "defined_in": "demos/p6dof/platforms/simple-icbm-platform.txt"
+ },
+ "ICBM_INTERSTAGE12A": {
+  "name": "ICBM_INTERSTAGE12A",
+  "defined_in": "demos/p6dof/platforms/simple-icbm-platform.txt"
+ },
+ "ICBM_INTERSTAGE12B": {
+  "name": "ICBM_INTERSTAGE12B",
+  "defined_in": "demos/p6dof/platforms/simple-icbm-platform.txt"
+ },
+ "ICBM_INTERSTAGE12C": {
+  "name": "ICBM_INTERSTAGE12C",
+  "defined_in": "demos/p6dof/platforms/simple-icbm-platform.txt"
+ },
+ "ICBM_INTERSTAGE12D": {
+  "name": "ICBM_INTERSTAGE12D",
+  "defined_in": "demos/p6dof/platforms/simple-icbm-platform.txt"
+ },
+ "ICBM_STAGE2": {
+  "name": "ICBM_STAGE2",
+  "defined_in": "demos/p6dof/platforms/simple-icbm-platform.txt"
+ },
+ "ICBM_INTERSTAGE23A": {
+  "name": "ICBM_INTERSTAGE23A",
+  "defined_in": "demos/p6dof/platforms/simple-icbm-platform.txt"
+ },
+ "ICBM_INTERSTAGE23B": {
+  "name": "ICBM_INTERSTAGE23B",
+  "defined_in": "demos/p6dof/platforms/simple-icbm-platform.txt"
+ },
+ "ICBM_INTERSTAGE23C": {
+  "name": "ICBM_INTERSTAGE23C",
+  "defined_in": "demos/p6dof/platforms/simple-icbm-platform.txt"
+ },
+ "ICBM_INTERSTAGE23D": {
+  "name": "ICBM_INTERSTAGE23D",
+  "defined_in": "demos/p6dof/platforms/simple-icbm-platform.txt"
+ },
+ "ICBM_STAGE3": {
+  "name": "ICBM_STAGE3",
+  "defined_in": "demos/p6dof/platforms/simple-icbm-platform.txt"
+ },
+ "ICBM_NOSECONE": {
+  "name": "ICBM_NOSECONE",
+  "defined_in": "demos/p6dof/platforms/simple-icbm-platform.txt"
+ },
+ "ICBM_PBV": {
+  "name": "ICBM_PBV",
+  "defined_in": "demos/p6dof/platforms/simple-icbm-platform.txt"
+ },
+ "ICBM_RV": {
+  "name": "ICBM_RV",
+  "defined_in": "demos/p6dof/platforms/simple-icbm-platform.txt"
+ },
+ "ICBM_DECOY_BALLOON": {
+  "name": "ICBM_DECOY_BALLOON",
+  "defined_in": "demos/p6dof/platforms/simple-icbm-platform.txt"
+ },
+ "UNGUIDED_ROCKET": {
+  "name": "UNGUIDED_ROCKET",
+  "defined_in": "demos/p6dof/platforms/unguided_rocket.txt"
+ },
+ "BLUE_MULTIROLE_FIGHTER_2": {
+  "name": "BLUE_MULTIROLE_FIGHTER_2",
+  "defined_in": "demos/outer_air_battle/platforms/blue_multirole_fighter_2.txt"
+ },
+ "CVN": {
+  "name": "CVN",
+  "defined_in": "demos/outer_air_battle/platforms/cvn.txt"
+ },
+ "TIMED_AC": {
+  "name": "TIMED_AC",
+  "defined_in": "demos/outer_air_battle/platforms/timed_ac.txt"
+ },
+ "TIMED_STATION_AC": {
+  "name": "TIMED_STATION_AC",
+  "defined_in": "demos/outer_air_battle/platforms/TIMED_STATION_AC.txt"
+ },
+ "FOO": {
+  "name": "FOO",
+  "defined_in": "demos/outer_air_battle/scenarios/temp_platforms.txt"
+ },
+ "ELR_SAM_ACQ_RADAR": {
+  "name": "ELR_SAM_ACQ_RADAR",
+  "defined_in": "demos/orwaca_iads/platforms/elr_sam_acq_radar.txt"
+ },
+ "ELR_SAM_BATTALION": {
+  "name": "ELR_SAM_BATTALION",
+  "defined_in": "demos/orwaca_iads/platforms/elr_sam_battalion.txt"
+ },
+ "ELR_SAM_LAUNCHER": {
+  "name": "ELR_SAM_LAUNCHER",
+  "defined_in": "demos/orwaca_iads/platforms/elr_sam_launcher.txt"
+ },
+ "ELR_SAM_TTR_RADAR": {
+  "name": "ELR_SAM_TTR_RADAR",
+  "defined_in": "demos/orwaca_iads/platforms/elr_sam_ttr_radar.txt"
+ },
+ "IADS_CMDR": {
+  "name": "IADS_CMDR",
+  "defined_in": "demos/orwaca_iads/platforms/iads_cmdr.txt"
+ },
+ "LR_SAM_ACQ_RADAR": {
+  "name": "LR_SAM_ACQ_RADAR",
+  "defined_in": "demos/orwaca_iads/platforms/lr_sam_acq_radar.txt"
+ },
+ "LR_SAM_BATTALION": {
+  "name": "LR_SAM_BATTALION",
+  "defined_in": "demos/orwaca_iads/platforms/lr_sam_battalion.txt"
+ },
+ "LR_SAM_LAUNCHER": {
+  "name": "LR_SAM_LAUNCHER",
+  "defined_in": "demos/orwaca_iads/platforms/lr_sam_launcher.txt"
+ },
+ "LR_SAM_TTR_RADAR": {
+  "name": "LR_SAM_TTR_RADAR",
+  "defined_in": "demos/orwaca_iads/platforms/lr_sam_ttr_radar.txt"
+ },
+ "MR_SAM_ACQ_RADAR": {
+  "name": "MR_SAM_ACQ_RADAR",
+  "defined_in": "demos/orwaca_iads/platforms/mr_sam_acq_radar.txt"
+ },
+ "MR_SAM_BATTALION": {
+  "name": "MR_SAM_BATTALION",
+  "defined_in": "demos/orwaca_iads/platforms/mr_sam_battalion.txt"
+ },
+ "MR_SAM_LAUNCHER": {
+  "name": "MR_SAM_LAUNCHER",
+  "defined_in": "demos/orwaca_iads/platforms/mr_sam_launcher.txt"
+ },
+ "MR_SAM_TTR_RADAR": {
+  "name": "MR_SAM_TTR_RADAR",
+  "defined_in": "demos/orwaca_iads/platforms/mr_sam_ttr_radar.txt"
+ },
+ "RADAR_COMPANY": {
+  "name": "RADAR_COMPANY",
+  "defined_in": "demos/orwaca_iads/platforms/radar_company.txt"
+ },
+ "SR_SAM_TELAR": {
+  "name": "SR_SAM_TELAR",
+  "defined_in": "demos/orwaca_iads/platforms/sr_sam_telar.txt"
+ },
+ "TBM_LAUNCHER_VEHICLE": {
+  "name": "TBM_LAUNCHER_VEHICLE",
+  "defined_in": "demos/orwaca_iads/platforms/tbm_launcher_vehicle.txt"
+ },
+ "UHF_EW_RADAR": {
+  "name": "UHF_EW_RADAR",
+  "defined_in": "demos/orwaca_iads/platforms/uhf_ew_radar.txt"
+ },
+ "VHF_EW_RADAR": {
+  "name": "VHF_EW_RADAR",
+  "defined_in": "demos/orwaca_iads/platforms/vhf_ew_radar.txt"
+ },
+ "stub_type": {
+  "name": "stub_type",
+  "defined_in": "demos/orwaca_iads/scenarios/orwaca_cmdr_ew.txt"
+ },
+ "TBM_TARGET": {
+  "name": "TBM_TARGET",
+  "defined_in": "demos/orwaca_iads/scenarios/tbm_route_and_launch.txt"
+ },
+ "ELR_SAM": {
+  "name": "ELR_SAM",
+  "defined_in": "demos/orwaca_iads/weapons/sam/elr_sam.txt"
+ },
+ "LR_SAM": {
+  "name": "LR_SAM",
+  "defined_in": "demos/orwaca_iads/weapons/sam/lr_sam.txt"
+ },
+ "MR_SAM": {
+  "name": "MR_SAM",
+  "defined_in": "demos/orwaca_iads/weapons/sam/mr_sam.txt"
+ },
+ "SR_SAM": {
+  "name": "SR_SAM",
+  "defined_in": "demos/orwaca_iads/weapons/sam/sr_sam.txt"
+ },
+ "TBM_SPENT_STAGE_1": {
+  "name": "TBM_SPENT_STAGE_1",
+  "defined_in": "demos/orwaca_iads/weapons/ssm/tbm.txt"
+ },
+ "TBM_SPENT_STAGE_2": {
+  "name": "TBM_SPENT_STAGE_2",
+  "defined_in": "demos/orwaca_iads/weapons/ssm/tbm.txt"
+ },
+ "TBM": {
+  "name": "TBM",
+  "defined_in": "demos/orwaca_iads/weapons/ssm/tbm.txt"
+ },
+ "BLUE_ASM_MISSILE": {
+  "name": "BLUE_ASM_MISSILE",
+  "defined_in": "demos/new_guidance/weapons/agm/blue_asm_missile.txt"
+ },
+ "SSM203": {
+  "name": "SSM203",
+  "defined_in": "demos/new_guidance/weapons/ssm/ssm_missile.txt"
+ },
+ "LOGISTICS_PLATFORM": {
+  "name": "LOGISTICS_PLATFORM",
+  "defined_in": "demos/logistics/platforms/logistics_platform.txt"
+ },
+ "APC": {
+  "name": "APC",
+  "defined_in": "demos/laser_designator/platforms/apc.txt"
+ },
+ "SOLDIER": {
+  "name": "SOLDIER",
+  "defined_in": "demos/laser_designator/platforms/soldier.txt"
+ },
+ "SOLDIER_JTAC": {
+  "name": "SOLDIER_JTAC",
+  "defined_in": "demos/laser_designator/platforms/soldier_jtac.txt"
+ },
+ "HELLFIRE": {
+  "name": "HELLFIRE",
+  "defined_in": "demos/laser_designator/weapons/agm/hellfire.txt"
+ },
+ "AIR_INTERCEPTOR": {
+  "name": "AIR_INTERCEPTOR",
+  "defined_in": "demos/iads_c2_demos/platforms/air_interceptor.txt"
+ },
+ "ASV_RADAR": {
+  "name": "ASV_RADAR",
+  "defined_in": "demos/iads_c2_demos/platforms/asv_radar.txt"
+ },
+ "SAM_BATTALION": {
+  "name": "SAM_BATTALION",
+  "defined_in": "demos/iads_c2_demos/platforms/sam_battalion.txt"
+ },
+ "TTR": {
+  "name": "TTR",
+  "defined_in": "demos/iads_c2_demos/platforms/tt_radar.txt"
+ },
+ "UCAV": {
+  "name": "UCAV",
+  "defined_in": "demos/iads_c2_demos/platforms/ucav.txt"
+ },
+ "AIR_TO_AIR_MISSILE": {
+  "name": "AIR_TO_AIR_MISSILE",
+  "defined_in": "demos/iads_c2_demos/weapons/aa_missile.txt"
+ },
+ "BLUE_GPS_BOMB_1": {
+  "name": "BLUE_GPS_BOMB_1",
+  "defined_in": "demos/iads_c2_demos/weapons/agm/blue_gps_bomb_1.txt"
+ },
+ "BLUE_GPS_BOMB_2": {
+  "name": "BLUE_GPS_BOMB_2",
+  "defined_in": "demos/iads_c2_demos/weapons/agm/blue_gps_bomb_2.txt"
+ },
+ "LARGE_SAM_BATTALION": {
+  "name": "LARGE_SAM_BATTALION",
+  "defined_in": "demos/iads/platforms/large_sam_battalion.txt"
+ },
+ "LARGE_SAM_LAUNCHER": {
+  "name": "LARGE_SAM_LAUNCHER",
+  "defined_in": "demos/iads/platforms/large_sam_launcher.txt"
+ },
+ "LARGE_SAM_TTR": {
+  "name": "LARGE_SAM_TTR",
+  "defined_in": "demos/iads/platforms/large_sam_ttr.txt"
+ },
+ "RED_RADAR": {
+  "name": "RED_RADAR",
+  "defined_in": "demos/iads/platforms/red_radar.txt"
+ },
+ "RED_RADAR_COMPANY": {
+  "name": "RED_RADAR_COMPANY",
+  "defined_in": "demos/iads/platforms/red_radar_company.txt"
+ },
+ "SOJ": {
+  "name": "SOJ",
+  "defined_in": "demos/iads/platforms/soj.txt"
+ },
+ "LARGE_SAM": {
+  "name": "LARGE_SAM",
+  "defined_in": "demos/iads/weapons/sam/large_sam.txt"
+ },
+ "APACHE": {
+  "name": "APACHE",
+  "defined_in": "demos/hellfire/active_radar_hellfire/apache_type.txt"
+ },
+ "STRIKER_PURSUIT": {
+  "name": "STRIKER_PURSUIT",
+  "defined_in": "demos/heatmap/platforms/striker_pursuit.txt"
+ },
+ "GUN_BATTERY": {
+  "name": "GUN_BATTERY",
+  "defined_in": "demos/gun_engagement/platforms/gun_battery.txt"
+ },
+ "BULLET": {
+  "name": "BULLET",
+  "defined_in": "demos/gun_engagement/weapons/guns/BULLET.txt"
+ },
+ "FIRES_107MM_ROCKET": {
+  "name": "FIRES_107MM_ROCKET",
+  "defined_in": "demos/fires/types/fires_107mm_rocket.txt"
+ },
+ "FIRES_120MM_ARTILLERY": {
+  "name": "FIRES_120MM_ARTILLERY",
+  "defined_in": "demos/fires/types/fires_120mm_artillery.txt"
+ },
+ "FIRES_120MM_MORTAR": {
+  "name": "FIRES_120MM_MORTAR",
+  "defined_in": "demos/fires/types/fires_120mm_mortar.txt"
+ },
+ "FIRES_120MM_MORTAR_M934_HE": {
+  "name": "FIRES_120MM_MORTAR_M934_HE",
+  "defined_in": "demos/fires/types/fires_120mm_mortar_m934_he.txt"
+ },
+ "FIRES_122MM_ROCKET": {
+  "name": "FIRES_122MM_ROCKET",
+  "defined_in": "demos/fires/types/fires_122mm_rocket.txt"
+ },
+ "FIRES_122MM_ROCKET_SHORT": {
+  "name": "FIRES_122MM_ROCKET_SHORT",
+  "defined_in": "demos/fires/types/fires_122mm_rocket_short.txt"
+ },
+ "FIRES_152MM_ARTILLERY": {
+  "name": "FIRES_152MM_ARTILLERY",
+  "defined_in": "demos/fires/types/fires_152mm_artillery.txt"
+ },
+ "FIRES_155MM_ARTILLERY_M107_HE": {
+  "name": "FIRES_155MM_ARTILLERY_M107_HE",
+  "defined_in": "demos/fires/types/fires_155mm_artillery_m107_he.txt"
+ },
+ "FIRES_155MM_ARTILLERY_M107_HE_LOFTED": {
+  "name": "FIRES_155MM_ARTILLERY_M107_HE_LOFTED",
+  "defined_in": "demos/fires/types/fires_155mm_artillery_m107_he_lofted.txt"
+ },
+ "FIRES_160MM_ROCKET": {
+  "name": "FIRES_160MM_ROCKET",
+  "defined_in": "demos/fires/types/fires_160mm_rocket.txt"
+ },
+ "FIRES_220MM_ROCKET_9M27F": {
+  "name": "FIRES_220MM_ROCKET_9M27F",
+  "defined_in": "demos/fires/types/fires_220mm_rocket_9m27f.txt"
+ },
+ "FIRES_227MM_ROCKET_M26": {
+  "name": "FIRES_227MM_ROCKET_M26",
+  "defined_in": "demos/fires/types/fires_227mm_rocket_m26.txt"
+ },
+ "FIRES_240MM_ROCKET": {
+  "name": "FIRES_240MM_ROCKET",
+  "defined_in": "demos/fires/types/fires_240mm_rocket.txt"
+ },
+ "FIRES_300MM_9M55K": {
+  "name": "FIRES_300MM_9M55K",
+  "defined_in": "demos/fires/types/fires_300mm_rocket_9m55k.txt"
+ },
+ "FIRES_60MM_MORTAR": {
+  "name": "FIRES_60MM_MORTAR",
+  "defined_in": "demos/fires/types/fires_60mm_mortar.txt"
+ },
+ "FIRES_60MM_MORAR_M720_HE": {
+  "name": "FIRES_60MM_MORAR_M720_HE",
+  "defined_in": "demos/fires/types/fires_60mm_mortar_m720_he.txt"
+ },
+ "FIRES_60MM_ROCKET": {
+  "name": "FIRES_60MM_ROCKET",
+  "defined_in": "demos/fires/types/fires_60mm_rocket.txt"
+ },
+ "FIRES_81MM_MORTAR_M821_HE": {
+  "name": "FIRES_81MM_MORTAR_M821_HE",
+  "defined_in": "demos/fires/types/fires_81mm_mortar_m821_he.txt"
+ },
+ "FIRES_LAUNCHER": {
+  "name": "FIRES_LAUNCHER",
+  "defined_in": "demos/fires/types/fires_base_types.txt"
+ },
+ "GENERIC_LAUNCHER": {
+  "name": "GENERIC_LAUNCHER",
+  "defined_in": "demos/engage/launchers/generic_launcher.txt"
+ },
+ "GENERIC_TARGET": {
+  "name": "GENERIC_TARGET",
+  "defined_in": "demos/engage/targets/generic_target.txt"
+ },
+ "GENERIC_TRACKER": {
+  "name": "GENERIC_TRACKER",
+  "defined_in": "demos/engage/trackers/generic_tracker.txt"
+ },
+ "LRSAM": {
+  "name": "LRSAM",
+  "defined_in": "demos/engage/weapons/lrsam.txt"
+ },
+ "CYBER_COMMAND_POST": {
+  "name": "CYBER_COMMAND_POST",
+  "defined_in": "demos/cyber/platforms/cyber_command_post.txt"
+ },
+ "CYBER_OUTPOST": {
+  "name": "CYBER_OUTPOST",
+  "defined_in": "demos/cyber/platforms/cyber_outpost.txt"
+ },
+ "GROUND_RADAR": {
+  "name": "GROUND_RADAR",
+  "defined_in": "demos/cyber/platforms/ground_radar.txt"
+ },
+ "SPOTTER": {
+  "name": "SPOTTER",
+  "defined_in": "demos/cyber/platforms/spotter.txt"
+ },
+ "BLUE_GPS_BOMB_1_PT": {
+  "name": "BLUE_GPS_BOMB_1_PT",
+  "defined_in": "demos/cyber/weapons/agm/blue_gps_bomb_1.txt"
+ },
+ "flock": {
+  "name": "flock",
+  "defined_in": "demos/coverage_demos/platforms/air_target.txt"
+ },
+ "GROUND_STATION": {
+  "name": "GROUND_STATION",
+  "defined_in": "demos/coverage_demos/platforms/groud_station_existing.txt"
+ },
+ "SAT": {
+  "name": "SAT",
+  "defined_in": "demos/coverage_demos/platforms/sat1.txt"
+ },
+ "BLACK_VAN": {
+  "name": "BLACK_VAN",
+  "defined_in": "demos/comm/platforms/black_van.txt"
+ },
+ "DETECTOR": {
+  "name": "DETECTOR",
+  "defined_in": "demos/comm/platforms/detector.txt"
+ },
+ "INTRUDER": {
+  "name": "INTRUDER",
+  "defined_in": "demos/comm/platforms/intruder.txt"
+ },
+ "SHIP": {
+  "name": "SHIP",
+  "defined_in": "demos/ciws/platforms/ship.txt"
+ },
+ "30MM_BULLET": {
+  "name": "30MM_BULLET",
+  "defined_in": "demos/ciws/weapons/guns/30mm_bullet.txt"
+ },
+ "BRAWLER_FLIGHT_LEAD": {
+  "name": "BRAWLER_FLIGHT_LEAD",
+  "defined_in": "demos/brawler/platforms/brawler_flight_lead.txt"
+ },
+ "BRAWLER_PLATFORM": {
+  "name": "BRAWLER_PLATFORM",
+  "defined_in": "demos/brawler/platforms/brawler_platform.txt"
+ },
+ "GCI_CMDR": {
+  "name": "GCI_CMDR",
+  "defined_in": "demos/brawler/platforms/gci_cmdr.txt"
+ },
+ "BLUE_SR_A2A_IR_MISSILE_BASE": {
+  "name": "BLUE_SR_A2A_IR_MISSILE_BASE",
+  "defined_in": "demos/brawler/weapons/aam/blue_sr_a2a_ir_missile.txt"
+ },
+ "BLUE_SR_A2A_IR_MISSILE_LAUNCHER": {
+  "name": "BLUE_SR_A2A_IR_MISSILE_LAUNCHER",
+  "defined_in": "demos/brawler/weapons/aam/blue_sr_a2a_ir_missile.txt"
+ },
+ "RIPR_GCI": {
+  "name": "RIPR_GCI",
+  "defined_in": "demos/behavior_tree/platforms/gci.txt"
+ },
+ "SIMPLE_MRM": {
+  "name": "SIMPLE_MRM",
+  "defined_in": "demos/behavior_tree/weapons/aam/simple_mrm.txt"
+ },
+ "COMMANDER_PLATFORM": {
+  "name": "COMMANDER_PLATFORM",
+  "defined_in": "demos/bearing_only/platforms/commander_platform.txt"
+ },
+ "FUSER_PLATFORM": {
+  "name": "FUSER_PLATFORM",
+  "defined_in": "demos/bearing_only/platforms/fuser_platform1.txt"
+ },
+ "GEOMETRIC_BEARING_ONLY_SENSOR_PLATFORM": {
+  "name": "GEOMETRIC_BEARING_ONLY_SENSOR_PLATFORM",
+  "defined_in": "demos/bearing_only/platforms/geometric_bearing_only_sensor_platform.txt"
+ },
+ "BLUE_SLBM": {
+  "name": "BLUE_SLBM",
+  "defined_in": "demos/base_types_nx/weapons/ssm/blue_slbm.txt"
+ },
+ "BLUE_ADV_FIGHTER_1_BASE": {
+  "name": "BLUE_ADV_FIGHTER_1_BASE",
+  "defined_in": "demos/base_types/platforms/blue_adv_fighter_1_base.txt"
+ },
+ "FLIGHT_LEAD_BASE": {
+  "name": "FLIGHT_LEAD_BASE",
+  "defined_in": "demos/base_types/platforms/flight_lead_base.txt"
+ },
+ "GCI_BASE": {
+  "name": "GCI_BASE",
+  "defined_in": "demos/base_types/platforms/gci_base.txt"
+ },
+ "RED_ADV_FIGHTER_1_BASE": {
+  "name": "RED_ADV_FIGHTER_1_BASE",
+  "defined_in": "demos/base_types/platforms/red_adv_fighter_1_base.txt"
+ },
+ "RED_FIGHTER_1_BASE": {
+  "name": "RED_FIGHTER_1_BASE",
+  "defined_in": "demos/base_types/platforms/red_fighter_1_base.txt"
+ },
+ "RED_MULTIROLE_FIGHTER_2_BASE": {
+  "name": "RED_MULTIROLE_FIGHTER_2_BASE",
+  "defined_in": "demos/base_types/platforms/red_multirole_fighter_2_base.txt"
+ },
+ "BLUE_LR_A2A_RF_MISSILE": {
+  "name": "BLUE_LR_A2A_RF_MISSILE",
+  "defined_in": "demos/base_types/weapons/aam/blue_lr_a2a_rf_missile.txt"
+ },
+ "MEDIUM_RANGE_UPLINK_MISSILE": {
+  "name": "MEDIUM_RANGE_UPLINK_MISSILE",
+  "defined_in": "demos/base_types/weapons/aam/medium_range_uplink_missile.txt"
+ },
+ "RED_MR_A2A_RF_MISSILE": {
+  "name": "RED_MR_A2A_RF_MISSILE",
+  "defined_in": "demos/base_types/weapons/aam/red_mr_a2a_rf_missile.txt"
+ },
+ "SIMPLE_LONG_RANGE_MISSILE": {
+  "name": "SIMPLE_LONG_RANGE_MISSILE",
+  "defined_in": "demos/base_types/weapons/aam/simple_long_range_missile.txt"
+ },
+ "SIMPLE_MEDIUM_RANGE_MISSILE": {
+  "name": "SIMPLE_MEDIUM_RANGE_MISSILE",
+  "defined_in": "demos/base_types/weapons/aam/simple_medium_range_missile.txt"
+ },
+ "SIMPLE_SHORT_RANGE_MISSILE": {
+  "name": "SIMPLE_SHORT_RANGE_MISSILE",
+  "defined_in": "demos/base_types/weapons/aam/simple_short_range_missile.txt"
+ },
+ "SUPER_LONG_RANGE_MISSILE": {
+  "name": "SUPER_LONG_RANGE_MISSILE",
+  "defined_in": "demos/base_types/weapons/aam/super_long_range_missile.txt"
+ },
+ "TEST_MEDIUM_RANGE_MISSILE": {
+  "name": "TEST_MEDIUM_RANGE_MISSILE",
+  "defined_in": "demos/base_types/weapons/aam/test_medium_range_missile.txt"
+ },
+ "BLUE_ADV_CRUISE_MISSILE": {
+  "name": "BLUE_ADV_CRUISE_MISSILE",
+  "defined_in": "demos/base_types/weapons/agm/blue_adv_cruise_missile.txt"
+ },
+ "MACH_4_MISSILE": {
+  "name": "MACH_4_MISSILE",
+  "defined_in": "demos/base_types/weapons/agm/mach_4_missile.txt"
+ },
+ "BLUE_LR_SAM_SPENT_BOOSTER": {
+  "name": "BLUE_LR_SAM_SPENT_BOOSTER",
+  "defined_in": "demos/base_types/weapons/sam/blue_lr_sam_common.txt"
+ },
+ "BLUE_LR_SAM_BASE": {
+  "name": "BLUE_LR_SAM_BASE",
+  "defined_in": "demos/base_types/weapons/sam/blue_lr_sam_common.txt"
+ },
+ "BLUE_SR_SAM_BASE": {
+  "name": "BLUE_SR_SAM_BASE",
+  "defined_in": "demos/base_types/weapons/sam/blue_sr_sam_common.txt"
+ },
+ "BLUE_CRUISE_MISSILE": {
+  "name": "BLUE_CRUISE_MISSILE",
+  "defined_in": "demos/base_types/weapons/ssm/blue_cruise_missile.txt"
+ },
+ "RED_ICBM_1": {
+  "name": "RED_ICBM_1",
+  "defined_in": "demos/base_types/weapons/ssm/red_icbm_1.txt"
+ },
+ "RED_ICBM_2_SPENT_STAGE_1": {
+  "name": "RED_ICBM_2_SPENT_STAGE_1",
+  "defined_in": "demos/base_types/weapons/ssm/red_icbm_2.txt"
+ },
+ "RED_ICBM_2_SPENT_STAGE_2": {
+  "name": "RED_ICBM_2_SPENT_STAGE_2",
+  "defined_in": "demos/base_types/weapons/ssm/red_icbm_2.txt"
+ },
+ "RED_ICBM_2_SPENT_STAGE_3": {
+  "name": "RED_ICBM_2_SPENT_STAGE_3",
+  "defined_in": "demos/base_types/weapons/ssm/red_icbm_2.txt"
+ },
+ "RED_ICBM_2": {
+  "name": "RED_ICBM_2",
+  "defined_in": "demos/base_types/weapons/ssm/red_icbm_2.txt"
+ },
+ "RED_MRBM_1_SPENT_STAGE_1": {
+  "name": "RED_MRBM_1_SPENT_STAGE_1",
+  "defined_in": "demos/base_types/weapons/ssm/red_mrbm_1.txt"
+ },
+ "RED_MRBM_1_SPENT_STAGE_2": {
+  "name": "RED_MRBM_1_SPENT_STAGE_2",
+  "defined_in": "demos/base_types/weapons/ssm/red_mrbm_1.txt"
+ },
+ "RED_MRBM_1": {
+  "name": "RED_MRBM_1",
+  "defined_in": "demos/base_types/weapons/ssm/red_mrbm_1.txt"
+ },
+ "RED_MRBM_2_SPENT_STAGE_1": {
+  "name": "RED_MRBM_2_SPENT_STAGE_1",
+  "defined_in": "demos/base_types/weapons/ssm/red_mrbm_2.txt"
+ },
+ "RED_MRBM_2": {
+  "name": "RED_MRBM_2",
+  "defined_in": "demos/base_types/weapons/ssm/red_mrbm_2.txt"
+ },
+ "RED_MRBM_3_STAGE1": {
+  "name": "RED_MRBM_3_STAGE1",
+  "defined_in": "demos/base_types/weapons/ssm/red_mrbm_3.txt"
+ },
+ "RED_MRBM_3_STAGE2": {
+  "name": "RED_MRBM_3_STAGE2",
+  "defined_in": "demos/base_types/weapons/ssm/red_mrbm_3.txt"
+ },
+ "RED_MRBM_3": {
+  "name": "RED_MRBM_3",
+  "defined_in": "demos/base_types/weapons/ssm/red_mrbm_3.txt"
+ },
+ "RED_SRBM_1": {
+  "name": "RED_SRBM_1",
+  "defined_in": "demos/base_types/weapons/ssm/red_srbm_1.txt"
+ },
+ "RED_SRBM_2": {
+  "name": "RED_SRBM_2",
+  "defined_in": "demos/base_types/weapons/ssm/red_srbm_2.txt"
+ },
+ "RED_SRBM_3_SPENT_STAGE_1": {
+  "name": "RED_SRBM_3_SPENT_STAGE_1",
+  "defined_in": "demos/base_types/weapons/ssm/red_srbm_3.txt"
+ },
+ "RED_SRBM_3_SPENT_STAGE_2": {
+  "name": "RED_SRBM_3_SPENT_STAGE_2",
+  "defined_in": "demos/base_types/weapons/ssm/red_srbm_3.txt"
+ },
+ "RED_SRBM_3": {
+  "name": "RED_SRBM_3",
+  "defined_in": "demos/base_types/weapons/ssm/red_srbm_3.txt"
+ },
+ "RED_SRBM_4_SPENT_STAGE_1": {
+  "name": "RED_SRBM_4_SPENT_STAGE_1",
+  "defined_in": "demos/base_types/weapons/ssm/red_srbm_4.txt"
+ },
+ "RED_SRBM_4_SPENT_STAGE_2": {
+  "name": "RED_SRBM_4_SPENT_STAGE_2",
+  "defined_in": "demos/base_types/weapons/ssm/red_srbm_4.txt"
+ },
+ "RED_SRBM_4_SPENT_STAGE_3": {
+  "name": "RED_SRBM_4_SPENT_STAGE_3",
+  "defined_in": "demos/base_types/weapons/ssm/red_srbm_4.txt"
+ },
+ "RED_SRBM_4": {
+  "name": "RED_SRBM_4",
+  "defined_in": "demos/base_types/weapons/ssm/red_srbm_4.txt"
+ },
+ "RED_MRBM_1_LAUNCHER": {
+  "name": "RED_MRBM_1_LAUNCHER",
+  "defined_in": "demos/ballistic_missile_shootdown/platforms/red_mrbm_1_launcher.txt"
+ },
+ "RED_MRBM_2_LAUNCHER": {
+  "name": "RED_MRBM_2_LAUNCHER",
+  "defined_in": "demos/ballistic/platforms/red_mrbm_2_launcher.txt"
+ },
+ "RED_SRBM_1_LAUNCHER": {
+  "name": "RED_SRBM_1_LAUNCHER",
+  "defined_in": "demos/ballistic/platforms/red_srbm_1_launcher.txt"
+ },
+ "RED_SRBM_2_LAUNCHER": {
+  "name": "RED_SRBM_2_LAUNCHER",
+  "defined_in": "demos/ballistic/platforms/red_srbm_2_launcher.txt"
+ },
+ "RED_SRBM_3_LAUNCHER": {
+  "name": "RED_SRBM_3_LAUNCHER",
+  "defined_in": "demos/ballistic/platforms/red_srbm_3_launcher.txt"
+ },
+ "RED_SRBM_4_LAUNCHER": {
+  "name": "RED_SRBM_4_LAUNCHER",
+  "defined_in": "demos/ballistic/platforms/red_srbm_4_launcher.txt"
+ },
+ "ALV": {
+  "name": "ALV",
+  "defined_in": "demos/alv_routing/platforms/alv.txt"
+ },
+ "SINGLE_LARGE_SAM": {
+  "name": "SINGLE_LARGE_SAM",
+  "defined_in": "demos/alternate_locations/platforms/single_large_sam.txt"
+ },
+ "BLUE_GLIDE_BOMB_1_PT": {
+  "name": "BLUE_GLIDE_BOMB_1_PT",
+  "defined_in": "demos/alternate_locations/weapons/agm/blue_glide_bomb_1.txt"
+ },
+ "SHORT_RANGE_IR_MISSILE_BASE": {
+  "name": "SHORT_RANGE_IR_MISSILE_BASE",
+  "defined_in": "demos/air_to_air/weapons/aam/short_range_ir_missile.txt"
+ },
+ "SHORT_RANGE_IR_MISSILE_LAUNCHER": {
+  "name": "SHORT_RANGE_IR_MISSILE_LAUNCHER",
+  "defined_in": "demos/air_to_air/weapons/aam/short_range_ir_missile.txt"
+ }
+}

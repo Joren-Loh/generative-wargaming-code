@@ -1,0 +1,100 @@
+# 2v2 beyond-visual-range exchange: the baseline that proves the MCP path works
+# Run: mission.exe duel_2v2.txt, with cwd set to scenarios/
+end_time 300 sec
+random_seed 20261026
+
+include_once short_range_ir_missile.txt
+
+platform_type DUEL_FIGHTER WSF_PLATFORM
+   icon f-18
+   mover WSF_AIR_MOVER
+   end_mover
+   sensor eye WSF_GEOMETRIC_SENSOR
+      on
+      processor track_mgr
+      azimuth_field_of_view -180 deg 180 deg
+      elevation_field_of_view -90 deg 90 deg
+      minimum_range 0 m
+      maximum_range 70 km
+      frame_time 1 sec
+      ignore_same_side
+      reports_location
+      reports_velocity
+      hits_to_establish_track 1 1
+      hits_to_maintain_track 1 1
+      track_quality 1.0
+   end_sensor
+   processor track_mgr WSF_TRACK_PROCESSOR
+      purge_interval 60 sec
+   end_processor
+   processor shooter WSF_SCRIPT_PROCESSOR
+      update_interval 1 sec
+      script_variables
+         double FIRE_RANGE = 12000.0;
+         bool mFired = false;
+      end_script_variables
+      on_update
+         if (mFired) { return; }
+         WsfLocalTrackList tracks = PLATFORM.MasterTrackList();
+         if (tracks.Size() == 0) { return; }
+         WsfLocalTrack t = tracks.Entry(0);
+         if (!t.IsValid()) { return; }
+         if (PLATFORM.SlantRangeTo(t) > FIRE_RANGE) { return; }
+         WsfWeapon w = PLATFORM.Weapon("srm");
+         if (!w.IsValid()) { return; }
+         w.CueToTarget(t);
+         if (w.Fire(t)) { mFired = true; }
+      end_on_update
+   end_processor
+   add weapon srm SHORT_RANGE_IR_MISSILE
+      quantity 2
+   end_weapon
+end_platform_type
+
+platform blue_1 DUEL_FIGHTER
+   side blue
+   position 39:00:00n 116:00:00e altitude 8000 m
+   route
+      position 39:00:00n 116:00:00e altitude 8000 m speed 250 m/s
+      position 39:20:00n 116:00:00e altitude 8000 m speed 250 m/s
+   end_route
+end_platform
+
+platform blue_2 DUEL_FIGHTER
+   side blue
+   position 39:00:00n 116:05:00e altitude 8500 m
+   route
+      position 39:00:00n 116:05:00e altitude 8500 m speed 240 m/s
+      position 39:20:00n 116:05:00e altitude 8500 m speed 240 m/s
+   end_route
+end_platform
+
+platform red_1 DUEL_FIGHTER
+   side red
+   position 39:20:00n 116:00:00e altitude 8000 m
+   route
+      position 39:20:00n 116:00:00e altitude 8000 m speed 250 m/s
+      position 39:00:00n 116:00:00e altitude 8000 m speed 250 m/s
+   end_route
+end_platform
+
+platform red_2 DUEL_FIGHTER
+   side red
+   position 39:20:00n 116:04:00e altitude 8200 m
+   route
+      position 39:20:00n 116:04:00e altitude 8200 m speed 245 m/s
+      position 39:00:00n 116:04:00e altitude 8200 m speed 245 m/s
+   end_route
+end_platform
+
+event_output
+   file output/duel_2v2.evt
+   enable PLATFORM_INITIALIZED
+   enable PLATFORM_ADDED
+   enable PLATFORM_BROKEN
+   enable SENSOR_TRACK_INITIATED
+   enable WEAPON_FIRED
+   enable WEAPON_HIT
+   enable WEAPON_MISSED
+   enable WEAPON_TERMINATED
+end_event_output

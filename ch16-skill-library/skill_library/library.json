@@ -1,0 +1,47 @@
+[
+  {
+    "id": "skill_001",
+    "name": "forward_intercept",
+    "description": "A forward intercept during air-defence interception: take the launch position first.",
+    "added_iteration": 0,
+    "stats": {
+      "attempts": 3.0,
+      "consistent": 3.0,
+      "boundary": 3.0,
+      "verified": 3.0
+    },
+    "generator_hints": "Specify the Red penetration route and the Blue intercept point.",
+    "reference": "Blue places an intercept node upstream on the Red route and shoots first with a medium-range missile.",
+    "solver_rules": "Blue should take the forward position, with the sensor on and the weapon ready."
+  },
+  {
+    "id": "skill_002",
+    "name": "formation_disperse",
+    "description": "Spread the formation to cut the chance of being locked by a salvo.",
+    "added_iteration": 0,
+    "stats": {
+      "attempts": 0,
+      "consistent": 0,
+      "boundary": 0,
+      "verified": 0
+    },
+    "generator_hints": "Describe Blue's spacing and regroups.",
+    "reference": "Open the spacing and regroup on a timer, so fewer aircraft are locked at once.",
+    "solver_rules": "Spacing should follow threat density, and the evasion phase should stay low-observable."
+  },
+  {
+    "id": "skill_003",
+    "name": "ew_jam_cover",
+    "description": "Jamming as cover for the penetration, suppressing the other side's sensors.",
+    "added_iteration": 0,
+    "stats": {
+      "attempts": 4.0,
+      "consistent": 4.0,
+      "boundary": 4.0,
+      "verified": 4.0
+    },
+    "generator_hints": "Set jammer timing and frequency planning.",
+    "reference": "Concentrate cooperative jamming in the penetration window, suppressing Red early warning and fire control.",
+    "solver_rules": "Jam hardest in the penetration peak, coordinated with manoeuvre so the jammer does not blind itself."
+  }
+]

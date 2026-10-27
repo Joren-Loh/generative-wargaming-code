@@ -1,0 +1,7 @@
+Three-gate report
+========================================
+PASS  gate 1 static check  12 files / 0 problems
+PASS  gate 2 smoke test  0 checks unmet
+PASS  gate 3 statistical regression  0 checks over threshold
+
+verdict: pass

@@ -1,0 +1,39 @@
+end_time 120 sec
+
+weapon_effects BLAST_100 WSF_GRADUATED_LETHALITY
+   radius_and_pk 100 m 0.80
+end_weapon_effects
+
+event_output
+   file output/scenario.evt
+end_event_output
+
+platform_type BLUE_FTR WSF_PLATFORM
+   icon Fighter
+   side blue
+   mover WSF_AIR_MOVER
+      update_interval 0.1 sec
+   end_mover
+   weapon swordfish WSF_IMPLICIT_WEAPON
+      quantity 2
+      weapon_effects BLAST_100
+   end_weapon
+end_platform_type
+
+platform_type RED_FTR WSF_PLATFORM
+   icon Fighter
+   side red
+   mover WSF_AIR_MOVER
+      update_interval 0.1 sec
+   end_mover
+end_platform_type
+
+platform blue_ftr BLUE_FTR
+   side blue
+   position 40.0000n 116.0000e altitude 8000 m
+end_platform
+
+platform red_ftr RED_FTR
+   side red
+   position 40.2000n 116.1000e altitude 9000 m
+end_platform

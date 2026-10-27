@@ -1,0 +1,15 @@
+# Section 2.2, step 1: a platform that does not move
+log_file output/stage1.log
+
+event_output
+   file output/stage1.evt
+   enable PLATFORM_ADDED
+   enable PLATFORM_DELETED
+end_event_output
+
+platform blue_1 WSF_PLATFORM
+   side blue
+   position 30:00:00n 122:00:00e altitude 8000 m msl
+end_platform
+
+end_time 1 min

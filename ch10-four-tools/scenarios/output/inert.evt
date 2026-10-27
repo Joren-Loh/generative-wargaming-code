@@ -1,0 +1,6 @@
+0.00000 PLATFORM_INITIALIZED p1 Type: WSF_PLATFORM Side: blue \
+ LLA: 39:00:00.00n 116:00:00.00e 8000 m Heading: 0.000 deg Pitch: 0.000 deg Roll: 0.000 deg \
+ Speed: 0.000 m/s * [ 0.000 0.000 0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ]
+0.00000 PLATFORM_INITIALIZED p2 Type: WSF_PLATFORM Side: red \
+ LLA: 39:10:00.00n 116:00:00.00e 8000 m Heading: 0.000 deg Pitch: 0.000 deg Roll: 0.000 deg \
+ Speed: 0.000 m/s * [ 0.000 0.000 0.000 ] Acceleration: 0.000 m/s2 * [ 0.000 0.000 0.000 ]

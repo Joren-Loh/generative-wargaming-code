@@ -1,0 +1,50 @@
+{
+  "salvo": {
+    "skill": "rush_low",
+    "opponent": "standoff_high",
+    "levels": {
+      "1": {
+        "wins": 0,
+        "draws": 3,
+        "losses": 5,
+        "score_rate": 0.188
+      },
+      "2": {
+        "wins": 0,
+        "draws": 3,
+        "losses": 5,
+        "score_rate": 0.188
+      },
+      "4": {
+        "wins": 0,
+        "draws": 3,
+        "losses": 5,
+        "score_rate": 0.188
+      }
+    }
+  },
+  "offset_deg": {
+    "skill": "notch_west",
+    "opponent": "standoff_high",
+    "levels": {
+      "0.0": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 8,
+        "score_rate": 0.0
+      },
+      "0.06": {
+        "wins": 3,
+        "draws": 0,
+        "losses": 5,
+        "score_rate": 0.375
+      },
+      "-0.06": {
+        "wins": 2,
+        "draws": 0,
+        "losses": 6,
+        "score_rate": 0.25
+      }
+    }
+  }
+}
