@@ -1,7 +1,8 @@
 # Generative Wargaming — companion code
 
 Code for *Generative Wargaming: Building LLM Agents for Combat Simulation*, select edition.
-One directory per chapter, `ch01` through `ch23`. Every directory is self-contained: copy it
+One directory per chapter that has code: twenty-two directories, Chapters 1 to 21 and 23
+(Chapter 22 is an argument, not a program). Every directory is self-contained: copy it
 anywhere, run the entry point named in its `README.md`, and it works — no path is hard-coded.
 
 `MAP.md` is the index: which directory belongs to which chapter, what it demonstrates, and
